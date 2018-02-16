@@ -1,0 +1,9 @@
+{
+    "name": "woocommerce-bookings",
+    "description": "Setup bookable products such as for reservations, services and hires.",
+    "homepage": "http://www.woothemes.com/products/woocommerce-bookings/",
+    "license": "GPL-2.0",
+    "require-dev": {
+        "phpunit/phpunit": "^4.8 || ^5.0"
+    }
+}

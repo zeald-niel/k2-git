@@ -1,0 +1,33 @@
+/*
+Plugin Name: WP SEO HTML Sitemap
+Author: Magna Technology, LLC
+Plugin URI: http://www.magnatechnology.com
+
+DO NOT EDIT THIS CSS FILE !! If you want to edit this, copy it and then disable the CSS in the settings.
+*/
+
+#wpseo_sitemap{width:100%; position:relative; clear:both;}
+#wpseo_sitemap div{min-width:200px; width:100%; margin-bottom:20px;}
+#wpseo_sitemap h3{font-size:26px; line-height:32px; padding-bottom:0; margin-bottom:8px; width:100%;}
+#wpseo_sitemap h4{font-size:18px; line-height:20px; padding-bottom:0; margin-bottom:4px;}
+#wpseo_sitemap ul{list-style-type:disc; margin-bottom:0; padding-bottom:15px; margin-before:1em; margin-after:1em; padding-start:40px; font-size:15px; line-height:24px; font-weight:normal; background:none;}
+#wpseo_sitemap ul ul{margin-bottom:0; list-style-type:circle;}
+#wpseo_sitemap li{display:list-item;}
+.wpseo_clearRow{width:100%; height:24px; display:block; clear:both; position:relative;}
+#credits_link{font-size:12px;}
+
+/* Columns */
+#wpseo_sitemap.columns_2{-moz-column-count: 2; -moz-column-gap: 30px; -webkit-column-count: 2; -webkit-column-gap: 30px; column-count: 2; column-gap: 30px;}
+#wpseo_sitemap.columns_3{-moz-column-count: 3; -moz-column-gap: 25px; -webkit-column-count: 3; -webkit-column-gap: 25px; column-count: 3; column-gap: 25px;}
+#wpseo_sitemap.columns_4{-moz-column-count: 4; -moz-column-gap: 20px; -webkit-column-count: 4; -webkit-column-gap: 20px; column-count: 4; column-gap: 20px;}
+
+/* Responsive */
+@media screen and (max-width:960px){
+	#wpseo_sitemap.columns_4{-moz-column-count: 3 !important; -webkit-column-count: 3 !important; column-count: 3 !important;}
+}
+@media screen and (max-width:640px){
+	#wpseo_sitemap.columns_3,#wpseo_sitemap.columns_4{-moz-column-count: 2 !important; -webkit-column-count: 2 !important; column-count: 2 !important;}
+}
+@media screen and (max-width:480px){
+	#wpseo_sitemap.columns_4,#wpseo_sitemap.columns_3,#wpseo_sitemap.columns_2{-moz-column-count: 1 !important; -webkit-column-count: 1 !important; column-count: 1 !important;}
+}

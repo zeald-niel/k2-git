@@ -1,0 +1,6 @@
+#woocommerce-product-tabs_tab_condition_section ul{
+  list-style-type: none;
+}
+#woocommerce-product-tabs_tab_condition_section ul ul{
+  margin-left: 15px;
+}

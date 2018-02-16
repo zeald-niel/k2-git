@@ -1,0 +1,1 @@
+!function(e){function n(e){e.hasClass("toggle__open")?e.removeClass("toggle__open"):e.addClass("toggle__open"),e.parent(".link__wrap").parent(".menu-item").children(".sub-menu").slideToggle("fast")}e(document).on("click",".easy-sidebar-menu-widget-toggler",function(t){n(e(this)),t.preventDefault(),t.stopPropagation()})}(jQuery);

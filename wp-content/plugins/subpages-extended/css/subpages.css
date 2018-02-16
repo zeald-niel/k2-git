@@ -1,0 +1,10 @@
+.share{ background:#ededed; padding:5px; width:794px; border-radius:5px; border:1px solid #ddd; }
+.share-label, .share-button{ display:inline; float:left; margin-right:10px; }
+.share-label{ margin-top:3px; margin-left:5px; }
+.tweet{ margin-top:2px; }
+.nav{ clear:both; }
+.panel{ background: #ededed; border-bottom:1px solid #ddd; }
+
+a.help-link{ font-family: Verdana, Arial, sans-serif; font-size:10px; color:#999; cursor:help; }
+#widget-list .subpages-extended .widget-top { border-color: #F90; }
+#widgets-right .subpages-extended{ border-color:#f90; }

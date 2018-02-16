@@ -1,0 +1,17 @@
+/* 
+ Theme Name:   Zeald Website Theme
+ Theme URI:    
+ Description:  Divi child theme containing any special customisations for this website
+ Author:       Zeald
+ Author URI:   http://www.zeald.com
+ Template:     Divi
+ Version:      3.0
+
+ /* == Add your own styles below this line ==
+--------------------------------------------*/
+
+#breadcrumbs {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.search-results #breadcrumbs { display: none; }

@@ -1,0 +1,350 @@
+// Import WooCommerce mixins
+@import url('mixins.less');
+
+.wc-bookings-booking-form {
+	border: 1px solid #ddd;
+	padding: 1em 1em 0;
+	margin: 0 0 1em;
+	input {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.form-field {
+		margin: 0 0 1em;
+
+		input[type=number] {
+			width: 25%;
+		}
+	}
+	label {
+		display: block;
+	}
+	select {
+		width: 100%;
+	}
+	.block-picker {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		zoom: 1;
+		li.block {
+			white-space: nowrap;
+			text-align: center;
+		}
+		li {
+			float: left;
+			margin: 0;
+			padding: 0;
+			min-width: 33%;
+			a {
+				margin: 0;
+				border: 0;
+				padding: .5em;
+				vertical-align: middle;
+				text-align: center;
+				display: block;
+				text-decoration: none;
+				box-shadow: none;
+				.booking-spaces-left {
+					display: block;
+				}
+			}
+			a.selected {
+				background: #239e57 !important;
+				color: #fff !important;
+			}
+			&:nth-child(odd) a {
+				background: #fff;
+				&:hover, &:focus {
+					background: #239e57;
+					color: #fff;
+				}
+			}
+			&:nth-child(even) a {
+				background: #f5f5f5;
+				&:hover, &:focus {
+					background: #239e57;
+					color: #fff;
+				}
+			}
+		}
+	}
+	fieldset{
+		margin: 0 0 1em;
+		line-height: 2.25em;
+
+		.picker.hasDatepicker {
+			line-height: 1em;
+			margin-bottom: 1em;
+		}
+
+		input {
+			width: 100%;
+		}
+
+		input.error {
+			border-color: red;
+		}
+
+		legend {
+			small {
+				text-decoration: underline;
+				padding-left: 1em;
+				color: #999;
+				cursor: pointer;
+				display: none;
+			}
+		}
+
+		label {
+			display: inline-block;
+			vertical-align: top;
+			line-height: 1.5em;
+			width: 25%;
+
+			span {
+				display: block;
+				font-size: 0.75em;
+				color: #999;
+				padding: 0 2px;
+			}
+		}
+	}
+	.wc-bookings-booking-cost {
+		background: #eee;
+		border-top: 1px solid #ddd;;
+		position: relative;
+		margin: 0 -1em;
+		padding: 1em;
+	}
+}
+
+.wc-bookings-date-picker {
+	.ui-datepicker {
+		padding: 0;
+		width: auto;
+	}
+	.ui-widget-content {
+		border: none;
+		background: #fff;
+		-moz-box-shadow: 0 1px 3px rgba(0,0,0,.19);
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.19);
+		box-shadow: 0 1px 3px rgba(0,0,0,.19);
+	}
+	.ui-datepicker-header {
+		padding: 0;
+		border-bottom: none;
+		overflow: hidden;
+		text-transform: uppercase;
+		border-radius: 4px 4px 0 0;
+		-webkit-border-radius: 4px 4px 0 0;
+		-moz-border-radius: 4px 4px 0 0;
+		background-color: #999999;
+		background-image: none;
+		background-image: -moz-linear-gradient(bottom, #999999 0%, #aaaaaa 100%);
+		background-image: -o-linear-gradient(bottom, #999999 0%, #aaaaaa 100%);
+		background-image: -webkit-linear-gradient(bottom, #999999 0%, #aaaaaa 100%);
+		background-image: linear-gradient(bottom, #999999 0%, #aaaaaa 100%);
+		border: 0;
+		border-top: 1px solid #999999;
+		color: #fff;
+	}
+	.ui-datepicker-header .ui-state-hover {
+		background: transparent;
+		border-color: transparent;
+		cursor: pointer;
+	}
+	.ui-datepicker .ui-datepicker-title {
+		line-height: 1em;
+		font-weight: normal;
+		padding: .75em 0;
+	}
+	.ui-datepicker .ui-datepicker-prev,
+	.ui-datepicker .ui-datepicker-next {
+		top: -1px;
+		background: #999;
+		border-radius: 0;
+		font-weight: normal;
+		border: none;
+		height: 2.5em;
+		width: 2em;
+	}
+	.ui-datepicker .ui-datepicker-prev.ui-state-hover,
+	.ui-datepicker .ui-datepicker-next.ui-state-hover {
+		background: #aaa;
+	}
+	.ui-datepicker .ui-datepicker-prev {
+		left: 0;
+		border: 0;
+	}
+	.ui-datepicker .ui-datepicker-next {
+		right: 0;
+		border: 0;
+	}
+	.ui-datepicker .ui-datepicker-prev span,
+	.ui-datepicker .ui-datepicker-next span {
+		margin-top: -4px;
+		top: 40%;
+	}
+	.ui-icon-circle-triangle-e {
+		background-image: url(../images/ui-icons_ffffff_256x240.png);
+		background-position: -32px 0;
+	}
+	.ui-icon-circle-triangle-w {
+		background-image: url(../images/ui-icons_ffffff_256x240.png);
+		background-position: -96px 0;
+	}
+	.ui-datepicker table {
+		margin: 0;
+	}
+	.ui-datepicker th {
+		padding: .75em 0;
+		text-transform: uppercase;
+		color: #bbb;
+		font-weight: normal;
+		border-top: 1px solid #e6e6e6;
+		background: #fefefe;
+		display: table-cell;
+	}
+	.ui-datepicker td {
+		border: none;
+		border-top: 1px solid #e6e6e6;
+		border-right: 1px solid #e6e6e6;
+		background: #fefefe;
+		padding: 0 !important;
+		display: table-cell;
+	}
+	.ui-datepicker td:last-child {
+		border-right: 0;
+	}
+	.ui-datepicker td .ui-state-default {
+		background: transparent;
+		background-image: none !important;
+		border: none;
+		color: #2b2b2b;
+		margin: 0;
+		font-weight: normal;
+		text-align: center;
+		padding: .75em 0;
+	}
+	.ui-datepicker td a.ui-state-active,
+	.ui-datepicker td a.ui-state-active.ui-state-hover {
+		background: #fefefe;
+		color: #b2b2b2;
+		background-image: none !important;
+	}
+	.ui-datepicker {
+		td.fully_booked {
+			span, a {
+				background-color: #c0392b !important;
+				background-image: none !important;
+				border-color: rgba(0,0,0,0.1) !important;
+				color: #fff !important;
+				text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+			}
+		}
+		td.bookable a {
+			background-color: #2ecc71 !important;
+			background-image: none !important;
+			border-color: rgba(0,0,0,0.1) !important;
+			color: #fff !important;
+			text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+		}
+		td.partial_booked a {
+			background-color: #2ecc71 !important;
+			background-image: none !important;
+			border-color: rgba(0,0,0,0.1) !important;
+			color: #fff !important;
+			text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+			position: relative;
+			z-index: 1;
+			&:before {
+				content: "";
+				position: absolute;
+				top:0;
+				left: 0;
+				width: 0;
+				height: 0;
+				border-top: 2.5em solid #C96259;
+				border-right: 2.5em solid transparent;
+				z-index: -10;
+				opacity: 0.75;
+			}
+		}
+		td.ui-datepicker-current-day a {
+			background: #239e57 !important;
+			opacity: 1 !important;
+		}
+		td.ui-datepicker-other-month {
+			background: #eee;
+		}
+		td.bookable-range .ui-state-default {
+			background: #239e57 !important;
+			color: #fff;
+		}
+	}
+}
+
+.wc-booking-summary {
+	margin: 1em 1em 1em 0;
+	border: 2px solid #ddd;
+	padding: 1em;
+	color: #888;
+	border-radius: 4px;
+
+	.wc-booking-summary-actions {
+		margin: 1em 0 0 0;
+		a {
+			border-right: 1px solid #ddd;
+			margin: 0 3px 0 0;
+			padding: 0 4px 0 0;
+		}
+		a:last-child {
+			border-right: 0;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.wc-booking-summary-number {
+		line-height: 1em;
+		span {
+			color: #fff;
+			font-size: 0.8em;
+			background-color: #ccc;
+			padding: .4em .8em;
+			border-radius: 4px;
+			margin-left: 1em;
+			margin-top: -.2em;
+			float: right;
+		}
+		.status-unpaid,
+		.status-incart {
+			background-color: #ccc;
+		}
+		.status-pending,
+		.status-pending-confirmation {
+			background-color: @orange;
+		}
+		.status-confirmed {
+			background-color: @green;
+		}
+		.status-paid {
+			background-color: @blue;
+		}
+		.status-cancelled {
+			background-color: @red;
+		}
+		.status-complete {
+			background-color: @grey;
+		}
+	}
+	.wc-booking-summary-list {
+		margin: 1em 0 0 0;
+		list-style: none outside;
+		li {
+			margin: 0 0 .5em;
+		}
+	}
+}

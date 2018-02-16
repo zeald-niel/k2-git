@@ -1,0 +1,475 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Project-Id-Version: Duroppa\n"
+"Language: en\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+msgid "Dropshipper"
+msgstr "Dropshipper"
+
+msgid "Dropshipper Orders"
+msgstr "Dropshipper Orders"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "No Options"
+msgstr "No Options"
+
+msgid "Product Page"
+msgstr "Product Page"
+
+msgid "Shop Content"
+msgstr "Shop Content"
+
+msgid "Products"
+msgstr "Products"
+
+msgid "Sold"
+msgstr "Sold"
+
+msgid "Orders"
+msgstr "Orders"
+
+msgid "Processing"
+msgstr "Processing"
+
+msgid "Completed"
+msgstr "Completed"
+
+msgid "Total Earnings"
+msgstr "Total Earnings"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "WooCommerce Dropshipper Right Now"
+msgstr "WooCommerce Dropshipper Right Now"
+
+msgid "WooCommerce Dropshipper"
+msgstr "WooCommerce Dropshipper"
+
+msgid "Select a Dropshipper"
+msgstr "Select a Dropshipper"
+
+msgid "No Dropshipper"
+msgstr "No Dropshipper"
+
+msgid "Dropshippers"
+msgstr "Dropshippers"
+
+msgid "Shipped"
+msgstr "Shipped"
+
+msgid "Dropshipper order update %NUMBER%"
+msgstr "Dropshipper order update %NUMBER%"
+
+msgid "The Dropshipper %NAME% has shipped order %NUMBER%"
+msgstr "The Dropshipper %NAME% has shipped order %NUMBER%"
+
+msgid "Dropshippers list"
+msgstr "Dropshippers list"
+
+msgid "Reset earnings"
+msgstr "Reset earnings"
+
+msgid "Pay this dropshipper (PayPal)"
+msgstr "Pay this dropshipper (PayPal)"
+
+msgid "The dropshipper has not entered the PayPal email"
+msgstr "The dropshipper has not entered the PayPal email"
+
+msgid "Settings saved."
+msgstr "Settings saved."
+
+msgid "Check the email."
+msgstr "Check the email."
+
+msgid "Show full prices to dropshippers"
+msgstr "Show full prices to dropshippers"
+
+msgid "The billing address that will be shown to dropshippers"
+msgstr "The billing address that will be shown to dropshippers"
+
+msgid "Show customer email to dropshippers"
+msgstr "Show customer email to dropshippers"
+
+msgid "Show customer phone number to dropshippers"
+msgstr "Show customer phone number to dropshippers"
+
+msgid "Shop logo to appear in the Dropshipper packing slip"
+msgstr "Shop logo to appear in the Dropshipper packing slip"
+
+msgid "Footer text to appear in the Dropshipper packing slip"
+msgstr "Footer text to appear in the Dropshipper packing slip"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "Save Settings"
+msgstr "Save Settings"
+
+msgid "FULL PRICE:"
+msgstr "FULL PRICE:"
+
+msgid "MY EARNINGS:"
+msgstr "MY EARNINGS:"
+
+msgid "Send an Email"
+msgstr "Send an Email"
+
+msgid "FULL TOTAL:"
+msgstr "FULL TOTAL:"
+
+msgid "Mark as Shipped"
+msgstr "Mark as Shipped"
+
+msgid "Order count:"
+msgstr "Order count:"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Product"
+msgstr "Product"
+
+msgid "Billing Info"
+msgstr "Billing Info"
+
+msgid "Shipping Info"
+msgstr "Shipping Info"
+
+msgid "Contact Info"
+msgstr "Contact Info"
+
+msgid "Earnings"
+msgstr "Earnings"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Order slip #%NUMBER%"
+msgstr "Order slip #%NUMBER%"
+
+msgid "Print"
+msgstr "Print"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "From"
+msgstr "From"
+
+msgid "Shipped to"
+msgstr "Shipped to"
+
+msgid "Package content"
+msgstr "Package content"
+
+msgid "Item"
+msgstr "Item"
+
+msgid "Quantity"
+msgstr "Quantity"
+
+msgid "Not shipped yet"
+msgstr "Not shipped yet"
+
+msgid "New customer order"
+msgstr "New customer order"
+
+msgid "You have received an order from %NAME% %SURNAME%. Their order is as follows:"
+msgstr "You have received an order from %NAME% %SURNAME%. Their order is as follows:"
+
+msgid "From order %NUMBER%"
+msgstr "From order %NUMBER%"
+
+msgid "Price"
+msgstr "Price"
+
+msgid "Cart Subtotal:"
+msgstr "Cart Subtotal:"
+
+msgid "Shipping:"
+msgstr "Shipping:"
+
+msgid "Free Shipping"
+msgstr "Free Shipping"
+
+msgid "Order Total:"
+msgstr "Order Total:"
+
+msgid "Email:"
+msgstr "Email:"
+
+msgid "Tel:"
+msgstr "Tel:"
+
+msgid "Billing address"
+msgstr "Billing address"
+
+msgid "Shipping address"
+msgstr "Shipping address"
+
+msgid "From:"
+msgstr "From:"
+
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+msgid "Do you really want to reset the earnings of this dropshipper?"
+msgstr "Do you really want to reset the earnings of this dropshipper?"
+
+msgid "PayPal email"
+msgstr "PayPal email"
+
+msgid "Currency"
+msgstr "Currency"
+
+msgid "Dropshipper Price"
+msgstr "Dropshipper Price"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "User"
+msgstr "User"
+
+msgid "Dropshippers List"
+msgstr "Dropshippers List"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "WooCommerce Dropshipper Settings"
+msgstr "WooCommerce Dropshipper Settings"
+
+msgid "Print packing slip"
+msgstr "Print packing slip"
+
+msgid "Customer details"
+msgstr "Customer details"
+
+msgid "Order list"
+msgstr "Order List"
+
+msgid "Dropshipper Settings"
+msgstr "Dropshipper Settings"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Shop Owner Billing Info"
+msgstr "Shop Owner Billing Info"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Tracking Number(s)"
+msgstr "Tracking Number(s)"
+
+msgid "Shipping Company"
+msgstr "Shipping Company"
+
+msgid "Notes"
+msgstr "Notes"
+
+msgid "Client Info"
+msgstr "Client Info"
+
+msgid "Edit Shipping Info"
+msgstr "Edit Shipping Info"
+
+msgid "The dropshippers' notifications will be sent to this email address. If left empty, the default Wordpress admin email will be used instead."
+msgstr "The dropshippers' notifications will be sent to this email address. If left empty, the default Wordpress admin email will be used instead."
+
+msgid "Put the order state to \"Completed\" when all the dropshippers have shipped their products"
+msgstr "Put the order state to \"Completed\" when all the dropshippers have shipped their products"
+
+msgid "Allow dropshipper shipping fee"
+msgstr "Allow dropshipper shipping fee"
+
+msgid "Check your fields."
+msgstr "Check your fields."
+
+msgid "National shipping price (in shop currency: %SYMBOL%)"
+msgstr "National shipping price (in shop currency: %SYMBOL%)"
+
+msgid "International shipping price (in shop currency: %SYMBOL%)"
+msgstr "International shipping price (in shop currency: %SYMBOL%)"
+
+msgid "Show prices in dropshipper email"
+msgstr "Show prices in dropshipper email"
+
+msgid "Dropshipper updated"
+msgstr "Dropshipper updated"
+
+msgid "An error as occurred"
+msgstr "An error as occurred"
+
+msgid "By choosing <strong>+</strong>, the Dropshipper Price will be calculated subtracting the Value field from the Product regular price."
+msgstr "By choosing <strong>+</strong>, the Dropshipper Price will be calculated subtracting the Value field from the Product regular price."
+
+msgid "By choosing <strong>%</strong>, the Dropshipper Price will be the percentage of the Product regular price set into the Value field."
+msgstr "By choosing <strong>%</strong>, the Dropshipper Price will be the percentage of the Product regular price set into the Value field."
+
+msgid "Select month"
+msgstr "Select month"
+
+msgid "Filter orders"
+msgstr "Filter orders"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "In addition to the Administrator, the notifications from dropshippers will also be sent in CC to this email address. If empty, no additional email will be sent."
+msgstr "In addition to the Administrator, the notifications from dropshippers will also be sent in CC to this email address. If empty, no additional email will be sent."
+
+msgid "Send a BCC mail copy to this mail address for all the mails sent to the dropshippers"
+msgstr "Send a BCC mail copy to this mail address for all the mails sent to the dropshippers"
+
+#, fuzzy
+msgid "To mark this order as shipped please login to your dashboard."
+msgstr "To mark this order as shipped please login to your dashboard."
+
+msgid "Order ##NUM# Shipping Notification"
+msgstr "Order ##NUM# Shipping Notification"
+
+msgid "Order Shipping Notification Error"
+msgstr "Order Shipping Notification Error"
+
+msgid "The order <strong>##NUM#</strong> has been notified as shipped to the store owner.<br>Thanks!"
+msgstr "The order <strong>##NUM#</strong> has been notified as shipped to the store owner.<br>Thanks!"
+
+msgid "There was a problem in marking the order you requested as shipped.<br>This is likely due to an error, or the order has already been marked as shipped.<br>Please login to your dropshipper dashboard to check the status.<br>Thanks!"
+msgstr "There was a problem in marking the order you requested as shipped.<br>This is likely due to an error, or the order has already been marked as shipped.<br>Please login to your dropshipper dashboard to check the status.<br>Thanks!"
+
+msgid "To mark this order as shipped please login to your dashboard or click the following link: #URL#"
+msgstr "To mark this order as shipped please login to your dashboard or click the following link: #URL#"
+
+msgid "Allow Dropshippers to mark their orders as shipped by clicking a link on the email, without logging in"
+msgstr "Allow Dropshippers to mark their orders as shipped by clicking a link on the email, without logging in"
+
+msgid "Hide Shipped"
+msgstr "Hide Shipped"
+
+msgid "General"
+msgstr "General"
+
+msgid "Show/Hide Fields"
+msgstr "Show/Hide Fields"
+
+msgid "Packing Slip"
+msgstr "Packing Slip"
+
+msgid "Dropshippers Bulk Assign"
+msgstr "Dropshippers Bulk Assign"
+
+msgid "Product Category"
+msgstr "Product Category"
+
+msgid "Assign"
+msgstr "Assign"
+
+msgid "Dropshippers Bulk Price"
+msgstr "Dropshippers Bulk Price"
+
+msgid "Dropshipper Price Operation"
+msgstr "Dropshipper Price Operation"
+
+msgid "Invalid file format."
+msgstr "Invalid file format."
+
+msgid "No file sent."
+msgstr "No file sent."
+
+msgid "Exceeded filesize limit."
+msgstr "Exceeded filesize limit."
+
+msgid "Unknown errors."
+msgstr "Unknown errors."
+
+msgid "CSV is empty."
+msgstr "CSV is empty."
+
+msgid "Products successfully updated: %NUMBER%"
+msgstr "Products successfully updated: %NUMBER%"
+
+msgid "WooCommerce Dropshipper Stock Update"
+msgstr "WooCommerce Dropshipper Stock Update"
+
+msgid "Stock Update"
+msgstr "Stock Update"
+
+msgid "Dropshippers Stock Update"
+msgstr "Dropshippers Stock Update"
+
+msgid "General CSV Options"
+msgstr "General CSV Options"
+
+msgid "Delimiter"
+msgstr "Delimiter"
+
+msgid "Enclosure"
+msgstr "Enclosure"
+
+msgid "Save settings"
+msgstr "Save settings"
+
+msgid "Import"
+msgstr "Import"
+
+msgid "Select File"
+msgstr "Select File"
+
+msgid "Import Stock CSV"
+msgstr "Import Stock CSV"
+
+msgid "Export"
+msgstr "Export"
+
+msgid "Export Current Stock Status CSV"
+msgstr "Export Current Stock Status CSV"
+
+msgid "Logo image should not be interlaced"
+msgstr "Logo image should not be interlaced"
+
+msgid "Settings updated"
+msgstr "Settings updated"
+
+msgid "Order Update"
+msgstr "Order Update"
+
+msgid "The following products were shipped"
+msgstr "The following products were shipped"
+
+msgid "Emails to dropshippers will be sent FROM this email address. If left empty, the default WooCommerce header will be used instead. ATTENTION: if you enable this, we cannot guarantee the delivery of your emails on some hosting providers"
+msgstr "Emails to dropshippers will be sent FROM this email address. If left empty, the default WooCommerce header will be used instead. ATTENTION: if you enable this, we cannot guarantee the delivery of your emails on some hosting providers"
+
+msgid "Automatically send tracking information to customers when Dropshippers mark their orders as shipped"
+msgstr "Automatically send tracking information to customers when Dropshippers mark their orders as shipped"
+
+msgid "Regular Price from Dropshipper Price"
+msgstr "Regular Price from Dropshipper Price"
+
+msgid "Dropshipper Price from Regular Price"
+msgstr "Dropshipper Price from Regular Price"
+
+msgid "By choosing <strong>+</strong>, the Regular Price will be calculated adding the Value field to the Product Dropshipper Price."
+msgstr "By choosing <strong>+</strong>, the Regular Price will be calculated adding the Value field to the Product Dropshipper Price."
+
+msgid "By choosing <strong>%</strong>, the Regular Price will be the percentage of the Product Dropshipper Price set into the Value field."
+msgstr "By choosing <strong>%</strong>, the Regular Price will be the percentage of the Product Dropshipper Price set into the Value field."
+
+msgid "Calculate"
+msgstr "Calculate"

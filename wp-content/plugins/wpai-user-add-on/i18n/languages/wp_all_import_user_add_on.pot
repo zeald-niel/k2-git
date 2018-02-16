@@ -1,0 +1,550 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-08 22:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: wpai-user-add-on.php:35
+msgid ""
+"Please de-activate and remove the free version of the User add-on before "
+"activating the paid version."
+msgstr ""
+
+#: actions/admin_notices.php:23
+#, php-format
+msgid ""
+"<b>%s Plugin</b>: Please update your WP All Import to the latest version"
+msgstr ""
+
+#: actions/init.php:6
+msgid "Users"
+msgstr ""
+
+#: actions/init.php:7
+msgid "User"
+msgstr ""
+
+#: actions/wp_ajax_get_umeta_values.php:6
+#: actions/wp_ajax_get_umeta_values.php:10
+msgid "Security check"
+msgstr ""
+
+#: actions/wp_ajax_get_umeta_values.php:28
+msgid "Existing Values..."
+msgstr ""
+
+#: actions/wp_ajax_get_umeta_values.php:34
+msgid "No existing values were found for this field."
+msgstr ""
+
+#: classes/updater.php:65
+msgid "View WP All Import - User Add-On Changelog"
+msgstr ""
+
+#: classes/updater.php:65
+msgid "Changelog"
+msgstr ""
+
+#: filters/pmxi_options_validation.php:8
+msgid "`Login` must be specified"
+msgstr ""
+
+#: filters/pmxi_options_validation.php:11
+msgid "`Email` must be specified"
+msgstr ""
+
+#: models/import/record.php:41
+msgid "Composing users..."
+msgstr ""
+
+#: models/import/record.php:80
+#, php-format
+msgid "<b>WARNING</b>: unrecognized date format `%s`, assigning current date"
+msgstr ""
+
+#: views/admin/import/confirm.php:3
+#: views/admin/import/options/_reimport_options.php:49
+msgid "First Name"
+msgstr ""
+
+#: views/admin/import/confirm.php:6
+#: views/admin/import/options/_reimport_options.php:55
+msgid "Last Name"
+msgstr ""
+
+#: views/admin/import/confirm.php:9
+#: views/admin/import/options/_reimport_options.php:61
+msgid "Role"
+msgstr ""
+
+#: views/admin/import/confirm.php:12
+#: views/admin/import/options/_reimport_options.php:67
+msgid "Nickname"
+msgstr ""
+
+#: views/admin/import/confirm.php:15
+#: views/admin/import/options/_reimport_options.php:73
+msgid "Description"
+msgstr ""
+
+#: views/admin/import/confirm.php:18
+#: views/admin/import/options/_reimport_options.php:79
+msgid "Login"
+msgstr ""
+
+#: views/admin/import/confirm.php:21
+#: views/admin/import/options/_reimport_options.php:85
+msgid "Password"
+msgstr ""
+
+#: views/admin/import/confirm.php:24
+#: views/admin/import/options/_reimport_options.php:91
+msgid "Nicename"
+msgstr ""
+
+#: views/admin/import/confirm.php:27
+#: views/admin/import/options/_reimport_options.php:97
+msgid "Email"
+msgstr ""
+
+#: views/admin/import/confirm.php:30
+#: views/admin/import/options/_reimport_options.php:103
+msgid "Registered Date"
+msgstr ""
+
+#: views/admin/import/confirm.php:33
+#: views/admin/import/options/_reimport_options.php:109
+msgid "Display Name"
+msgstr ""
+
+#: views/admin/import/confirm.php:36
+#: views/admin/import/options/_reimport_options.php:115
+msgid "URL"
+msgstr ""
+
+#: views/admin/import/confirm.php:43
+msgid "All advanced custom fields"
+msgstr ""
+
+#: views/admin/import/confirm.php:46
+msgid "Only ACF presented in import options"
+msgstr ""
+
+#: views/admin/import/confirm.php:49
+#, php-format
+msgid "Only these ACF : %s"
+msgstr ""
+
+#: views/admin/import/confirm.php:52
+#, php-format
+msgid "All ACF except these: %s"
+msgstr ""
+
+#: views/admin/import/confirm.php:62
+msgid "All custom fields"
+msgstr ""
+
+#: views/admin/import/confirm.php:65
+#, php-format
+msgid "Only these custom fields : %s"
+msgstr ""
+
+#: views/admin/import/confirm.php:68
+#, php-format
+msgid "All custom fields except these: %s"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:4
+msgid "User's Data"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:13
+msgid "<b>First Name</b>"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:13
+msgid "The user's first name. "
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:17
+msgid "<b>Last Name</b>"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:17
+msgid "The user's last name."
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:21
+msgid "<b>Role</b>"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:21
+msgid ""
+"A string with role slug used to set the user's role. Default role is "
+"subscriber."
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:25
+msgid "<b>Nickname</b>"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:25
+msgid "The user's nickname, defaults to the user's username. "
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:29
+msgid "<b>Description</b>"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:29
+msgid "A string containing content about the user."
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:33
+msgid "<b>* Login</b>"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:33
+msgid "A string that contains the user's username for logging in."
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:37
+msgid "<b>Password</b>"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:37
+msgid "A string that contains the plain text password for the user."
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:41
+msgid "<b>Nicename</b>"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:41
+msgid ""
+"A string that contains a URL-friendly name for the user. The default is the "
+"user's username."
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:45
+msgid "<b>* Email</b>"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:45
+msgid "A string containing the user's email address."
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:49
+msgid "<b>Registered</b>"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:49
+msgid "The date the user registered. Format is Y-m-d H:i:s"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:53
+msgid "<b>Display Name</b>"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:53
+msgid ""
+"A string that will be shown on the site. Defaults to user's username. It is "
+"likely that you will want to change this, for both appearance and security "
+"through obscurity (that is if you dont use and delete the default admin user)"
+". "
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:57
+msgid "<b>URL</b>"
+msgstr ""
+
+#: views/admin/import/options/_main_options_template.php:57
+msgid "A string containing the user's URL for the user's web site. "
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:1
+msgid "When WP All Import finds new or changed data..."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:5
+msgid "Create new users from records newly present in your file"
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:10
+msgid "Delete users that are no longer present in your file"
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:12
+msgid ""
+"Records removed from the import file can only be deleted when importing into "
+"New Items. This feature cannot be enabled when importing into Existing Items."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:19
+msgid "Instead of deletion, set Meta Field"
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:20
+msgid ""
+"Check this option if you want to update users meta fields from the previous "
+"import operation which are not found among newly imported set."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:23
+#: views/admin/import/options/_reimport_template.php:100
+msgid "Name"
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:25
+#: views/admin/import/options/_reimport_template.php:102
+msgid "Value"
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:34
+msgid "Update existing users with changed data in your file"
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:38
+msgid "Update all data"
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:41
+msgid "Choose which data to update"
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:50
+msgid ""
+"Check this option if you want previously imported users to change their "
+"first name."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:56
+msgid ""
+"Check this option if you want previously imported users to change their last "
+"name."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:62
+msgid ""
+"Check this option if you want previously imported users to change their role."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:68
+msgid ""
+"Check this option if you want previously imported users to change their "
+"nickname."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:74
+msgid ""
+"Check this option if you want previously imported users to change their "
+"description."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:80
+msgid ""
+"Check this option if you want previously imported users to change their "
+"login."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:86
+msgid ""
+"Check this option if you want previously imported users to change their "
+"password."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:92
+msgid ""
+"Check this option if you want previously imported users to change their "
+"nicename."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:98
+msgid ""
+"Check this option if you want previously imported users to change their "
+"email."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:104
+msgid ""
+"Check this option if you want previously imported users to change their "
+"registered date."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:110
+msgid ""
+"Check this option if you want previously imported users to change their "
+"display name."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:116
+msgid ""
+"Check this option if you want previously imported users to change their URL."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:122
+msgid "Meta Fields"
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:123
+msgid ""
+"If Keep Custom Fields box is checked, it will keep all Custom Fields, and "
+"add any new Custom Fields specified in Custom Fields section, as long as "
+"they do not overwrite existing fields. If 'Only keep this Custom Fields' is "
+"specified, it will only keep the specified fields."
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:127
+msgid "Update all Meta Fields"
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:131
+msgid "Update only these Meta Fields, leave the rest alone"
+msgstr ""
+
+#: views/admin/import/options/_reimport_options.php:140
+msgid "Leave these fields alone, update all other Meta Fields"
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:15
+#: views/admin/import/options/_reimport_template.php:76
+msgid "Record Matching"
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:23
+msgid "Choose how exported data will be re-imported."
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:29
+#, php-format
+msgid "WP All Import will create new %s for each unique record in your file."
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:43
+#, php-format
+msgid ""
+"WP All Import will associate records in your file with %s it has already "
+"created from previous runs of this import basis on the Unique Identifier."
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:46
+msgid "Unique Identifier"
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:52
+msgid "Auto-detect"
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:54
+msgid "Edit"
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:55
+msgid "Warning: Are you sure you want to edit the Unique Identifier?"
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:56
+#, php-format
+msgid ""
+"It is recommended you delete all %s associated with this import before "
+"editing the unique identifier."
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:57
+#, php-format
+msgid ""
+"Editing the unique identifier will dissociate all existing %s linked to this "
+"import. Future runs of the import will result in duplicates, as WP All "
+"Import will no longer be able to update these %s."
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:58
+msgid ""
+"You really should just re-create your import, and pick the right unique "
+"identifier to start with."
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:64
+msgid ""
+"Drag an element, or combo of elements, to the box above. The Unique "
+"Identifier should be unique for each record in your file, and should stay "
+"the same even if your file is updated. Things like product IDs, titles, and "
+"SKUs are good Unique Identifiers because they probably won't change. Don't "
+"use a description or price, since that might be changed."
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:65
+#, php-format
+msgid ""
+"If you run this import again with an updated file, the Unique Identifier "
+"allows WP All Import to correctly link the records in your updated file with "
+"the %s it will create right now. If multiple records in this file have the "
+"same Unique Identifier, only the first will be created. The others will be "
+"detected as duplicates."
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:78
+#, php-format
+msgid "WP All Import will merge data into existing %s."
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:89
+#, php-format
+msgid "Records in your file will be matched with %s on your site based on..."
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:93
+msgid "match by Login"
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:95
+msgid "match by Email"
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:98
+msgid "match by Custom Field"
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:108
+msgid "User ID"
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:129
+msgid "Email Notifications For Imported Users"
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:136
+msgid "Block email notifications during import"
+msgstr ""
+
+#: views/admin/import/options/_reimport_template.php:137
+msgid ""
+"If enabled, WP All Import will prevent WordPress from sending notification "
+"emails to imported users while the import is processing."
+msgstr ""
+
+#. Name of the plugin
+msgid "WP All Import - User Import Add-On"
+msgstr ""
+
+#. Description of the plugin
+msgid "Import Users & User's metadata to WordPress. Requires WP All Import."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.wpallimport.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Soflyy"
+msgstr ""

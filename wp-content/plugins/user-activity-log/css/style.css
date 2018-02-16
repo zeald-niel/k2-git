@@ -1,0 +1,671 @@
+.red {
+    color: #ff0000;
+}
+.sol-box-border {
+    padding: 0 15px;
+}
+.margin_bottom_30 {
+    margin-bottom: 30px;
+}
+.sol-table-td {
+    padding: 10px 20px !important;
+}
+form.sol-form {
+    float: left;
+    width: 73%;
+    border-left: 1px solid #ccc;
+    border-right:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top:1px solid #ccc;
+    background: #fff;
+}
+.user_id.column-user_id img {
+    float: left;
+    margin-right: 10px;
+}
+.sol-search-user-div {
+    margin-top:15px;
+    margin-bottom: 15px;
+    float: left;
+}
+.sol-search-user {
+    width: 275px !important;
+}
+.sol-search-div p.search-box {
+    float: left;
+}
+.sol-search-div {
+    width:100%;
+    float:left;
+    margin-bottom: 15px;
+}
+.wp-filter .sol-search-div {
+    float: right;
+    width: auto;
+}
+.wp-filter .sol-search-div input[type="search"] {
+    height: 28px;
+}
+.sol-filter-btn {
+    position: relative;
+    top:2px;
+}
+.sol-col-width {
+    width:200px;
+}
+.sol-email-table {
+    width:100%;
+    float: left;
+    text-align: left;
+}
+.sol-email-table th {
+    width: 20%;
+    vertical-align: top;
+}
+.sol-email-table td {
+    width:80%;
+    padding-bottom: 30px;
+}
+.sol-email-table td input[type="email"] {
+    width: 40%;
+}
+
+.wrap .ualParentTabs h2.nav-tab-wrapper {
+    border-bottom: none;
+}
+
+.ualTabContentWrap .wrap {
+    margin-top: 0;
+}
+
+/*
+
+.tab_parent li:nth-child(2),
+.tab_parent li:last-child {
+    margin-left: -3px;
+}
+.tab_parent_parent .tab_parent {
+    float: left;
+    margin-top: 20px;
+}
+.tab_parent li a.current {
+    position: relative;
+    bottom: -1px;
+    background: none repeat scroll 0 0 #fff !important;
+    padding-top: 12px;
+}
+.tab_parent_parent {
+    float: left;
+    margin-bottom: 0;
+    width: 100%;
+}
+.tab_parent {
+    float: right;
+}
+.tab_parent > ul {
+    margin: 0;
+}
+.tab_parent li {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+}
+.tab_parent ul li:first-child a {
+    border-left: 1px solid #cccccc;
+    border-radius: 5px 0 0;
+}
+.tab_parent ul li:last-child a{
+    border-radius: 0 5px 0 0;
+}
+.tab_parent a {
+    border-right: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    color: #484848;
+    display: block;
+    padding: 11px 19px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    background: none repeat scroll 0 0 #f1f1f1 !important;
+}
+.tab_parent a:hover {
+    color: #484848;
+}
+*/
+
+
+.sol-dropdown {
+    margin-bottom: 15px;
+}
+h3.sol-header-text {
+    font-size: 19px;
+    font-weight: 600;
+}
+.sol-display-roles {
+    width: 50%;
+}
+.user-activity-ad-block {
+    float: right;
+    width: 25%;
+}
+.ual-help {
+    background: none repeat scroll 0 0 #fff;
+    border: 2px solid #008000;
+    border-radius: 3px;
+}
+.ual-help h2 {
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+}
+.help-wrapper {
+    padding: 10px;
+}
+.ual-total-download {
+    margin-top: 30px;
+}
+/*.ual-support #twitter-widget-0,*/
+.count-ready .count-o {
+    visibility: hidden !important;
+}
+.pricing_change {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    width: 100%;
+}
+.pricing_change del {
+    color: #e21130;
+    font-weight: bolder;
+}
+.pricing_change ins {
+    color: #1f6f1e;
+    font-size: 20px;
+    text-decoration: none;
+}
+.pre-book-pro:hover {
+    opacity: 0.8;
+}
+.pre-book-pro {
+    background: #E21130;
+}
+.pre-book-pro a {
+    background: #e21130 none repeat scroll 0 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    font-weight: bold;
+    line-height: normal;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+.ual-support,
+.useful_plugins {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.ual-support h3,
+.useful_plugins h3 {
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #cccccc;
+}
+ul.plugins_list {
+    margin: 0;
+}
+.plugin_img {
+    margin-bottom: 5px;
+}
+.ual-total-download .star-rating {
+    display: inline-block;
+    float: right;
+}
+.sol-form .widefat.post.fixed.striped th.check-column{
+    padding-bottom: 0;
+    vertical-align: middle;
+    padding-left: 0;
+    padding-top: 0;
+}
+.wrap .frm-user-activity .tablenav {
+    height: auto;
+}
+.wrap .frm-user-activity .tablenav .displaying-num {
+    float: left;
+    padding: 8px 0;
+}
+.frm-user-activity .wp-filter {
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.frm-user-activity .tablenav .tablenav-pages {
+    margin-bottom: 20px;
+}
+ul.plugins_list .plugin_img img {
+    width: 100%;
+}
+ul.plugins_list span {
+    display: block;
+}
+ul.plugins_list span a {
+    font-size: 18px;
+}
+.role-width{
+    width: 95px;
+}
+td.column-description {
+    word-wrap: break-word !important;
+    word-break: break-all;
+}
+.email-id-width{
+    width: 215px;
+    word-wrap: break-word !important;
+    word-break: break-all;
+}
+.download-number, .useful_plugins a{
+    font-size: 16px;
+}
+
+.subscribe_widget
+{
+    margin: 10px;
+}
+.sub_row {
+    margin: 10px 0;
+    line-height: 1.7;
+}
+.sub_row label {
+    display: inline-block;
+    min-width: 100px;
+}
+.success_msg {
+    color: green;
+}
+.sub_row > input {
+    height: 37px;
+    width: 327px;
+}
+.sub_row > input {
+    height: 37px;
+    width: 310px;
+}
+.subscribe_widget .button.button-primary {
+    font-size: 16px;
+    height: 40px;
+    width: 240px;
+}
+.subscribe_widget .button.button-delete {
+    font-size: 16px;
+    height: 40px;
+    width: 167px;
+}
+.sub_row .sub_checkbox {
+    width:15px;
+    height: auto;
+    margin: 0 6px 0 0;
+}
+.sub_row_checkbox
+{
+    margin: 15px 0;
+}
+/*dashboard style*/
+.display-product {
+    float: left;
+    margin-right: 3%;
+    width: 34%;
+}
+.solwin-news {
+    float: right;
+    width: 63%;
+}
+.product-name img {
+    border: 1px solid #dddddd;
+    max-width: 230px;
+    width: 100%;
+}
+.product-detail a {
+    display: inline-block;
+    font-weight: normal;
+    width: 100%;
+}
+.product-name p {
+    display: inline-block;
+}
+.product-detail .product-name ul {
+    list-style: disc;
+}
+.product-detail .product-name ul li {
+    margin-left: 10px;
+}
+#wpbody-content #dashboard-widgets.columns-2 #postbox-container-1 {
+    width: 49.5%;
+}
+#wpbody-content #dashboard-widgets.columns-1 #postbox-container-1 {
+    width: 100%;
+}
+/*end of style*/
+.advertisementContent {
+    margin: 6px 0px;
+    padding-left: 0;
+    position: relative;
+    width: 100%;
+}
+.ual_advertisement_legend {
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.useful_plugins .help-wrapper {
+    padding: 20px 20px 25px;
+}
+.useful_plugins h2 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+    padding: 12px 10px 10px;
+}
+.useful_plugins ul li::before {
+    content: '\f139';
+    font-family: dashicons;
+    font-size: 18px;
+    padding-right: 2px;
+    vertical-align: middle;
+}
+.useful_plugins ul li {
+    color: #7f7f7f;
+}
+.useful_plugins .pro-content {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0px 0px 10px;
+    position: relative;
+    width: 100%;
+}
+.user-activity-ad-block .useful_plugins h2::before {
+    content: url("../images/logo.png");
+    vertical-align: sub;
+    margin-right: 5px;
+}
+
+#ualEmailSettings .ui-button {
+    border: 1px solid #b6b6b6;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    transition: -moz-box-shadow 0.25s ease-in-out 0s;
+    moz-user-select: none;
+    cursor: pointer;
+    display: inline-block;
+    overflow: visible;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    background: #f0f0f0 none repeat scroll 0 0;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+    color: #4f4f4f;
+    font-weight: normal;
+    vertical-align: middle;
+    padding: 0;
+}
+#ualEmailSettings .ui-button span {
+    height: 30px;
+    line-height: 30px;
+    min-width: 31px;
+    padding: 0 12px;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    border-right: 0 none;
+}
+#ualEmailSettings .ui-corner-left.active:focus,
+#ualEmailSettings .ui-corner-left.active:active,
+#ualEmailSettings .ui-corner-left.active:hover {
+    border-color: #71963a !important;
+}
+#ualEmailSettings .ui-corner-right.active:focus,
+#ualEmailSettings .ui-corner-right.active:active,
+#ualEmailSettings .ui-corner-right.active:hover {
+    border-color: #d04f38 !important;
+}
+#ualEmailSettings .ui-corner-left:focus,
+#ualEmailSettings .ui-corner-left:active,
+#ualEmailSettings .ui-corner-left:hover,
+#ualEmailSettings .ui-corner-right:focus,
+#ualEmailSettings .ui-corner-right:active,
+#ualEmailSettings .ui-corner-right:hover {
+    border-color: #b6b6b6 !important;
+}
+#ualEmailSettings .ui-corner-left {
+    border-radius: 3px 0 0 3px !important;
+    height: auto;
+}
+#ualEmailSettings .ui-corner-right {
+    border-radius: 0 3px 3px 0 !important;
+    height: auto;
+}
+#ualEmailSettings .ui-corner-left.active {
+    background: #a3c76e none repeat scroll 0 0;
+    border-color: #71963a;
+    color: #ffffff;
+    border-right: 0;
+}
+#ualEmailSettings .ui-corner-right.active {
+    background: #de806f none repeat scroll 0 0;
+    border-color: #d04f38;
+    color: #ffffff;
+    border-left:0;
+}
+.ualParentTabs a.nav-tab-active,
+.ualParentTabs a.nav-tab-active:focus,
+.ualParentTabs a.nav-tab-active:focus:active,
+.ualParentTabs a.nav-tab-active:hover {
+    background: #ffffff;
+    border-bottom: none;
+    outline: none;
+}
+.ualParentTabs a.nav-tab-active {
+    border-bottom: medium none;
+    position: relative;
+    z-index: 99 !important;
+}
+
+.ualpContentDiv form.sol-form {
+    top: -1px;
+    position: relative;
+}
+
+.ualParentTabs a.nav-tab,
+.ualParentTabs a.nav-tab:focus,
+.ualParentTabs a.nav-tab:active,
+.ualParentTabs a.nav-tab:focus:active,
+.ualParentTabs a.nav-tab:hover {
+    border-bottom: none;
+    outline: none;
+}
+
+.coming_soon_version {
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 15px;
+    text-align: center;
+}
+
+/*style for dashboard widget*/
+
+.ual_dashboard_log_table {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+.ual_dashboard_log_table * {
+    box-sizing: border-box;
+}
+.ual_dashboard_log_table li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 10px;
+}
+.ual_dashboard_log_table li:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.ual-dashboard-column-date {
+    display: inline-block;
+    width: 22%;
+    word-wrap: break-word;
+}
+.ual-dashboard-column-author {
+    display: inline-block;
+    width: 35%;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+.ual-dashboard-column-activity {
+    display: inline-block;
+    width: 41%;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+.ual-filter-cover {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+.ual-top-cover {
+    float: left;
+}
+.ual-favorite {
+    background: url("../images/star.png") no-repeat scroll 0 -24px;
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 24px;
+    margin: 0;
+    width: 24px;
+}
+.ual-delete-log {
+    color: #da4453;
+    float: left;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.ual-view-log {
+    float: left;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+.ual-pro-feature {
+    opacity: 0.4;
+}
+.ual-advertisement-ui-dialog .ui-dialog-buttonset .ual-btn.ual-btn-gray {
+    background: #ffffff none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px #cccccc inset;
+    font-size: 15px;
+    line-height: 17px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    vertical-align: middle;
+    width: 27px;
+    margin: 0.5em 0.4em 0.5em 0;
+}
+#ual-advertisement-popup {
+    padding: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.ual-advertisement-ui-dialog .ui-dialog-buttonset .ual-btn.ual-btn-gray span {
+    height: 25px;
+    line-height: 25px;
+    min-width: 25px;
+    padding: 0;
+    width: 25px;
+}
+.ual-advertisement-ui-dialog.ui-dialog .ui-dialog-buttonpane {
+    height: 0;
+    width: 0;
+    padding: 0;
+}
+.ual-advertisement-cover {
+    line-height: 0;
+}
+.ual-advertisement-link {
+    display: inline-block;
+    line-height: 0;
+    width: 100%;
+}
+.ual-advertisement-ui-dialog.ui-dialog {
+    border: medium none;
+    height: 450px !important;
+    line-height: 0;
+    position: fixed;
+    width: 820px !important;
+    z-index: 100000;
+}
+
+@media screen and (max-width : 782px){
+    .sol-search-div p.search-box {
+        bottom: auto;
+        display: inline;
+        float: left;
+        height: auto;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .wp-filter .sol-search-div {
+        float: left;
+        margin-bottom: 0;
+        padding-bottom: 3px;
+        width: 100%;
+    }
+    .frm-user-activity .tablenav .tablenav-pages {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width : 1000px){
+    .user-activity-ad-block {
+        margin-top: 30px;
+        width: 100%;
+    }
+    form.sol-form {
+        width: 100%;
+    }
+    .sol-box-border {
+        box-sizing: border-box;
+        max-width: 100%;
+        overflow: hidden;
+        padding: 0 15px;
+        width: 100%;
+    }
+}
+@media screen and (max-width : 480px){
+    .ualParentTabs a.nav-tab {
+        width: 100%;
+        margin-bottom: 0;
+        box-sizing: border-box;
+        margin-top: 0;
+    }
+    .ualpContentDiv form.sol-form {
+        top:auto;
+        margin-top: 20px;
+    }
+    a.nav-tab.ualEmailSettings.nav-tab-active,
+    a.nav-tab.ualEmailSettings.nav-tab-active:hover,
+    a.nav-tab.ualEmailSettings,
+    a.nav-tab.ualEmailSettings:hover {
+        border-bottom: 1px solid #cccccc;
+    }
+}

@@ -1,0 +1,2551 @@
+# Copyright (C) 2016 WooThemes
+# This file is distributed under the GNU General Public License v3.0.
+# Translators:
+# Khalil Delavaran <khalil.delavaran@gmail.com>, 2015
+# milad jafari <miladjef@yahoo.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Bookings\n"
+"Report-Msgid-Bugs-To: https://support.woothemes.com/hc/\n"
+"POT-Creation-Date: 2016-02-04 15:58:09+00:00\n"
+"PO-Revision-Date: 2016-02-04 16:00+0000\n"
+"Last-Translator: Akeda Bagus <admin@gedex.web.id>\n"
+"Language-Team: Persian (Iran) (http://www.transifex.com/woothemes/woocommerce-bookings/language/fa_IR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+
+#: includes/addons/accommodation-booking.php:17
+msgid "Accommodation booking"
+msgstr ""
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:40
+msgid "Bookable resource name"
+msgstr "نام هتل"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:56
+#: includes/admin/views/html-booking-person.php:22
+msgid "Name"
+msgstr "نام"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:57
+msgid "Parent products"
+msgstr "محصولات مرتبط"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:58
+#: includes/admin/class-wc-bookings-cpt.php:209
+msgid "Actions"
+msgstr "فعال"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:96
+#: includes/admin/class-wc-bookings-cpt.php:256
+#: includes/admin/class-wc-bookings-customer-meta-box.php:90
+#: includes/admin/class-wc-bookings-details-meta-box.php:96
+#: includes/admin/class-wc-bookings-details-meta-box.php:104
+#: includes/admin/class-wc-bookings-details-meta-box.php:160
+#: includes/emails/class-wc-email-booking-cancelled.php:80
+#: includes/emails/class-wc-email-booking-confirmed.php:70
+#: includes/emails/class-wc-email-booking-notification.php:71
+#: includes/emails/class-wc-email-booking-notification.php:74
+#: includes/emails/class-wc-email-booking-notification.php:77
+#: includes/emails/class-wc-email-booking-notification.php:80
+#: includes/emails/class-wc-email-booking-reminder.php:65
+#: includes/emails/class-wc-email-new-booking.php:95
+msgid "N/A"
+msgstr "نامعلوم"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:103
+#: woocommmerce-bookings.php:268 woocommmerce-bookings.php:308
+msgid "Edit"
+msgstr "ویرایش"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:18
+msgid "Resource details"
+msgstr "جزئیات رزرو"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:40
+msgid "Available Quantity"
+msgstr "روزهای در دسترس"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:40
+msgid "The quantity of this resource available at any given time."
+msgstr "مقدار این اتاق در دسترس در هر زمان داده شده است."
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:51
+#: includes/admin/views/html-booking-availability.php:90
+#: includes/admin/views/html-booking-pricing.php:32
+#: includes/admin/views/html-global-availability-settings.php:65
+msgid "Range type"
+msgstr "روز های مورد نظر"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:52
+#: includes/admin/views/html-booking-availability.php:91
+#: includes/admin/views/html-booking-pricing.php:33
+#: includes/admin/views/html-global-availability-settings.php:66
+msgid "Range"
+msgstr ""
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:55
+#: includes/admin/views/html-booking-availability.php:94
+#: includes/admin/views/html-global-availability-settings.php:69
+msgid "Bookable"
+msgstr "رزرو کردن"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:55
+#: includes/admin/views/html-booking-availability.php:94
+#: includes/admin/views/html-global-availability-settings.php:69
+msgid ""
+"If not bookable, users won't be able to choose this block for their booking."
+msgstr "اگر کاربر ثبت نام نکند نمی تواند رزرو کند"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:56
+#: includes/admin/views/html-booking-availability.php:95
+#: includes/admin/views/html-global-availability-settings.php:70
+msgid "Priority"
+msgstr "اولویت"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:56
+#: includes/admin/views/html-booking-availability.php:95
+#: includes/admin/views/html-global-availability-settings.php:70
+msgid ""
+"The lower the priority number, the earlier this rule gets applied. By "
+"default, global rules take priority over product rules which take priority "
+"over resource rules. By using priority numbers you can execute rules in "
+"different orders."
+msgstr ""
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:68
+#: includes/admin/views/html-booking-availability.php:107
+#: includes/admin/views/html-booking-pricing.php:49
+#: includes/admin/views/html-global-availability-settings.php:82
+msgid "Add Range"
+msgstr "اضافه کردن"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:69
+#: includes/admin/views/html-booking-availability.php:108
+#: includes/admin/views/html-global-availability-settings.php:83
+msgid ""
+"Rules with lower numbers will execute first. Rules further down this table "
+"with the same priority will also execute first."
+msgstr ""
+
+#: includes/admin/class-wc-bookings-addons.php:23
+#: woocommmerce-bookings.php:304
+msgid "Bookings"
+msgstr "رزرو"
+
+#: includes/admin/class-wc-bookings-admin.php:89
+#: includes/admin/class-wc-bookings-admin.php:92
+#: includes/admin/class-wc-bookings-admin.php:94
+msgid "Booking updated."
+msgstr "به روز روسانی رزرو"
+
+#: includes/admin/class-wc-bookings-admin.php:90
+msgid "Custom field updated."
+msgstr "بروز رسانی فیلد های سفارشی شده"
+
+#: includes/admin/class-wc-bookings-admin.php:91
+msgid "Custom field deleted."
+msgstr "حذف فیلدهای سفارشی شده"
+
+#: includes/admin/class-wc-bookings-admin.php:95
+msgid "Booking saved."
+msgstr "ذخیره کردن رزرو"
+
+#: includes/admin/class-wc-bookings-admin.php:96
+msgid "Booking submitted."
+msgstr "رزرو"
+
+#: includes/admin/class-wc-bookings-admin.php:122
+msgid "View booking &rarr;"
+msgstr "نمایش رزو &rarr;"
+
+#: includes/admin/class-wc-bookings-admin.php:210
+msgid "The resource has already been linked to this product"
+msgstr "شما در حال حاضر این را علاقه مندی کردید"
+
+#: includes/admin/class-wc-bookings-admin.php:246
+msgid "Unable to add resource"
+msgstr "اضافه کردن"
+
+#: includes/admin/class-wc-bookings-admin.php:330
+msgid "Bookable product"
+msgstr "رزرو اتاق"
+
+#: includes/admin/class-wc-bookings-admin.php:388
+msgid "Are you sure you want to remove this person type?"
+msgstr "آیا مطمئن هستید که می خواهید (هزینه بابت هر فرد)را حذف کنید؟"
+
+#: includes/admin/class-wc-bookings-admin.php:392
+msgid "Are you sure you want to remove this resource?"
+msgstr "آیا مطمئن هستید که می خواهید اتاق را حذف کنید؟"
+
+#: includes/admin/class-wc-bookings-admin.php:396
+msgid "minutes"
+msgstr "دقیقه"
+
+#: includes/admin/class-wc-bookings-admin.php:397
+msgid "days"
+msgstr "روزها"
+
+#: includes/admin/class-wc-bookings-admin.php:399
+msgid "Enter a name for the new resource"
+msgstr "نام اتاق خود را وارد کنید"
+
+#: includes/admin/class-wc-bookings-admin.php:656
+msgid "Person Type #%d"
+msgstr "هزینه بابت هر نفر #%d"
+
+#: includes/admin/class-wc-bookings-admin.php:707
+msgid "Has persons"
+msgstr "هر شخص"
+
+#: includes/admin/class-wc-bookings-admin.php:708
+msgid ""
+"Enable this if this bookable product can be booked by a customer defined "
+"number of persons."
+msgstr "اگر این محصول در دسترس بود می توانید ن را برای تعدادی مشتری به نمایش بگذارید."
+
+#: includes/admin/class-wc-bookings-admin.php:714
+msgid "Has resources"
+msgstr "بابت اتاق"
+
+#: includes/admin/class-wc-bookings-admin.php:715
+msgid ""
+"Enable this if this bookable product has multiple bookable resources, for "
+"example room types or instructors."
+msgstr "اگر این محصول دارای اتاق های متعدد هستید می توانید همه اتاق ها را به نمایش بگذارید"
+
+#: includes/admin/class-wc-bookings-ajax.php:28
+msgid "You do not have sufficient permissions to access this page."
+msgstr "شما مجوز کافی برای دسترسی به این صفحه را ندارید."
+
+#: includes/admin/class-wc-bookings-ajax.php:31
+msgid "You have taken too long. Please go back and retry."
+msgstr "شما بییش از حد زمان سپری کردید .لطفا بازگردید و دوباره آغاز کنید."
+
+#: includes/admin/class-wc-bookings-ajax.php:64
+msgid "This booking is unavailable."
+msgstr "غیر قابل دسترسی"
+
+#: includes/admin/class-wc-bookings-ajax.php:89
+msgid "Booking cost"
+msgstr "هزینه ی رزرو"
+
+#: includes/admin/class-wc-bookings-ajax.php:121
+msgid "Please enter a valid date."
+msgstr ""
+
+#: includes/admin/class-wc-bookings-ajax.php:155
+msgid "No blocks available."
+msgstr "بدونه محدود کردن در دسترسی"
+
+#: includes/admin/class-wc-bookings-calendar.php:103
+#: includes/admin/class-wc-bookings-calendar.php:210
+msgid "Booked by"
+msgstr "رزرو شده توسط"
+
+#: includes/admin/class-wc-bookings-calendar.php:107
+#: includes/admin/class-wc-bookings-details-meta-box.php:215
+msgid "All Day"
+msgstr "تمام روز ها"
+
+#: includes/admin/class-wc-bookings-calendar.php:112
+#: includes/admin/class-wc-bookings-calendar.php:213
+#: includes/class-wc-bookings-ics-exporter.php:160
+msgid "Resource #"
+msgstr "اتاق ها #"
+
+#: includes/admin/class-wc-bookings-cpt.php:88
+msgid "Confirm bookings"
+msgstr "تایید  رزرو آنلاین"
+
+#: includes/admin/class-wc-bookings-cpt.php:90
+msgid "Unconfirm bookings"
+msgstr "رزرو های تایید نشده"
+
+#: includes/admin/class-wc-bookings-cpt.php:92
+msgid "Cancel bookings"
+msgstr "رزور های لغو شده"
+
+#: includes/admin/class-wc-bookings-cpt.php:94
+msgid "Mark bookings as paid"
+msgstr "پیش پرداخت بابت رزرو"
+
+#: includes/admin/class-wc-bookings-cpt.php:96
+msgid "Mark bookings as unpaid"
+msgstr "مبلغ باقی مانده بابت رزرو"
+
+#: includes/admin/class-wc-bookings-cpt.php:170
+msgid "Booking status changed."
+msgid_plural "%s booking statuses changed."
+msgstr[0] "%s وضعیت رزرو"
+
+#: includes/admin/class-wc-bookings-cpt.php:184
+msgid "Booking Title"
+msgstr "تیتر رزرو"
+
+#: includes/admin/class-wc-bookings-cpt.php:201
+#: templates/myaccount/my-bookings.php:20
+msgid "Status"
+msgstr "وضعیت"
+
+#: includes/admin/class-wc-bookings-cpt.php:202
+#: templates/myaccount/my-bookings.php:15
+msgid "ID"
+msgstr "شناسه"
+
+#: includes/admin/class-wc-bookings-cpt.php:203
+#: includes/admin/class-wc-bookings-details-meta-box.php:177
+#: templates/emails/admin-booking-cancelled.php:18
+#: templates/emails/admin-new-booking.php:25
+#: templates/emails/customer-booking-cancelled.php:21
+#: templates/emails/customer-booking-confirmed.php:21
+#: templates/emails/customer-booking-notification.php:14
+#: templates/emails/customer-booking-reminder.php:18
+msgid "Booked Product"
+msgstr "اتاق رزرو شده"
+
+#: includes/admin/class-wc-bookings-cpt.php:204
+msgid "# of Persons"
+msgstr ""
+
+#: includes/admin/class-wc-bookings-cpt.php:205
+msgid "Booked By"
+msgstr "رزرو شده توسط"
+
+#: includes/admin/class-wc-bookings-cpt.php:206
+#: templates/emails/customer-booking-confirmed.php:68
+#: templates/myaccount/my-bookings.php:17
+msgid "Order"
+msgstr "سفارش"
+
+#: includes/admin/class-wc-bookings-cpt.php:207
+#: includes/admin/class-wc-bookings-details-meta-box.php:211
+#: templates/myaccount/my-bookings.php:18
+msgid "Start Date"
+msgstr "تاریخ شروع"
+
+#: includes/admin/class-wc-bookings-cpt.php:208
+#: includes/admin/class-wc-bookings-details-meta-box.php:213
+#: templates/myaccount/my-bookings.php:19
+msgid "End Date"
+msgstr "تاریخ پایان"
+
+#: includes/admin/class-wc-bookings-cpt.php:252
+msgid "Booking #%d"
+msgstr "رزرو  #%d"
+
+#: includes/admin/class-wc-bookings-cpt.php:312
+msgid "View"
+msgstr "دید"
+
+#: includes/admin/class-wc-bookings-cpt.php:319
+msgid "Confirm"
+msgstr "تایید"
+
+#: includes/admin/class-wc-bookings-cpt.php:410
+msgid "All Bookable Products"
+msgstr "تمام اتاق های رزرو شده"
+
+#: includes/admin/class-wc-bookings-create.php:19
+msgid "Error - please try again"
+msgstr "خطا-لطفا دوباره اقدام کنید"
+
+#: includes/admin/class-wc-bookings-create.php:29
+msgid "Please choose a bookable product"
+msgstr "لطفا یکی از اتاق های قالب رزرو را انتخاب کنید"
+
+#: includes/admin/class-wc-bookings-create.php:37
+#: includes/admin/class-wc-bookings-create.php:90
+msgid "Invalid order ID provided"
+msgstr "شماره سفارش شما"
+
+#: includes/admin/class-wc-bookings-create.php:84
+msgid "Error: Could not create order"
+msgstr "خطا در ذخیره سفارش"
+
+#: includes/admin/class-wc-bookings-create.php:110
+msgid "Error: Could not create item"
+msgstr "خطا سیستم نمی تواند  این رزور را انجام دهد"
+
+#: includes/admin/class-wc-bookings-create.php:175
+msgid "Order &ndash; %s"
+msgstr "رزرو  &ndash; %s"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:15
+msgid "Customer details"
+msgstr "نمایش جزئیات"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:30
+msgid "Name:"
+msgstr "نام :"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:40
+msgid "User Email:"
+msgstr "نام کاربری"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:48
+msgid "View User"
+msgstr "نام کاربری"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:57
+msgid "Address:"
+msgstr "آدرس"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:62
+msgid "No billing address set."
+msgstr "آدرس صورت حساب"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:67
+msgid "Email:"
+msgstr "ایمیل"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:73
+msgid "Phone:"
+msgstr "شماره تماس"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:81
+msgid "View Order"
+msgstr "در حالت:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:15
+#: includes/admin/class-wc-bookings-details-meta-box.php:67
+msgid "Booking Details"
+msgstr "جزئیات رزرو"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:44
+msgid ""
+"This booking is scheduled over 2 years into the future. Please ensure this "
+"is correct."
+msgstr "رزرو این بیش از 2 سال به آینده برنامه ریزی شده است. لطفا مطمئن شوید این درست است."
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:49
+msgid ""
+"This booking is scheduled over the products allowed max booking date (%s). "
+"Please ensure this is correct."
+msgstr "رزرو این بیش از محصولات مجاز رزرو حداکثر تاریخ (%s) برنامه ریزی شده است. لطفا مطمئن شوید این درست است."
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:53
+msgid "This booking has an end date set before the start date."
+msgstr "تاریخ آغاز رزرو"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:58
+msgid ""
+"This booking is missing a required add-on (product type: %s). Some "
+"information is shown below but might be incomplete. Please install the "
+"missing add-on through the plugins screen."
+msgstr ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:70
+msgid "Booking number: #%s."
+msgstr "شماره رزرو : #%s."
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:74
+msgid "Order number: %s."
+msgstr "شماره سفارس  : %s."
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:78
+msgid "Booking type: %s"
+msgstr ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:85
+msgid "General Details"
+msgstr "اطلاعات کلی"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:88
+msgid "Order ID:"
+msgstr "شناسه سفارش"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:95
+msgid "Select an order&hellip;"
+msgstr "انتخاب سفارش &hellip;"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:108
+msgid "Date created:"
+msgstr "تاریخ ایجاد"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:109
+msgid "h"
+msgstr "ساعت"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:109
+msgid "m"
+msgstr "دقیقه"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:118
+msgid "Booking Status:"
+msgstr "وضعیت رزرو"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:129
+msgid "Customer:"
+msgstr "مشتری"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:138
+#: includes/admin/class-wc-bookings-details-meta-box.php:147
+#: includes/admin/views/html-create-booking-page.php:20
+#: includes/admin/views/html-create-booking-page.php:23
+msgid "Guest"
+msgstr "مهمان"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:156
+msgid "Booking Specification"
+msgstr "اضافه کردن رزرو"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:179
+msgid "Parent Booking ID"
+msgstr "شناسه رزرو"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:188
+#: includes/admin/class-wc-bookings-details-meta-box.php:196
+#: includes/class-wc-bookings-ics-exporter.php:169
+#: includes/wc-bookings-functions.php:50
+#: templates/emails/admin-booking-cancelled.php:47
+#: templates/emails/admin-new-booking.php:53
+#: templates/emails/customer-booking-cancelled.php:49
+#: templates/emails/customer-booking-confirmed.php:49
+#: templates/emails/customer-booking-notification.php:42
+#: templates/emails/customer-booking-reminder.php:46
+#: templates/emails/plain/admin-booking-cancelled.php:29
+#: templates/emails/plain/admin-new-booking.php:39
+#: templates/emails/plain/customer-booking-cancelled.php:33
+#: templates/emails/plain/customer-booking-confirmed.php:33
+#: templates/emails/plain/customer-booking-notification.php:31
+#: templates/emails/plain/customer-booking-reminder.php:33
+msgid "Person(s)"
+msgstr "شخص"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:207
+msgid "Booking Date/Time"
+msgstr "تاریخ و زمان رزرو"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:215
+msgid "Check this box if the booking is for all day."
+msgstr "چک کردن برای تمام روز ها"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:217
+msgid "Start Time"
+msgstr ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:219
+msgid "End Time"
+msgstr ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:382
+msgid "Booking #%d status changed manually from \"%s\" to \"%s"
+msgstr ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:456
+#: includes/admin/class-wc-bookings-details-meta-box.php:457
+#: includes/class-wc-booking-cart-manager.php:294
+#: includes/class-wc-booking-order-manager.php:358
+#: templates/emails/admin-booking-cancelled.php:23
+#: templates/emails/admin-new-booking.php:29
+#: templates/emails/customer-booking-cancelled.php:25
+#: templates/emails/customer-booking-confirmed.php:25
+#: templates/emails/customer-booking-notification.php:18
+#: templates/emails/customer-booking-reminder.php:22
+msgid "Booking ID"
+msgstr "شناسه رزور"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:462
+#: includes/admin/class-wc-bookings-details-meta-box.php:463
+#: includes/admin/class-wc-bookings-details-meta-box.php:465
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:473
+#: includes/wc-bookings-functions.php:47
+msgid "Booking Date"
+msgstr "تاریخ رزرو"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:471
+#: includes/admin/class-wc-bookings-details-meta-box.php:472
+#: includes/admin/class-wc-bookings-details-meta-box.php:474
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:473
+#: includes/wc-bookings-functions.php:48
+msgid "Booking Time"
+msgstr "زمان رزرو"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:480
+#: includes/admin/class-wc-bookings-details-meta-box.php:481
+#: includes/admin/class-wc-bookings-details-meta-box.php:484
+#: includes/wc-bookings-functions.php:46
+#: templates/emails/admin-booking-cancelled.php:28
+#: templates/emails/admin-new-booking.php:34
+#: templates/emails/customer-booking-cancelled.php:30
+#: templates/emails/customer-booking-confirmed.php:30
+#: templates/emails/customer-booking-notification.php:23
+#: templates/emails/customer-booking-reminder.php:27
+msgid "Booking Type"
+msgstr "نوع رزرو"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:502
+#: includes/admin/views/html-booking-tab.php:4
+#: includes/booking-form/class-wc-booking-form.php:214
+#: includes/booking-form/class-wc-booking-form.php:407
+msgid "Persons"
+msgstr "هر شخص"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:529
+msgid "%y year"
+msgid_plural "%y years"
+msgstr[0] ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:530
+msgid "%m month"
+msgid_plural "%m months"
+msgstr[0] ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:531
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:532
+msgid "%h hour"
+msgid_plural "%h hours"
+msgstr[0] ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:533
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:541
+#: includes/admin/class-wc-bookings-details-meta-box.php:542
+#: includes/admin/class-wc-bookings-details-meta-box.php:545
+#: includes/booking-form/class-wc-booking-form.php:175
+#: includes/wc-bookings-functions.php:49
+msgid "Duration"
+msgstr "مدت زمان"
+
+#: includes/admin/class-wc-bookings-menus.php:70
+#: includes/admin/views/html-create-booking-page-2.php:4
+#: includes/admin/views/html-create-booking-page-2.php:25
+#: includes/admin/views/html-create-booking-page.php:4
+msgid "Create Booking"
+msgstr "ایجاد سیستم رزرو"
+
+#: includes/admin/class-wc-bookings-menus.php:71
+msgid "Calendar"
+msgstr "تقویم"
+
+#: includes/admin/class-wc-bookings-menus.php:72
+#: includes/admin/views/html-notifications-page.php:3
+#: includes/admin/views/html-notifications-page.php:51
+msgid "Send Notification"
+msgstr "ارسال هشدار از طریق"
+
+#: includes/admin/class-wc-bookings-menus.php:73
+msgid "Global Availability"
+msgstr ""
+
+#: includes/admin/class-wc-bookings-menus.php:125
+msgid "Please choose a product"
+msgstr "لطفا اتاق مورد نظرتان را انتخاب کنید"
+
+#: includes/admin/class-wc-bookings-menus.php:128
+msgid "Please enter a message"
+msgstr "لطفا پیام خود را بنویسید"
+
+#: includes/admin/class-wc-bookings-menus.php:131
+msgid "Please enter a subject"
+msgstr "لطفا موضوع خود را بنویسید"
+
+#: includes/admin/class-wc-bookings-menus.php:148
+msgid "Notification sent successfully"
+msgstr "هشدار  با موفقیت تکمیل شد"
+
+#: includes/admin/class-wc-bookings-save-meta-box.php:15
+#: includes/admin/class-wc-bookings-save-meta-box.php:27
+msgid "Save Booking"
+msgstr "دخیره رزرو"
+
+#: includes/admin/class-wc-bookings-save-meta-box.php:27
+msgid "Save/update the booking"
+msgstr "ذخیره تغییرات"
+
+#: includes/admin/views/html-booking-availability-fields.php:5
+#: includes/admin/views/html-booking-pricing-fields.php:5
+msgid "January"
+msgstr "فروردین"
+
+#: includes/admin/views/html-booking-availability-fields.php:6
+#: includes/admin/views/html-booking-pricing-fields.php:6
+msgid "February"
+msgstr ""
+
+#: includes/admin/views/html-booking-availability-fields.php:7
+#: includes/admin/views/html-booking-pricing-fields.php:7
+msgid "March"
+msgstr "خرداد"
+
+#: includes/admin/views/html-booking-availability-fields.php:8
+#: includes/admin/views/html-booking-pricing-fields.php:8
+msgid "April"
+msgstr "تیر"
+
+#: includes/admin/views/html-booking-availability-fields.php:9
+#: includes/admin/views/html-booking-pricing-fields.php:9
+msgid "May"
+msgstr "مرداد"
+
+#: includes/admin/views/html-booking-availability-fields.php:10
+#: includes/admin/views/html-booking-pricing-fields.php:10
+msgid "June"
+msgstr "شهریور"
+
+#: includes/admin/views/html-booking-availability-fields.php:11
+#: includes/admin/views/html-booking-pricing-fields.php:11
+msgid "July"
+msgstr "مهر"
+
+#: includes/admin/views/html-booking-availability-fields.php:12
+#: includes/admin/views/html-booking-pricing-fields.php:12
+msgid "August"
+msgstr "آبان"
+
+#: includes/admin/views/html-booking-availability-fields.php:13
+#: includes/admin/views/html-booking-pricing-fields.php:13
+msgid "September"
+msgstr "آذر"
+
+#: includes/admin/views/html-booking-availability-fields.php:14
+#: includes/admin/views/html-booking-pricing-fields.php:14
+msgid "October"
+msgstr "دی"
+
+#: includes/admin/views/html-booking-availability-fields.php:15
+#: includes/admin/views/html-booking-pricing-fields.php:15
+msgid "November"
+msgstr "بهمن"
+
+#: includes/admin/views/html-booking-availability-fields.php:16
+#: includes/admin/views/html-booking-pricing-fields.php:16
+msgid "December"
+msgstr "اسفند"
+
+#: includes/admin/views/html-booking-availability-fields.php:20
+#: includes/admin/views/html-booking-pricing-fields.php:20
+msgid "Monday"
+msgstr "شنبه"
+
+#: includes/admin/views/html-booking-availability-fields.php:21
+#: includes/admin/views/html-booking-pricing-fields.php:21
+msgid "Tuesday"
+msgstr "یک شنبه"
+
+#: includes/admin/views/html-booking-availability-fields.php:22
+#: includes/admin/views/html-booking-pricing-fields.php:22
+msgid "Wednesday"
+msgstr "دوشنبه"
+
+#: includes/admin/views/html-booking-availability-fields.php:23
+#: includes/admin/views/html-booking-pricing-fields.php:23
+msgid "Thursday"
+msgstr "سه شنبه"
+
+#: includes/admin/views/html-booking-availability-fields.php:24
+#: includes/admin/views/html-booking-pricing-fields.php:24
+msgid "Friday"
+msgstr "چهار شنبه"
+
+#: includes/admin/views/html-booking-availability-fields.php:25
+#: includes/admin/views/html-booking-pricing-fields.php:25
+msgid "Saturday"
+msgstr "پنج شنبه"
+
+#: includes/admin/views/html-booking-availability-fields.php:26
+#: includes/admin/views/html-booking-pricing-fields.php:26
+msgid "Sunday"
+msgstr "جمعه"
+
+#: includes/admin/views/html-booking-availability-fields.php:30
+#: includes/admin/views/html-booking-pricing-fields.php:30
+msgid "Week %s"
+msgstr "هفته  %s"
+
+#: includes/admin/views/html-booking-availability-fields.php:46
+#: includes/admin/views/html-booking-pricing-fields.php:51
+msgid "Date range"
+msgstr ""
+
+#: includes/admin/views/html-booking-availability-fields.php:47
+#: includes/admin/views/html-booking-pricing-fields.php:52
+msgid "Range of months"
+msgstr "محدوده ماه های سفارش"
+
+#: includes/admin/views/html-booking-availability-fields.php:48
+#: includes/admin/views/html-booking-pricing-fields.php:53
+msgid "Range of weeks"
+msgstr "محدوده ی هفته های سفارش"
+
+#: includes/admin/views/html-booking-availability-fields.php:49
+#: includes/admin/views/html-booking-pricing-fields.php:54
+msgid "Range of days"
+msgstr "محدوده روز های سفارش"
+
+#: includes/admin/views/html-booking-availability-fields.php:50
+#: includes/admin/views/html-booking-pricing-fields.php:58
+msgid "Time Ranges"
+msgstr "زمان سفارش"
+
+#: includes/admin/views/html-booking-availability-fields.php:51
+#: includes/admin/views/html-booking-pricing-fields.php:59
+msgid "Time Range (all week)"
+msgstr "محدوده زمان (تمام هفته)"
+
+#: includes/admin/views/html-booking-availability-fields.php:52
+#: includes/admin/views/html-booking-pricing-fields.php:60
+msgid "Date Range with time"
+msgstr ""
+
+#: includes/admin/views/html-booking-availability-fields.php:100
+#: includes/admin/views/html-booking-availability-fields.php:101
+#: includes/admin/views/html-booking-pricing-fields.php:113
+#: includes/admin/views/html-booking-pricing-fields.php:114
+msgid "to"
+msgstr "به"
+
+#: includes/admin/views/html-booking-availability-fields.php:146
+msgid "No"
+msgstr "خیر"
+
+#: includes/admin/views/html-booking-availability-fields.php:147
+msgid "Yes"
+msgstr "بله"
+
+#: includes/admin/views/html-booking-availability.php:3
+msgid "Max bookings per block"
+msgstr "حداکثر رزرو در هر اتاق"
+
+#: includes/admin/views/html-booking-availability.php:3
+msgid ""
+"The maximum bookings allowed for each block. Can be overridden at resource "
+"level."
+msgstr "حداکثر رزرو برای هر اتاق مجاز می باشد. را می توان در سطح اتاق ها باطل شود."
+
+#: includes/admin/views/html-booking-availability.php:12
+msgid "Minimum block bookable"
+msgstr "حداقل اتاق برای رزرو"
+
+#: includes/admin/views/html-booking-availability.php:15
+#: includes/admin/views/html-booking-availability.php:32
+#: includes/admin/views/html-booking-data.php:16
+#: includes/admin/views/html-booking-data.php:97
+#: includes/booking-form/class-wc-booking-form.php:124
+msgid "Month(s)"
+msgstr "ماه"
+
+#: includes/admin/views/html-booking-availability.php:16
+#: includes/admin/views/html-booking-availability.php:33
+#: includes/booking-form/class-wc-booking-form.php:131
+#: includes/booking-form/class-wc-booking-form.php:143
+msgid "Week(s)"
+msgstr "هفته"
+
+#: includes/admin/views/html-booking-availability.php:17
+#: includes/admin/views/html-booking-availability.php:34
+#: includes/admin/views/html-booking-data.php:17
+#: includes/admin/views/html-booking-data.php:98
+#: includes/booking-form/class-wc-booking-form.php:139
+msgid "Day(s)"
+msgstr "روز"
+
+#: includes/admin/views/html-booking-availability.php:18
+#: includes/admin/views/html-booking-availability.php:35
+#: includes/admin/views/html-booking-data.php:18
+#: includes/admin/views/html-booking-data.php:99
+#: includes/booking-form/class-wc-booking-form.php:160
+msgid "Hour(s)"
+msgstr "ساعت"
+
+#: includes/admin/views/html-booking-availability.php:19
+#: includes/admin/views/html-booking-availability.php:36
+msgid "into the future"
+msgstr "در آینده"
+
+#: includes/admin/views/html-booking-availability.php:29
+msgid "Maximum block bookable"
+msgstr "حداکثر اتاق موجود برای رزرو"
+
+#: includes/admin/views/html-booking-availability.php:44
+msgid "Require a buffer period of"
+msgstr ""
+
+#: includes/admin/views/html-booking-availability.php:47
+msgid "between bookings"
+msgstr ""
+
+#: includes/admin/views/html-booking-availability.php:54
+msgid "All dates are..."
+msgstr "همه تاریخ ها هستند...."
+
+#: includes/admin/views/html-booking-availability.php:58
+msgid "available by default"
+msgstr "قابل دسترسی"
+
+#: includes/admin/views/html-booking-availability.php:59
+msgid "not-available by default"
+msgstr "غیر قابل دسترسی"
+
+#: includes/admin/views/html-booking-availability.php:61
+msgid "This option affects how you use the rules below."
+msgstr "این گزینه را تحت تاثیر قرار چگونه شما قوانین زیر استفاده کنید."
+
+#: includes/admin/views/html-booking-availability.php:68
+msgid "Check rules against..."
+msgstr "بررسی قوانین در برابر ..."
+
+#: includes/admin/views/html-booking-availability.php:72
+msgid "All blocks being booked"
+msgstr "تمام اتاق در حال رزرو"
+
+#: includes/admin/views/html-booking-availability.php:73
+msgid "The starting block only"
+msgstr "تنها یک اتاق وجود دارد"
+
+#: includes/admin/views/html-booking-availability.php:75
+msgid "This option affects how bookings are checked for availability."
+msgstr "این گزینه را تحت تاثیر قرار چگونه رزرو برای در دسترس بودن بررسی می شود."
+
+#: includes/admin/views/html-booking-availability.php:80
+msgid "First block starts at..."
+msgstr "اتاق اول شروع می شود در ..."
+
+#: includes/admin/views/html-booking-data.php:9
+msgid "Booking duration"
+msgstr "مدت زمان رزرو"
+
+#: includes/admin/views/html-booking-data.php:11
+msgid "Fixed blocks of"
+msgstr "بدونه محدود کردن در دسترسی"
+
+#: includes/admin/views/html-booking-data.php:12
+msgid "Customer defined blocks of"
+msgstr "معین کردن تعدا مشتری برای هر اتاق"
+
+#: includes/admin/views/html-booking-data.php:19
+msgid "Minutes(s)"
+msgstr "دقیقه(ها)"
+
+#: includes/admin/views/html-booking-data.php:28
+msgid "Minimum duration"
+msgstr "مدت زمان"
+
+#: includes/admin/views/html-booking-data.php:29
+msgid "The minimum allowed duration the user can input."
+msgstr "حداقل مدت زمان اجازه کاربر می تواند ورودی."
+
+#: includes/admin/views/html-booking-data.php:41
+msgid "Maximum duration"
+msgstr "حداکثر مدت زمان"
+
+#: includes/admin/views/html-booking-data.php:42
+msgid "The maximum allowed duration the user can input."
+msgstr "حداکثر مدت زمان مجاز کاربر می تواند ورودی."
+
+#: includes/admin/views/html-booking-data.php:57
+msgid "Enable Calendar Range Picker?"
+msgstr "فعال کردن تقویم انتخابگر ؟"
+
+#: includes/admin/views/html-booking-data.php:58
+msgid ""
+"Lets the user select a start and end date on the calendar - duration will be"
+" calculated automatically."
+msgstr "اجازه خواهد داد که کاربر روز ههای ابتدا و انتهای اقامت خود را انتخاب کنید-طول مدت اقامت به صورت خودکار محاسبه خواهد شد"
+
+#: includes/admin/views/html-booking-data.php:68
+msgid "Calendar display mode"
+msgstr "حات نمایش تقویم"
+
+#: includes/admin/views/html-booking-data.php:69
+msgid "Choose how the calendar is displayed on the booking form."
+msgstr "انتخاب کنید که چگونه از تقویم در فرم رزرو نمایش داده میشود."
+
+#: includes/admin/views/html-booking-data.php:71
+msgid "Display calendar on click"
+msgstr "تنظیمات نمایش"
+
+#: includes/admin/views/html-booking-data.php:72
+msgid "Calendar always visible"
+msgstr "تقویم"
+
+#: includes/admin/views/html-booking-data.php:80
+msgid "Requires confirmation?"
+msgstr "تایید"
+
+#: includes/admin/views/html-booking-data.php:81
+msgid ""
+"Check this box if the booking requires admin approval/confirmation. Payment "
+"will not be taken during checkout."
+msgstr "از این جعبه اگر رزرو نیاز به مدیر تایید / تایید. پرداخت خواهد شد در طول پرداخت گرفته شده است."
+
+#: includes/admin/views/html-booking-data.php:86
+msgid "Can be cancelled?"
+msgstr "می تواند لغو شود؟"
+
+#: includes/admin/views/html-booking-data.php:87
+msgid ""
+"Check this box if the booking can be cancelled by the customer after it has "
+"been purchased. A refund will not be sent automatically."
+msgstr "با ایتفاده از این چک باکس اگر مشتری رزرو خود را قل از موعد مقرر لغو نماید مبلغ دریافت شده به صورت اتوماتیک استرداد خواهد شد"
+
+#: includes/admin/views/html-booking-data.php:94
+msgid "Booking can be cancelled until"
+msgstr "رزور می تواند لغو شود تا قبل از "
+
+#: includes/admin/views/html-booking-data.php:100
+#: includes/booking-form/class-wc-booking-form.php:167
+msgid "Minute(s)"
+msgstr "دقیقه"
+
+#: includes/admin/views/html-booking-data.php:102
+msgid "before the start date."
+msgstr "قبل از شروع شدن"
+
+#: includes/admin/views/html-booking-person.php:9
+#: includes/admin/views/html-booking-resource.php:8
+msgid "Remove"
+msgstr "حذف"
+
+#: includes/admin/views/html-booking-person.php:10
+#: includes/admin/views/html-booking-resource.php:12
+msgid "Click to toggle"
+msgstr "در صورت انتقال نیافتن خود کار اینجا را کلیک کنید"
+
+#: includes/admin/views/html-booking-person.php:21
+msgid "Person Type Name"
+msgstr "نام فرد "
+
+#: includes/admin/views/html-booking-person.php:25
+#: includes/admin/views/html-booking-resource.php:23
+msgid "Base Cost"
+msgstr "هزینه ی رزرو"
+
+#: includes/admin/views/html-booking-person.php:30
+#: includes/admin/views/html-booking-resource.php:28
+msgid "Block Cost"
+msgstr "جزئیات مسدود سازی"
+
+#: includes/admin/views/html-booking-person.php:37
+msgid "Description"
+msgstr "توضیحات"
+
+#: includes/admin/views/html-booking-person.php:41
+msgid "Min"
+msgstr "حداقل"
+
+#: includes/admin/views/html-booking-person.php:45
+msgid "Max"
+msgstr "حداکثر"
+
+#: includes/admin/views/html-booking-persons.php:5
+msgid "Min persons"
+msgstr "هر شخص"
+
+#: includes/admin/views/html-booking-persons.php:5
+msgid "The minimum number of persons per booking."
+msgstr "حداقل تعداد افراد در هر رزرو."
+
+#: includes/admin/views/html-booking-persons.php:10
+msgid "Max persons"
+msgstr "هر شخص"
+
+#: includes/admin/views/html-booking-persons.php:10
+msgid "The maximum number of persons per booking."
+msgstr "حداکثر اتاق در هر رزرو"
+
+#: includes/admin/views/html-booking-persons.php:15
+msgid "Multiply all costs by person count"
+msgstr "ضرب تمام هزینه های در افراد"
+
+#: includes/admin/views/html-booking-persons.php:15
+msgid ""
+"Enable this to multiply the entire cost of the booking (block and base "
+"costs) by the person count."
+msgstr "با فعال کردن این گزینه هزینه هر اتاق به ازای هر نفر به علاوه یک هزینه ثابت اولیه حساب خواهد شد"
+
+#: includes/admin/views/html-booking-persons.php:17
+msgid "Count persons as bookings"
+msgstr "تعداد افراد به عنوان رزرو"
+
+#: includes/admin/views/html-booking-persons.php:17
+msgid ""
+"Enable this to count each person as a booking until the max bookings per "
+"block (above) is reached."
+msgstr "فعال کردن این به تعداد هر فرد به عنوان یک رزرو تا رزرو حداکثر در هراتاق (در بالا) رسیده است."
+
+#: includes/admin/views/html-booking-persons.php:19
+msgid "Enable person types"
+msgstr "هزینه هر نفر"
+
+#: includes/admin/views/html-booking-persons.php:19
+#: includes/admin/views/html-booking-persons.php:47
+msgid ""
+"Person types allow you to offer different booking costs for different types "
+"of individuals, for example, adults and children."
+msgstr "انواع فرد اجازه می دهد تا شما را به ارائه هزینه رزرو مختلف برای انواع مختلف افراد، برای مثال، کودکان و بزرگسالان."
+
+#: includes/admin/views/html-booking-persons.php:26
+msgid "Person types"
+msgstr "هزینه بابت هر فرد"
+
+#: includes/admin/views/html-booking-persons.php:27
+#: includes/admin/views/html-booking-resources.php:18
+msgid "Close all"
+msgstr "بستن همه"
+
+#: includes/admin/views/html-booking-persons.php:27
+#: includes/admin/views/html-booking-resources.php:18
+msgid "Expand all"
+msgstr "بررسی همه"
+
+#: includes/admin/views/html-booking-persons.php:65
+msgid "Add Person Type"
+msgstr "اضافه کردن هزینه بابت هر فرد"
+
+#: includes/admin/views/html-booking-pricing-fields.php:55
+msgid "Time Range"
+msgstr "محدوده زمانی"
+
+#: includes/admin/views/html-booking-pricing-fields.php:56
+msgid "Person count"
+msgstr "تعداد"
+
+#: includes/admin/views/html-booking-pricing-fields.php:57
+msgid "Block count"
+msgstr "تعداد اتاق"
+
+#: includes/admin/views/html-booking-pricing.php:4
+#: includes/admin/views/html-booking-pricing.php:36
+msgid "Base cost"
+msgstr "هزینه ی رزرو"
+
+#: includes/admin/views/html-booking-pricing.php:4
+msgid "One-off cost for the booking as a whole."
+msgstr "هزینه یک فعال برای رزرو به عنوان یک کل."
+
+#: includes/admin/views/html-booking-pricing.php:11
+#: includes/admin/views/html-booking-pricing.php:37
+msgid "Block cost"
+msgstr "هزینه ی رزرو"
+
+#: includes/admin/views/html-booking-pricing.php:11
+msgid ""
+"This is the cost per block booked. All other costs (for resources and "
+"persons) are added to this."
+msgstr "این هزینه در هر اتاق رزرو است. همه هزینه های دیگر (برای اتاق و افراد) به این اضافه شده است."
+
+#: includes/admin/views/html-booking-pricing.php:18
+msgid "Display cost"
+msgstr "نمایش هزینه"
+
+#: includes/admin/views/html-booking-pricing.php:18
+msgid ""
+"The cost is displayed to the user on the frontend. Leave blank to have it "
+"calculated for you. If a booking has varying costs, this will be prefixed "
+"with the word \"from:\"."
+msgstr ""
+
+#: includes/admin/views/html-booking-pricing.php:36
+msgid "Enter a cost for this rule. Applied to the booking as a whole."
+msgstr "هزینه برای این قاعده را وارد کنید. اعمال شده به رزرو به عنوان یک کل."
+
+#: includes/admin/views/html-booking-pricing.php:37
+msgid "Enter a cost for this rule. Applied to each booking block."
+msgstr "هزینه برای این قاعده را وارد کنید. در هراتاق رزرو."
+
+#: includes/admin/views/html-booking-pricing.php:50
+msgid "All matching rules will be applied to the booking."
+msgstr "همه قوانین تطبیق خواهد شد به رزرو اعمال می شود."
+
+#: includes/admin/views/html-booking-resource.php:10
+msgid "Edit resource"
+msgstr "ویرایش اتاق"
+
+#: includes/admin/views/html-booking-resources.php:5
+#: includes/booking-form/class-wc-booking-form.php:269
+msgid "Type"
+msgstr "نوع"
+
+#: includes/admin/views/html-booking-resources.php:5
+msgid "Label"
+msgstr "برچسب نمودار"
+
+#: includes/admin/views/html-booking-resources.php:5
+msgid "The label shown on the frontend if the resource is customer defined."
+msgstr "برچسب نشان داده شده در ظاهر اگر اتاق مشتری تعریف شده است."
+
+#: includes/admin/views/html-booking-resources.php:7
+msgid "Resources are..."
+msgstr "بابت اتاق"
+
+#: includes/admin/views/html-booking-resources.php:8
+msgid "Customer selected"
+msgstr "مشتری"
+
+#: includes/admin/views/html-booking-resources.php:9
+msgid "Automatically assigned"
+msgstr "اختصاص داده به صورت خودکار"
+
+#: includes/admin/views/html-booking-resources.php:10
+msgid ""
+"Customer selected resources allow customers to choose one from the booking "
+"form."
+msgstr "اتاق مشتری انتخاب مشتریان اجازه می دهد تا انتخاب کنید یکی از فرم رزرو."
+
+#: includes/admin/views/html-booking-resources.php:17
+#: includes/admin/views/html-booking-tab.php:1 woocommmerce-bookings.php:262
+#: woocommmerce-bookings.php:278
+msgid "Resources"
+msgstr "اتاق ها"
+
+#: includes/admin/views/html-booking-resources.php:24
+msgid ""
+"Resources are used if you have multiple bookable items, e.g. room types, "
+"instructors or ticket types. Availability for resources is global across all"
+" bookable products."
+msgstr "اگر این هتل دارای اتاق های متعدد است می توانید همه اتاق ها را به نمایش بگذارید"
+
+#: includes/admin/views/html-booking-resources.php:59
+msgid "Add/link Resource"
+msgstr "اضافه کردن"
+
+#: includes/admin/views/html-booking-resources.php:61
+msgid "New resource"
+msgstr "اتاق های جدید"
+
+#: includes/admin/views/html-booking-resources.php:70
+msgid "Manage Resources"
+msgstr "مدیریت اتاق ها"
+
+#: includes/admin/views/html-booking-tab.php:2
+#: includes/admin/views/html-settings-page.php:3
+msgid "Availability"
+msgstr "دسترسی"
+
+#: includes/admin/views/html-booking-tab.php:3
+msgid "Costs"
+msgstr "هزینه"
+
+#: includes/admin/views/html-calendar-day.php:3
+msgid "Bookings by day"
+msgstr "رزرو شده در روز"
+
+#: includes/admin/views/html-calendar-day.php:13
+#: includes/admin/views/html-calendar-month.php:14
+msgid "Filter Bookings"
+msgstr "صافی کردن رزرو"
+
+#: includes/admin/views/html-calendar-day.php:15
+#: includes/admin/views/html-calendar-month.php:16
+msgid "By bookable product"
+msgstr "رزرو محصول"
+
+#: includes/admin/views/html-calendar-day.php:22
+#: includes/admin/views/html-calendar-month.php:23
+msgid "By resource"
+msgstr "اتاق"
+
+#: includes/admin/views/html-calendar-day.php:38
+msgid "Month View"
+msgstr "ماه ها"
+
+#: includes/admin/views/html-calendar-month.php:3
+msgid "Bookings by month"
+msgstr "رزرو شده در ماه (های)"
+
+#: includes/admin/views/html-calendar-month.php:50
+msgid "Day View"
+msgstr "نمایش روز"
+
+#: includes/admin/views/html-create-booking-page-2.php:13
+msgid "Booking Data"
+msgstr "اطلاعات رزرو"
+
+#: includes/admin/views/html-create-booking-page.php:6
+msgid ""
+"You can create a new booking for a customer here. This form will create a "
+"booking for the user, and optionally an associated order. Created orders "
+"will be marked as pending payment."
+msgstr "شما می توانید رزرو کنید جدید برای یک مشتری در اینجا ایجاد کنید. این فرم به رزرو برای کاربر ایجاد کرده و منظور همراه است. سفارشات ایجاد خواهد شد به عنوان انتظار پرداخت مشخص شده اند."
+
+#: includes/admin/views/html-create-booking-page.php:15
+msgid "Customer"
+msgstr "مشتری"
+
+#: includes/admin/views/html-create-booking-page.php:29
+msgid "Bookable Product"
+msgstr "رزرو محصول"
+
+#: includes/admin/views/html-create-booking-page.php:33
+msgid "Select a bookable product..."
+msgstr "انتخاب اتاق های قابل رزرو"
+
+#: includes/admin/views/html-create-booking-page.php:42
+msgid "Create Order"
+msgstr "ایجاد سفارش"
+
+#: includes/admin/views/html-create-booking-page.php:48
+msgid ""
+"Create a new corresponding order for this new booking. Please note - the "
+"booking will not be active until the order is processed/completed."
+msgstr "ساخت یک رزرو جدید.لطفا توجه داشته باشید که تا زمان تایید نهایی رزور  این گزینه ها در دسترس قرار نخواهند گرفت."
+
+#: includes/admin/views/html-create-booking-page.php:54
+msgid "Assign this booking to an existing order with this ID:"
+msgstr "اختصاص شناسه برای رزرو اتاق:"
+
+#: includes/admin/views/html-create-booking-page.php:61
+msgid "Don't create an order for this booking."
+msgstr "به وجود نیاوردن یک شناسه برای این رزرو"
+
+#: includes/admin/views/html-create-booking-page.php:70
+#: includes/booking-form/class-wc-booking-form.php:39
+msgid "Next"
+msgstr "بعدی"
+
+#: includes/admin/views/html-global-availability-settings.php:49
+msgid "Settings saved"
+msgstr "ذخیره تنظیمات"
+
+#: includes/admin/views/html-global-availability-settings.php:57
+msgid "Global availability"
+msgstr "دسترسی جهانی"
+
+#: includes/admin/views/html-global-availability-settings.php:59
+msgid ""
+"The availability rules you define here will affect all bookable products in "
+"your store."
+msgstr "تاثیر گذاری قوانین شما بر روی تمامی اتاق ها"
+
+#: includes/admin/views/html-global-availability-settings.php:103
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: includes/admin/views/html-notifications-page.php:5
+msgid ""
+"You may send an email notification to all customers who have a "
+"<strong>future</strong> booking for a particular product. This will use the "
+"default template specified under <code>WooCommerce > Settings > "
+"Emails</code>."
+msgstr "شما نمیتوانید ایمیل به تمام مشتریان که یک <strong> آینده </ strong> ارسال رزرو برای یک محصول خاص است. این قالب پیش فرض مشخص شده در <code> WooCommerceتنظیمات ایمیل </ code> را استفاده کنید."
+
+#: includes/admin/views/html-notifications-page.php:12
+msgid "Booking Product"
+msgstr "رزرو اتاق"
+
+#: includes/admin/views/html-notifications-page.php:16
+msgid "Select a booking product..."
+msgstr "انتخاب اتاق رزرو"
+
+#: includes/admin/views/html-notifications-page.php:25
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:139
+#: includes/emails/class-wc-email-booking-cancelled.php:143
+#: includes/emails/class-wc-email-booking-confirmed.php:153
+#: includes/emails/class-wc-email-booking-reminder.php:124
+#: includes/emails/class-wc-email-new-booking.php:185
+msgid "Subject"
+msgstr "موضوع"
+
+#: includes/admin/views/html-notifications-page.php:28
+msgid "Email subject"
+msgstr "موضوع ایمیل"
+
+#: includes/admin/views/html-notifications-page.php:33
+msgid "Message"
+msgstr "پیغام"
+
+#: includes/admin/views/html-notifications-page.php:36
+msgid "The message you wish to send"
+msgstr "پیام شما ...."
+
+#: includes/admin/views/html-notifications-page.php:37
+msgid ""
+"The following tags can be inserted in your message/subject and will be "
+"replaced dynamically"
+msgstr "برچسب ها زیر را می توان در پیام خود را / موضوع قرار داده خواهد شد و به صورت پویا جایگزین"
+
+#: includes/admin/views/html-notifications-page.php:42
+msgid "Attachment"
+msgstr "آدرس تصویر سر صفحه"
+
+#: includes/admin/views/html-notifications-page.php:45
+msgid "Attach <code>.ics</code> file"
+msgstr "ضمیمه <code>.ics</code> فایل"
+
+#: includes/booking-form/class-wc-booking-form-date-picker.php:37
+#: includes/booking-form/class-wc-booking-form-datetime-picker.php:30
+msgid "Date"
+msgstr "تاریخ "
+
+#: includes/booking-form/class-wc-booking-form-month-picker.php:29
+#: templates/booking-form/date-picker.php:22
+#: templates/booking-form/date-picker.php:33
+#: templates/booking-form/date-picker.php:47
+#: templates/booking-form/date-picker.php:58
+#: templates/booking-form/datetime-picker.php:17
+#: templates/booking-form/datetime-picker.php:28
+msgid "Month"
+msgstr "ماه"
+
+#: includes/booking-form/class-wc-booking-form-picker.php:18
+msgid "Start %s"
+msgstr "شروع  %s"
+
+#: includes/booking-form/class-wc-booking-form.php:36
+msgid "Close"
+msgstr "بستن"
+
+#: includes/booking-form/class-wc-booking-form.php:37
+msgid "Today"
+msgstr "امروز"
+
+#: includes/booking-form/class-wc-booking-form.php:38
+msgid "Previous"
+msgstr "قبلی"
+
+#: includes/booking-form/class-wc-booking-form.php:75
+msgid "This date is unavailable"
+msgstr "غیر قابل دسترسی"
+
+#: includes/booking-form/class-wc-booking-form.php:76
+msgid "This date is fully booked and unavailable"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:77
+msgid "This date is partially booked - but bookings still remain"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:78
+msgid "This date is available"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:79
+msgid "Choose a Start Date"
+msgstr "گزینش تاریخ آغاز"
+
+#: includes/booking-form/class-wc-booking-form.php:80
+msgid "Choose an End Date"
+msgstr "گزینش پایان آغاز"
+
+#: includes/booking-form/class-wc-booking-form.php:81
+msgid "Dates"
+msgstr "تاریخ ها"
+
+#: includes/booking-form/class-wc-booking-form.php:82
+msgid "Please select the options for your booking above first"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:122
+msgid "&times; %s Months"
+msgstr "&times; %s ماه"
+
+#: includes/booking-form/class-wc-booking-form.php:129
+#: includes/booking-form/class-wc-booking-form.php:145
+msgid "&times; %s weeks"
+msgstr "&times; %s هفته"
+
+#: includes/booking-form/class-wc-booking-form.php:137
+msgid "&times; %s days"
+msgstr "&times; %s  روزها"
+
+#: includes/booking-form/class-wc-booking-form.php:151
+msgid "&times; %s nights"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:153
+msgid "Nights(s)"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:158
+msgid "&times; %s hours"
+msgstr "&times; %s ساعت"
+
+#: includes/booking-form/class-wc-booking-form.php:165
+msgid "&times; %s minutes"
+msgstr "&times; %s دقیقه"
+
+#: includes/booking-form/class-wc-booking-form.php:243
+msgid "+%s per month"
+msgstr "+%s بابت هر ماه"
+
+#: includes/booking-form/class-wc-booking-form.php:246
+msgid "+%s per day"
+msgstr "+%s  بابت هر ماه"
+
+#: includes/booking-form/class-wc-booking-form.php:249
+msgid "+%s per night"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:252
+msgid "+%s per block"
+msgstr "+%s بابت هر اتاق"
+
+#: includes/booking-form/class-wc-booking-form.php:430
+msgid "month"
+msgid_plural "months"
+msgstr[0] "ماه ها"
+
+#: includes/booking-form/class-wc-booking-form.php:434
+msgid "day"
+msgid_plural "days"
+msgstr[0] "روزها"
+
+#: includes/booking-form/class-wc-booking-form.php:436
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "هفته ها"
+
+#: includes/booking-form/class-wc-booking-form.php:440
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ساعت "
+
+#: includes/booking-form/class-wc-booking-form.php:443
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "دقیقه"
+
+#: includes/booking-form/class-wc-booking-form.php:446
+msgid "night"
+msgid_plural "nights"
+msgstr[0] ""
+
+#: includes/booking-form/class-wc-booking-form.php:507
+msgid "Please choose a resource type"
+msgstr "لطفا یکی از اتاق ها را انتخاب کنید"
+
+#: includes/booking-form/class-wc-booking-form.php:518
+msgid "Duration is required - please enter a duration greater than zero above"
+msgstr "مدت زمان مورد نیاز است - لطفا مدت زمان وارد بزرگتر از صفر بالا"
+
+#: includes/booking-form/class-wc-booking-form.php:521
+msgid "The maximum duration is %d"
+msgstr "حداکثر مدت زمان اقامت  %d"
+
+#: includes/booking-form/class-wc-booking-form.php:524
+msgid "The minimum duration is %d"
+msgstr "حداقل مدت زمان اقامت  %d"
+
+#: includes/booking-form/class-wc-booking-form.php:530
+msgid "Date is required - please choose one above"
+msgstr "تاریخ لازم است - لطفا در بالا یکی را انتخاب کنید"
+
+#: includes/booking-form/class-wc-booking-form.php:533
+msgid "Time is required - please choose one above"
+msgstr "زمان مورد نیاز است - لطفا در بالا یکی را انتخاب کنید"
+
+#: includes/booking-form/class-wc-booking-form.php:536
+#: includes/booking-form/class-wc-booking-form.php:539
+msgid "You must choose a future date and time."
+msgstr "باید یک تاریخ در آینده و زمان را انتخاب کنید."
+
+#: includes/booking-form/class-wc-booking-form.php:554
+msgid "The earliest booking possible is currently %s."
+msgstr "ولین زمان برای رزرو در حال حاضر  %s."
+
+#: includes/booking-form/class-wc-booking-form.php:560
+msgid "The latest booking possible is currently %s."
+msgstr "آخرین زمان برای رزرو  %s."
+
+#: includes/booking-form/class-wc-booking-form.php:569
+msgid "Persons are required - please enter the number of persons above"
+msgstr "لطفا تعداد افراد را وارد کنید"
+
+#: includes/booking-form/class-wc-booking-form.php:572
+msgid "The maximum persons per group is %d"
+msgstr "حداکثر ظرفیت اتاق %d"
+
+#: includes/booking-form/class-wc-booking-form.php:575
+msgid "The minimum persons per group is %d"
+msgstr "حداقل ظرفیت اتاق %d"
+
+#: includes/booking-form/class-wc-booking-form.php:583
+msgid "The maximum %s per group is %d"
+msgstr "حداکثر %s در هر گروه %d"
+
+#: includes/booking-form/class-wc-booking-form.php:588
+msgid "The minimum %s per group is %d"
+msgstr "حداقل %s در هر گروه %d"
+
+#: includes/booking-form/class-wc-booking-form.php:604
+msgid "Sorry, the selected block is not available"
+msgstr "با عرض پوزش اتاق مورد نظر در دسترس نیست"
+
+#: includes/booking-form/class-wc-booking-form.php:722
+msgid "The duration of this booking must be at least %s days."
+msgstr ""
+
+#: includes/class-wc-booking-cart-manager.php:175
+msgid "A booking for %s has been removed from your cart due to inactivity."
+msgstr "رزرو برای %s از سبد خرید شما به دلیل عدم فعالیت حذف شده است."
+
+#: includes/class-wc-booking-cart-manager.php:354
+msgid ""
+"A booking that requires confirmation has been removed from your cart. It is "
+"not possible to complete the purchased along with a booking that doesn't "
+"require confirmation."
+msgstr "رزرو که نیاز به تأیید شده است از سبد خرید شما حذف شده است. این ممکن است برای تکمیل خریداری همراه با رزرو نیست که به تایید نیاز ندارند."
+
+#: includes/class-wc-booking-coupon.php:43
+msgid "Booking Person Discount (Amount Off Per Person)"
+msgstr ""
+
+#: includes/class-wc-booking-form-handler.php:38
+msgid "Your booking was cancelled."
+msgstr "رزرو شما رد شد."
+
+#: includes/class-wc-booking-form-handler.php:42
+msgid ""
+"Your booking can no longer be cancelled. Please contact us if you need "
+"assistance."
+msgstr "رزرو شما در حال لغو شدن است.در صورتی که مشکلی به وجود آمده با ما تماس بگیرید"
+
+#: includes/class-wc-booking-form-handler.php:44
+msgid "Invalid booking."
+msgstr "رزرو نادرست است."
+
+#: includes/class-wc-booking-order-manager.php:361
+msgid ""
+"The product %s has been removed from the order because the booking #%d "
+"cannot be confirmed."
+msgstr ""
+
+#: includes/class-wc-booking.php:150
+msgid "Booking &ndash; %s"
+msgstr "رزور  &ndash; %s"
+
+#: includes/class-wc-booking.php:312
+msgid "Booking #%d status changed from \"%s\" to \"%s"
+msgstr ""
+
+#: includes/class-wc-bookings-ics-exporter.php:149
+msgid "Bookings from %s"
+msgstr "رزرو شده توسط  %s"
+
+#: includes/class-wc-bookings-ics-exporter.php:170
+#: templates/emails/plain/admin-booking-cancelled.php:30
+#: templates/emails/plain/admin-new-booking.php:40
+#: templates/emails/plain/customer-booking-cancelled.php:34
+#: templates/emails/plain/customer-booking-confirmed.php:34
+#: templates/emails/plain/customer-booking-notification.php:32
+#: templates/emails/plain/customer-booking-reminder.php:34
+msgid "%s: %d"
+msgstr "%s: %d"
+
+#: includes/class-wc-bookings-ics-exporter.php:177
+msgid "Booking description:"
+msgstr "شرح رزرو:"
+
+#: includes/class-wc-product-booking.php:265
+msgid "From: %s"
+msgstr "از  %s"
+
+#: includes/class-wc-product-booking.php:270
+msgid "Free"
+msgstr "رایگان"
+
+#: includes/class-wc-product-booking.php:445
+msgid "Check Availability"
+msgstr "بررسی در دسترس بودن"
+
+#: includes/class-wc-product-booking.php:445
+msgid "Book now"
+msgstr "رزور اتاق"
+
+#: includes/class-wc-product-booking.php:530
+msgid "This block cannot be booked."
+msgstr "این اتاق نمی تواند گذاشته شود."
+
+#: includes/class-wc-product-booking.php:586
+msgid "There is %d place remaining"
+msgid_plural "There are %d places remaining"
+msgstr[0] "است %d محل باقی مانده وجود دارد"
+
+#: includes/class-wc-product-booking.php:591
+#: includes/class-wc-product-booking.php:597
+msgid "There is %d place remaining on %s"
+msgid_plural "There are %d places remaining on %s"
+msgstr[0] "است %d  محل باقی مانده دروجود دارد %s"
+
+#: includes/class-wc-product-booking.php:1276
+msgid "%d left"
+msgid_plural "%d left"
+msgstr[0] ""
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:20
+msgid "Admin Booking Cancelled"
+msgstr ""
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:21
+#: includes/emails/class-wc-email-booking-cancelled.php:21
+msgid ""
+"Booking cancelled emails are sent when the status of a booking goes to "
+"cancelled."
+msgstr "رزرو لغو ایمیل فرستاده می شود زمانی که وضعیت رزرو می رود به لغو شده است."
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:23
+#: includes/emails/class-wc-email-booking-cancelled.php:20
+#: includes/emails/class-wc-email-booking-cancelled.php:23
+msgid "Booking Cancelled"
+msgstr "لغو"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:24
+msgid "[{blogname}] A booking of \"{product_title}\" has been cancelled"
+msgstr ""
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:126
+#: includes/emails/class-wc-email-booking-cancelled.php:137
+#: includes/emails/class-wc-email-booking-confirmed.php:147
+#: includes/emails/class-wc-email-booking-notification.php:140
+#: includes/emails/class-wc-email-booking-reminder.php:118
+#: includes/emails/class-wc-email-new-booking.php:172
+msgid "Enable/Disable"
+msgstr "فعال/غیر فعال"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:128
+#: includes/emails/class-wc-email-booking-cancelled.php:139
+#: includes/emails/class-wc-email-booking-confirmed.php:149
+#: includes/emails/class-wc-email-booking-notification.php:142
+#: includes/emails/class-wc-email-booking-reminder.php:120
+#: includes/emails/class-wc-email-new-booking.php:174
+msgid "Enable this email notification"
+msgstr "فعال کردن این ایمیل برای اطلاع رسانی"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:132
+#: includes/emails/class-wc-email-new-booking.php:178
+msgid "Recipient(s)"
+msgstr "گیرنده (ها)"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:134
+#: includes/emails/class-wc-email-new-booking.php:180
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to "
+"<code>%s</code>."
+msgstr "دریافت کنندگان این ایمیل <code>%s</code>."
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:141
+#: includes/emails/class-wc-email-booking-cancelled.php:145
+#: includes/emails/class-wc-email-booking-confirmed.php:155
+#: includes/emails/class-wc-email-booking-reminder.php:126
+#: includes/emails/class-wc-email-new-booking.php:187
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr "این خط موضوع ایمیل را کنترل. خالی بگذارید به استفاده از افراد به طور پیش فرض <code>%s</code>."
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:146
+#: includes/emails/class-wc-email-booking-cancelled.php:150
+#: includes/emails/class-wc-email-booking-confirmed.php:160
+#: includes/emails/class-wc-email-booking-reminder.php:131
+#: includes/emails/class-wc-email-new-booking.php:199
+msgid "Email Heading"
+msgstr "سرنویس ایمیل"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:148
+#: includes/emails/class-wc-email-booking-cancelled.php:152
+#: includes/emails/class-wc-email-booking-confirmed.php:162
+#: includes/emails/class-wc-email-booking-reminder.php:133
+#: includes/emails/class-wc-email-new-booking.php:201
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr "این کنترل عنوان اصلی موجود در ایمیل. خالی بگذارید به استفاده از عنوان پیش فرض <code>%s</code>."
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:153
+#: includes/emails/class-wc-email-booking-cancelled.php:157
+#: includes/emails/class-wc-email-booking-confirmed.php:167
+#: includes/emails/class-wc-email-booking-notification.php:146
+#: includes/emails/class-wc-email-booking-reminder.php:138
+#: includes/emails/class-wc-email-new-booking.php:213
+msgid "Email type"
+msgstr "نوع ایمیل"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:155
+#: includes/emails/class-wc-email-booking-cancelled.php:159
+#: includes/emails/class-wc-email-booking-confirmed.php:169
+#: includes/emails/class-wc-email-booking-notification.php:148
+#: includes/emails/class-wc-email-booking-reminder.php:140
+#: includes/emails/class-wc-email-new-booking.php:215
+msgid "Choose which format of email to send."
+msgstr "یک از روش های ایمیل را انتخاب کنید"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:159
+#: includes/emails/class-wc-email-booking-cancelled.php:163
+#: includes/emails/class-wc-email-booking-confirmed.php:173
+#: includes/emails/class-wc-email-booking-notification.php:152
+#: includes/emails/class-wc-email-booking-reminder.php:144
+#: includes/emails/class-wc-email-new-booking.php:219
+msgid "Plain text"
+msgstr "متن ساده"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:160
+#: includes/emails/class-wc-email-booking-cancelled.php:164
+#: includes/emails/class-wc-email-booking-confirmed.php:174
+#: includes/emails/class-wc-email-booking-notification.php:153
+#: includes/emails/class-wc-email-booking-reminder.php:145
+#: includes/emails/class-wc-email-new-booking.php:220
+msgid "HTML"
+msgstr "جزئیات بانکی برای انتقال. این در صفحه پرداخت داده می شود. HTML مجاز است."
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:161
+#: includes/emails/class-wc-email-booking-cancelled.php:165
+#: includes/emails/class-wc-email-booking-confirmed.php:175
+#: includes/emails/class-wc-email-booking-notification.php:154
+#: includes/emails/class-wc-email-booking-reminder.php:146
+#: includes/emails/class-wc-email-new-booking.php:221
+msgid "Multipart"
+msgstr "چند بخشی"
+
+#: includes/emails/class-wc-email-booking-cancelled.php:24
+msgid "[{blogname}] Your booking of \"{product_title}\" has been cancelled"
+msgstr "[{blogname}] شما رزرو را  \"{product_title}\"  لغو کرید"
+
+#: includes/emails/class-wc-email-booking-confirmed.php:21
+#: includes/emails/class-wc-email-booking-confirmed.php:24
+msgid "Booking Confirmed"
+msgstr "رزرو تایید شده"
+
+#: includes/emails/class-wc-email-booking-confirmed.php:22
+msgid ""
+"Booking confirmed emails are sent when the status of a booking goes to "
+"confirmed."
+msgstr "رزرو تایید ایمیل های فرستاده شده هستند که وضعیت رزرو می رود به تایید کرد."
+
+#: includes/emails/class-wc-email-booking-confirmed.php:25
+msgid ""
+"[{blogname}] Your booking of \"{product_title}\" has been confirmed (Order "
+"{order_number}) - {order_date}"
+msgstr "[{blogname}]  رزرو شما \"{product_title}\" تایید شد با شماره ی  (Order {order_number}) - {order_date}"
+
+#: includes/emails/class-wc-email-booking-notification.php:21
+msgid "Booking Notification"
+msgstr "هشدار از طریق رزرو"
+
+#: includes/emails/class-wc-email-booking-notification.php:22
+msgid ""
+"Booking notification emails are sent manually from WooCommerce > Bookings > "
+"Send Notification."
+msgstr "ارسال تایید رزرو به صورت دستی با رفتن به WooCommerce > Bookings > Send Notification."
+
+#: includes/emails/class-wc-email-booking-reminder.php:20
+#: includes/emails/class-wc-email-booking-reminder.php:23
+msgid "Booking Reminder"
+msgstr "یادآوری رزرو"
+
+#: includes/emails/class-wc-email-booking-reminder.php:21
+msgid ""
+"Booking reminders are sent to the customer to remind them of an upcoming "
+"booking."
+msgstr "یادآوری رزرو به مشتری فرستاده شده به آنها یادآوری رزرو آینده."
+
+#: includes/emails/class-wc-email-booking-reminder.php:24
+msgid "[{blogname}] A reminder about your booking of \"{product_title}\""
+msgstr "[{blogname}]  یک یادآوری درباره ی رزرو شما  \"{product_title}\""
+
+#: includes/emails/class-wc-email-new-booking.php:27
+#: woocommmerce-bookings.php:310
+msgid "New Booking"
+msgstr "افزودن یک رزرو جید "
+
+#: includes/emails/class-wc-email-new-booking.php:28
+msgid ""
+"New booking emails are sent to the admin when a new booking is created and "
+"paid. This email is also received when a Pending confirmation booking is "
+"created."
+msgstr "زمانی که روز جدید ثبت شده و یا پرداخت جدیدی صورت گرفته باشد برای مدیر ایمیل ارسال می شود.می توانید با فعال کردن این گزینه رزرو های در انتظار تایید را هم  رای شما ارسال شود"
+
+#: includes/emails/class-wc-email-new-booking.php:30
+msgid "New booking"
+msgstr "رزرو جدید"
+
+#: includes/emails/class-wc-email-new-booking.php:31
+msgid "Confirm booking"
+msgstr "تایید  رزرو آنلاین"
+
+#: includes/emails/class-wc-email-new-booking.php:32
+msgid ""
+"[{blogname}] New booking for {product_title} (Order {order_number}) - "
+"{order_date}"
+msgstr "[{blogname}] یک رزور جدید برای{product_title} (Order {order_number}) - {order_date}"
+
+#: includes/emails/class-wc-email-new-booking.php:33
+msgid ""
+"[{blogname}] A new booking for {product_title} (Order {order_number}) is "
+"awaiting your approval - {order_date}"
+msgstr ""
+
+#: includes/emails/class-wc-email-new-booking.php:192
+msgid "Subject (Pending confirmation)"
+msgstr "موضوع (در انتظار تایید)"
+
+#: includes/emails/class-wc-email-new-booking.php:194
+msgid ""
+"This controls the email subject line for Pending confirmation bookings. "
+"Leave blank to use the default subject: <code>%s</code>."
+msgstr ""
+
+#: includes/emails/class-wc-email-new-booking.php:206
+msgid "Email Heading (Pending confirmation)"
+msgstr "سربرگ ایمیل (در انتظار تایید)"
+
+#: includes/emails/class-wc-email-new-booking.php:208
+msgid ""
+"This controls the main heading contained within the email notification for "
+"Pending confirmation bookings. Leave blank to use the default heading: "
+"<code>%s</code>."
+msgstr ""
+
+#: includes/gateways/class-wc-bookings-gateway.php:18
+msgid "Check booking availability"
+msgstr "بررسی در دسترس بودن رزرو"
+
+#: includes/gateways/class-wc-bookings-gateway.php:20
+msgid "Request Confirmation"
+msgstr "درخواست تایید"
+
+#: includes/gateways/class-wc-bookings-gateway.php:29
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/gateways/class-wc-bookings-gateway.php:33
+msgid ""
+"This is fictitious payment method used for bookings that requires "
+"confirmation."
+msgstr "روش پرداخت"
+
+#: includes/gateways/class-wc-bookings-gateway.php:34
+msgid "This gateway requires no configuration."
+msgstr "تنظیمات صفحه پرداخت"
+
+#: includes/gateways/class-wc-bookings-gateway.php:54
+msgid "This order is awaiting confirmation from the shop manager"
+msgstr "این سفارش در انتظار تایید از مدیر فروشگاه:"
+
+#: includes/gateways/class-wc-bookings-gateway.php:73
+msgid "Your booking has been confirmed. Thank you."
+msgstr "متشکرم. سفارش شما دریافت شده است."
+
+#: includes/gateways/class-wc-bookings-gateway.php:75
+msgid ""
+"Your booking is awaiting confirmation. You will be notified by email as soon"
+" as we've confirmed availability."
+msgstr "رزرو شما در انتظار تایید. شما می توانید از طریق ایمیل مطلع در اسرع وقت ما در دسترس بودن تایید کرده ام."
+
+#: includes/integrations/class-wc-bookings-addons.php:47
+msgid "Bookings: Multiply cost by person count"
+msgstr "رزرو: هزینه ضرب تعداد فرد"
+
+#: includes/integrations/class-wc-bookings-addons.php:51
+msgid "Bookings: Multiply cost by block count"
+msgstr "رزرو: هزینه ضرب تعداد اتاق"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:17
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:411
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:413
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:419
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:421
+msgid "Google Calendar"
+msgstr "تقویم گوگل"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:18
+msgid "WooCommerce Bookings - Google Calendar integration."
+msgstr "یکپارچه سازی تقویم افزونه با تقویم گوگل"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:69
+msgid "Client ID"
+msgstr "کد شناسه"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:71
+msgid "Enter with your Google Client ID."
+msgstr "وارد کردن کد شناسه تقویم گوگل"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:76
+msgid "Client Secret"
+msgstr "وارد کردن رمز"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:78
+msgid "Enter with your Google Client Secret."
+msgstr "وراد کردن رمز"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:83
+msgid "Calendar ID"
+msgstr "شناسه تقویم"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:85
+msgid "Enter with your Calendar ID."
+msgstr "وراد کردن شناسه تقویم"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:90
+msgid "Authorization"
+msgstr "اجازه"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:94
+msgid "Testing"
+msgstr "آزمودن"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:99
+msgid "Debug Log"
+msgstr "اشکال‌زدایی"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:101
+msgid "Enable logging"
+msgstr "فعال کردن ورود به سیستم"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:103
+msgid "Log Google Calendar events, such as API requests, inside %s"
+msgstr "ورود به تقویم گوگل با درخواست API در %s"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:156
+msgid "Connect with Google"
+msgstr "اتصال به گوگل"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:158
+msgid "Successfully authenticated."
+msgstr "موفیت در دریافت اجازه"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:159
+msgid "Disconnect"
+msgstr "قطع اتصال"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:161
+msgid ""
+"Unable to authenticate, you must enter with your <strong>Client ID</strong>,"
+" <strong>Client Secret</strong> and <strong>Calendar ID</strong>."
+msgstr "قادر به تصدیق، شما باید با خود را وارد کنید <strong>Client ID</strong>, <strong>Client Secret</strong> and <strong>Calendar ID</strong>."
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:178
+msgid ""
+"To use this integration you need create a project in %s. Once your project "
+"has been created, you must enable the <strong>Google Calendar API</strong> "
+"in <strong>APIs & auth > APIs</strong>, finally in <strong>APIs & auth > "
+"Credentials</strong> you must create an OAuth client for a <strong>Web "
+"application</strong> and set the <strong>Authorized redirect URI</strong> as"
+" <code>%s</code>."
+msgstr "برای استفاده از این ادغام شما نیاز ایجاد یک پروژه د %s.  هنگامی که پروژه خود را ایجاد شده است، شما باید <strong>API تقویم گوگل</strong> در <strong>رابط های برنامه کاربردی</strong> را قادر می سازد <strong>و تایید&gt; رابط های برنامه کاربردی،</strong> در نهایت در <strong>رابط های برنامه کاربردی و تایید&gt; مدارک</strong> شما باید یک کلاینت OAuth تأیید برای یک <strong>برنامه وب</strong> ایجاد و تنظیم <strong>مجاز تغییر مسیر URI</strong> عنوان <code>%s</code>."
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:178
+msgid "Google Developers Console"
+msgstr "توسعه دهندگان گوگل"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:360
+msgid "Permission denied!"
+msgstr "مجوز رد شد"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:398
+msgid "Invalid request!"
+msgstr "درخواست تایید"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:411
+msgid "Account connected successfully!"
+msgstr "کاربری با موفقیت متصل!"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:413
+msgid ""
+"Failed to connect to your account, please try again, if the problem "
+"persists, turn on Debug Log option and see what is happening."
+msgstr "برای اتصال به حساب کاربری خود شکست خورده، لطفا دوباره سعی کنید، اگر مشکل ادامه یابد، به نوبه خود در گزینه اشکال زدایی ورود و ببینید چه اتفاقی می افتد."
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:419
+msgid "Account disconnected successfully!"
+msgstr "هشدار  با موفقیت تکمیل شد"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:421
+msgid ""
+"Failed to disconnect to your account, please try again, if the problem "
+"persists, turn on Debug Log option and see what is happening."
+msgstr "به قطع به حساب کاربری خود شکست خورده، لطفا دوباره سعی کنید، اگر مشکل ادامه یابد، به نوبه خود در گزینه اشکال زدایی ورود و ببینید چه اتفاقی می افتد."
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:502
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: templates/booking-form/date-picker.php:5
+#: templates/booking-form/datetime-picker.php:6
+msgid "F j, Y"
+msgstr ""
+
+#: templates/booking-form/date-picker.php:9
+#: templates/booking-form/datetime-picker.php:10
+msgid "Choose..."
+msgstr "انتخاب..."
+
+#: templates/booking-form/date-picker.php:16
+msgid "Start"
+msgstr "شروع"
+
+#: templates/booking-form/date-picker.php:21
+#: templates/booking-form/date-picker.php:32
+#: templates/booking-form/date-picker.php:46
+#: templates/booking-form/date-picker.php:57
+#: templates/booking-form/datetime-picker.php:16
+#: templates/booking-form/datetime-picker.php:27
+msgid "mm"
+msgstr "ماه"
+
+#: templates/booking-form/date-picker.php:24
+#: templates/booking-form/date-picker.php:29
+#: templates/booking-form/date-picker.php:49
+#: templates/booking-form/date-picker.php:54
+#: templates/booking-form/datetime-picker.php:19
+#: templates/booking-form/datetime-picker.php:24
+msgid "dd"
+msgstr "روز"
+
+#: templates/booking-form/date-picker.php:25
+#: templates/booking-form/date-picker.php:30
+#: templates/booking-form/date-picker.php:50
+#: templates/booking-form/date-picker.php:55
+#: templates/booking-form/datetime-picker.php:20
+#: templates/booking-form/datetime-picker.php:25
+msgid "Day"
+msgstr "روز"
+
+#: templates/booking-form/date-picker.php:36
+#: templates/booking-form/date-picker.php:61
+#: templates/booking-form/datetime-picker.php:32
+msgid "YYYY"
+msgstr "سال"
+
+#: templates/booking-form/date-picker.php:37
+#: templates/booking-form/date-picker.php:62
+#: templates/booking-form/datetime-picker.php:33
+msgid "Year"
+msgstr "سال"
+
+#: templates/booking-form/date-picker.php:43
+msgid "End"
+msgstr "پایان"
+
+#: templates/booking-form/datetime-picker.php:38
+msgid "Time"
+msgstr "زمان"
+
+#: templates/booking-form/datetime-picker.php:40
+msgid "Choose a date above to see available times."
+msgstr "برای دیدن بار در دسترس تاریخ بالا را انتخاب کنید."
+
+#: templates/emails/admin-booking-cancelled.php:12
+#: templates/emails/plain/admin-booking-cancelled.php:9
+msgid ""
+"The following booking has been cancelled by the customer. The details of the"
+" cancelled booking can be found below."
+msgstr ""
+
+#: templates/emails/admin-booking-cancelled.php:33
+#: templates/emails/admin-new-booking.php:39
+#: templates/emails/customer-booking-cancelled.php:35
+#: templates/emails/customer-booking-confirmed.php:35
+#: templates/emails/customer-booking-notification.php:28
+#: templates/emails/customer-booking-reminder.php:32
+msgid "Booking Start Date"
+msgstr "تاریخ آغاز رزرو"
+
+#: templates/emails/admin-booking-cancelled.php:37
+#: templates/emails/admin-new-booking.php:43
+#: templates/emails/customer-booking-cancelled.php:39
+#: templates/emails/customer-booking-confirmed.php:39
+#: templates/emails/customer-booking-notification.php:32
+#: templates/emails/customer-booking-reminder.php:36
+msgid "Booking End Date"
+msgstr "تاریخ پایان رزرو"
+
+#: templates/emails/admin-booking-cancelled.php:58
+#: templates/emails/admin-new-booking.php:68
+#: templates/emails/plain/admin-booking-cancelled.php:36
+msgid "You can view and edit this booking in the dashboard here: %s"
+msgstr "شما می توانید این رزرو را در پیشخوان نمایش و ویرایش کنید: %s"
+
+#: templates/emails/admin-new-booking.php:10
+#: templates/emails/plain/admin-new-booking.php:12
+msgid ""
+"A booking has been made by %s and is awaiting your approval. The details of "
+"this booking are as follows:"
+msgstr ""
+
+#: templates/emails/admin-new-booking.php:12
+#: templates/emails/plain/admin-new-booking.php:14
+msgid ""
+"A new booking has been made by %s. The details of this booking are as "
+"follows:"
+msgstr "رزرو جدید اناجم شده توسط  %s.شرح کامل اطلاعات رزرو:"
+
+#: templates/emails/admin-new-booking.php:65
+#: templates/emails/plain/admin-new-booking.php:47
+msgid ""
+"This booking is awaiting your approval. Please check it and inform the "
+"customer if the date is available or not."
+msgstr "این رزرو در انتظار تایید شما می باشد. خواهشمندیم بررسی کرده و اگر تاریخ مجاز یا غیرمجاز باشد، خریدار را آگاه کنید."
+
+#: templates/emails/customer-booking-cancelled.php:13
+#: templates/emails/customer-booking-confirmed.php:13
+#: templates/emails/customer-booking-reminder.php:10
+#: templates/emails/plain/customer-booking-cancelled.php:10
+#: templates/emails/plain/customer-booking-confirmed.php:10
+#: templates/emails/plain/customer-booking-reminder.php:10
+msgid "Hello %s"
+msgstr "سلام   %s"
+
+#: templates/emails/customer-booking-cancelled.php:16
+#: templates/emails/plain/customer-booking-cancelled.php:13
+msgid ""
+"We are sorry to say that your booking could not be confirmed and has been "
+"cancelled. The details of the cancelled booking can be found below."
+msgstr "ما متاسفیم که می گویند که رزرو خود را نمی تواند تایید شود و لغو شده است. جزئیات رزرو لغو در زیر آمده است."
+
+#: templates/emails/customer-booking-cancelled.php:60
+#: templates/emails/plain/customer-booking-cancelled.php:40
+msgid "Please contact us if you have any questions or concerns."
+msgstr "لطفا با ما تماس بگیرید اگر شما هر گونه سوال یا نگرانی داشته باشد."
+
+#: templates/emails/customer-booking-confirmed.php:16
+msgid ""
+"Your booking has been confirmed. The details of your booking are shown "
+"below."
+msgstr "رزرو شما تایید شده است. جزئیات رزرو خود را در زیر نشان داده شده است."
+
+#: templates/emails/customer-booking-confirmed.php:63
+#: templates/emails/plain/customer-booking-confirmed.php:42
+msgid "To pay for this booking please use the following link: %s"
+msgstr "برای پرداخت هزینه هزینه رزرو به لینک مراجه کنید:   %s"
+
+#: templates/emails/customer-booking-confirmed.php:63
+msgid "Pay for booking"
+msgstr "پرداخت هزینه رزرو"
+
+#: templates/emails/customer-booking-confirmed.php:73
+msgid "Product"
+msgstr "اتاق"
+
+#: templates/emails/customer-booking-confirmed.php:74
+msgid "Quantity"
+msgstr "تعداد"
+
+#: templates/emails/customer-booking-confirmed.php:75
+msgid "Price"
+msgstr "قیمت"
+
+#: templates/emails/customer-booking-reminder.php:13
+msgid "This is a reminder that your booking will take place tomorrow."
+msgstr "این یک یادآوری است که رزرو خود را برگزار خواهد شد فردا را است."
+
+#: templates/emails/plain/admin-booking-cancelled.php:13
+#: templates/emails/plain/admin-new-booking.php:23
+#: templates/emails/plain/customer-booking-cancelled.php:17
+#: templates/emails/plain/customer-booking-confirmed.php:17
+#: templates/emails/plain/customer-booking-notification.php:15
+#: templates/emails/plain/customer-booking-reminder.php:17
+msgid "Booked: %s"
+msgstr "رزرو شد:  %s"
+
+#: templates/emails/plain/admin-booking-cancelled.php:14
+#: templates/emails/plain/admin-new-booking.php:24
+#: templates/emails/plain/customer-booking-cancelled.php:18
+#: templates/emails/plain/customer-booking-confirmed.php:18
+#: templates/emails/plain/customer-booking-notification.php:16
+#: templates/emails/plain/customer-booking-reminder.php:18
+msgid "Booking ID: %s"
+msgstr "شناسه رزور:  %s"
+
+#: templates/emails/plain/admin-booking-cancelled.php:17
+#: templates/emails/plain/admin-new-booking.php:27
+#: templates/emails/plain/customer-booking-cancelled.php:21
+#: templates/emails/plain/customer-booking-confirmed.php:21
+#: templates/emails/plain/customer-booking-notification.php:19
+#: templates/emails/plain/customer-booking-reminder.php:21
+msgid "Booking Type: %s"
+msgstr "نوع رزور: %s"
+
+#: templates/emails/plain/admin-booking-cancelled.php:20
+#: templates/emails/plain/admin-new-booking.php:30
+#: templates/emails/plain/customer-booking-cancelled.php:24
+#: templates/emails/plain/customer-booking-confirmed.php:24
+#: templates/emails/plain/customer-booking-notification.php:22
+#: templates/emails/plain/customer-booking-reminder.php:24
+msgid "Booking Start Date: %s"
+msgstr "تاریخ آغاز رزرو:  %s"
+
+#: templates/emails/plain/admin-booking-cancelled.php:21
+#: templates/emails/plain/admin-new-booking.php:31
+#: templates/emails/plain/customer-booking-cancelled.php:25
+#: templates/emails/plain/customer-booking-confirmed.php:25
+#: templates/emails/plain/customer-booking-notification.php:23
+#: templates/emails/plain/customer-booking-reminder.php:25
+msgid "Booking End Date: %s"
+msgstr "تاریخ پایان رزور:  %s"
+
+#: templates/emails/plain/customer-booking-confirmed.php:13
+msgid ""
+"Your booking for has been confirmed. The details of your booking are shown "
+"below."
+msgstr "رزرو خود را برای تایید شده است. جزئیات رزرو خود را در زیر نشان داده شده است."
+
+#: templates/emails/plain/customer-booking-confirmed.php:47
+msgid "Order number: %s"
+msgstr "شماره سفارش:  %s"
+
+#: templates/emails/plain/customer-booking-confirmed.php:48
+msgid "Order date: %s"
+msgstr "زمان سفارس: %s"
+
+#: templates/emails/plain/customer-booking-notification.php:11
+msgid "The details of your booking are shown below."
+msgstr "جزئیات رزرو خود را در زیر نشان داده شده است."
+
+#: templates/emails/plain/customer-booking-reminder.php:13
+msgid ""
+"This is a reminder that your booking will take place tomorrow. The details "
+"of your booking are shown below."
+msgstr "این یک یادآوری است که رزرو خود را برگزار خواهد شد فردا را است. جزئیات رزرو خود را در زیر نشان داده شده است."
+
+#: templates/myaccount/my-bookings.php:10
+msgid "My bookings"
+msgstr "رزرو من"
+
+#: templates/myaccount/my-bookings.php:16
+msgid "Booked"
+msgstr "رزرو"
+
+#: templates/myaccount/my-bookings.php:47
+msgid "Cancel"
+msgstr "رد کردن"
+
+#: templates/single-product/add-to-cart/booking.php:17
+msgid "Your browser must support JavaScript in order to make a booking."
+msgstr "مرورگر شما باید جاوا اسکریپت را فعال به رزرو پشتیبانی می کند."
+
+#: woocommmerce-bookings.php:251
+msgid "Person Type"
+msgstr "هزینه بابت هر نفر"
+
+#: woocommmerce-bookings.php:264
+msgid "Bookable resources"
+msgstr "اتاق های رزرو شده"
+
+#: woocommmerce-bookings.php:265
+msgid "Bookable resource"
+msgstr "اتاق های رزرو شده"
+
+#: woocommmerce-bookings.php:266
+msgid "Add Resource"
+msgstr "اضافه کردن اتاق "
+
+#: woocommmerce-bookings.php:267
+msgid "Add New Resource"
+msgstr "اضافه کردن اتاق جدید"
+
+#: woocommmerce-bookings.php:269
+msgid "Edit Resource"
+msgstr "تغییر در اتاق"
+
+#: woocommmerce-bookings.php:270
+msgid "New Resource"
+msgstr "اتاق جدید"
+
+#: woocommmerce-bookings.php:271 woocommmerce-bookings.php:272
+msgid "View Resource"
+msgstr "لیست اتاق"
+
+#: woocommmerce-bookings.php:273
+msgid "Search Resource"
+msgstr "جستجو در اتاق"
+
+#: woocommmerce-bookings.php:274
+msgid "No Resource found"
+msgstr "اتاق مورد نظر پیدا نشد"
+
+#: woocommmerce-bookings.php:275
+msgid "No Resource found in trash"
+msgstr "اتاقی در سطل زباله پیدا نشد"
+
+#: woocommmerce-bookings.php:276
+msgid "Parent Resources"
+msgstr "بابت اتاق"
+
+#: woocommmerce-bookings.php:280
+msgid "Bookable resources are bookable within a bookings product."
+msgstr "اتاق های رزرو شده"
+
+#: woocommmerce-bookings.php:302 woocommmerce-bookings.php:305
+msgid "Booking"
+msgstr "رزرو کنید"
+
+#: woocommmerce-bookings.php:306
+msgid "Add Booking"
+msgstr "اضافه کردن رزرو"
+
+#: woocommmerce-bookings.php:307
+msgid "Add New Booking"
+msgstr "افزودن یک رزرو جید "
+
+#: woocommmerce-bookings.php:309
+msgid "Edit Booking"
+msgstr "تغییرات در رزور"
+
+#: woocommmerce-bookings.php:311 woocommmerce-bookings.php:312
+msgid "View Booking"
+msgstr "مشاهده رزرو"
+
+#: woocommmerce-bookings.php:313
+msgid "Search Bookings"
+msgstr "جسجو در رزرو"
+
+#: woocommmerce-bookings.php:314
+msgid "No Bookings found"
+msgstr "رزروی یافت نشد"
+
+#: woocommmerce-bookings.php:315
+msgid "No Bookings found in trash"
+msgstr "رزروی در سطل آشغال یافت نشد"
+
+#: woocommmerce-bookings.php:316
+msgid "Parent Bookings"
+msgstr "رزرو پدر و مادر"
+
+#: woocommmerce-bookings.php:318
+msgid "All Bookings"
+msgstr "همه رزرو ها"
+
+#: woocommmerce-bookings.php:320
+msgid "This is where bookings are stored."
+msgstr "این جایی است که رزرو ذخیره می شوند."
+
+#: woocommmerce-bookings.php:347
+msgid "Complete <span class=\"count\">(%s)</span>"
+msgid_plural "Complete <span class=\"count\">(%s)</span>"
+msgstr[0] "کامل <span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:355
+msgid "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "پرداخت &amp; تایید شد <span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:363
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "تایید <span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:371
+msgid "Un-paid <span class=\"count\">(%s)</span>"
+msgid_plural "Un-paid <span class=\"count\">(%s)</span>"
+msgstr[0] "باقی مانده <span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:379
+msgid "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "در انتظار تایید  <span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:387
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "لغو <span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:395
+msgid "In Cart <span class=\"count\">(%s)</span>"
+msgid_plural "In Cart <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> در سبد خرید"
+
+#: woocommmerce-bookings.php:450
+msgid "View Documentation"
+msgstr "نمایش مستندات"
+
+#: woocommmerce-bookings.php:450
+msgid "Docs"
+msgstr "مستندات"
+
+#: woocommmerce-bookings.php:451
+msgid "Visit Premium Customer Support Forum"
+msgstr "نمایش انجمن پشتیبانی خریداران ویژه"
+
+#: woocommmerce-bookings.php:451
+msgid "Premium Support"
+msgstr "پشتیبانی ویژه"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Bookings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woothemes.com/products/woocommerce-bookings/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Setup bookable products such as for reservations, services and hires."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr "ووتمز"
+
+#. Author URI of the plugin/theme
+msgid "http://woothemes.com"
+msgstr "http://www.woocommerce.ir"
+
+#: includes/admin/class-wc-bookings-ajax.php:189
+#: includes/admin/class-wc-bookings-details-meta-box.php:36
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: includes/admin/class-wc-bookings-create.php:175
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#: includes/admin/views/html-calendar-month.php:63
+msgctxt "date format"
+msgid "l"
+msgstr "من"
+
+#: includes/class-wc-booking.php:150
+msgctxt "Booking date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#: woocommmerce-bookings.php:277
+msgctxt "Admin menu name"
+msgid "Resources"
+msgstr "اتاق ها"
+
+#: woocommmerce-bookings.php:317
+msgctxt "Admin menu name"
+msgid "Bookings"
+msgstr "رزرو"
+
+#: woocommmerce-bookings.php:342
+msgctxt "woocommerce-bookings"
+msgid "Complete"
+msgstr "کامل شده"
+
+#: woocommmerce-bookings.php:350
+msgctxt "woocommerce-bookings"
+msgid "Paid &amp; Confirmed"
+msgstr "پرداخت &amp; تایید شد"
+
+#: woocommmerce-bookings.php:358
+msgctxt "woocommerce-bookings"
+msgid "Confirmed"
+msgstr "تایید"
+
+#: woocommmerce-bookings.php:366
+msgctxt "woocommerce-bookings"
+msgid "Un-paid"
+msgstr "باقی مانده"
+
+#: woocommmerce-bookings.php:374
+msgctxt "woocommerce-bookings"
+msgid "Pending Confirmation"
+msgstr "در انتظار تایید"
+
+#: woocommmerce-bookings.php:382
+msgctxt "woocommerce-bookings"
+msgid "Cancelled"
+msgstr "لغو"
+
+#: woocommmerce-bookings.php:390
+msgctxt "woocommerce-bookings"
+msgid "In Cart"
+msgstr "در سبد خرید"

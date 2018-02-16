@@ -1,0 +1,626 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Duroppa\n"
+"Language: en\n"
+
+#: 
+msgid "Dropshipper"
+msgstr ""
+
+#: 
+msgid "Dropshipper Orders"
+msgstr ""
+
+#: 
+msgid "Settings"
+msgstr ""
+
+#: 
+msgid "No Options"
+msgstr ""
+
+#: 
+msgid "Product Page"
+msgstr ""
+
+#: 
+msgid "Shop Content"
+msgstr ""
+
+#: 
+msgid "Products"
+msgstr ""
+
+#: 
+msgid "Sold"
+msgstr ""
+
+#: 
+msgid "Orders"
+msgstr ""
+
+#: 
+msgid "Processing"
+msgstr ""
+
+#: 
+msgid "Completed"
+msgstr ""
+
+#: 
+msgid "Total Earnings"
+msgstr ""
+
+#: 
+msgid "Total"
+msgstr ""
+
+#: 
+msgid "WooCommerce Dropshipper Right Now"
+msgstr ""
+
+#: 
+msgid "WooCommerce Dropshipper"
+msgstr ""
+
+#: 
+msgid "Select a Dropshipper"
+msgstr ""
+
+#: 
+msgid "No Dropshipper"
+msgstr ""
+
+#: 
+msgid "Dropshippers"
+msgstr ""
+
+#: 
+msgid "Shipped"
+msgstr ""
+
+#: 
+msgid "Dropshipper order update %NUMBER%"
+msgstr ""
+
+#: 
+msgid "The Dropshipper %NAME% has shipped order %NUMBER%"
+msgstr ""
+
+#: 
+msgid "Dropshippers list"
+msgstr ""
+
+#: 
+msgid "Reset earnings"
+msgstr ""
+
+#: 
+msgid "Pay this dropshipper (PayPal)"
+msgstr ""
+
+#: 
+msgid "The dropshipper has not entered the PayPal email"
+msgstr ""
+
+#: 
+msgid "Settings saved."
+msgstr ""
+
+#: 
+msgid "Check the email."
+msgstr ""
+
+#: 
+msgid "Show full prices to dropshippers"
+msgstr ""
+
+#: 
+msgid "The billing address that will be shown to dropshippers"
+msgstr ""
+
+#: 
+msgid "Show customer email to dropshippers"
+msgstr ""
+
+#: 
+msgid "Show customer phone number to dropshippers"
+msgstr ""
+
+#: 
+msgid "Shop logo to appear in the Dropshipper packing slip"
+msgstr ""
+
+#: 
+msgid "Footer text to appear in the Dropshipper packing slip"
+msgstr ""
+
+#: 
+msgid "Yes"
+msgstr ""
+
+#: 
+msgid "No"
+msgstr ""
+
+#: 
+msgid "Save Settings"
+msgstr ""
+
+#: 
+msgid "FULL PRICE:"
+msgstr ""
+
+#: 
+msgid "MY EARNINGS:"
+msgstr ""
+
+#: 
+msgid "Send an Email"
+msgstr ""
+
+#: 
+msgid "FULL TOTAL:"
+msgstr ""
+
+#: 
+msgid "Mark as Shipped"
+msgstr ""
+
+#: 
+msgid "Order count:"
+msgstr ""
+
+#: 
+msgid "ID"
+msgstr ""
+
+#: 
+msgid "Product"
+msgstr ""
+
+#: 
+msgid "Billing Info"
+msgstr ""
+
+#: 
+msgid "Shipping Info"
+msgstr ""
+
+#: 
+msgid "Contact Info"
+msgstr ""
+
+#: 
+msgid "Earnings"
+msgstr ""
+
+#: 
+msgid "Status"
+msgstr ""
+
+#: 
+msgid "Order slip #%NUMBER%"
+msgstr ""
+
+#: 
+msgid "Print"
+msgstr ""
+
+#: 
+msgid "Close"
+msgstr ""
+
+#: 
+msgid "From"
+msgstr ""
+
+#: 
+msgid "Shipped to"
+msgstr ""
+
+#: 
+msgid "Package content"
+msgstr ""
+
+#: 
+msgid "Item"
+msgstr ""
+
+#: 
+msgid "Quantity"
+msgstr ""
+
+#: 
+msgid "Not shipped yet"
+msgstr ""
+
+#: 
+msgid "New customer order"
+msgstr ""
+
+#: 
+msgid "You have received an order from %NAME% %SURNAME%. Their order is as follows:"
+msgstr ""
+
+#: 
+msgid "From order %NUMBER%"
+msgstr ""
+
+#: 
+msgid "Price"
+msgstr ""
+
+#: 
+msgid "Cart Subtotal:"
+msgstr ""
+
+#: 
+msgid "Shipping:"
+msgstr ""
+
+#: 
+msgid "Free Shipping"
+msgstr ""
+
+#: 
+msgid "Order Total:"
+msgstr ""
+
+#: 
+msgid "Email:"
+msgstr ""
+
+#: 
+msgid "Tel:"
+msgstr ""
+
+#: 
+msgid "Billing address"
+msgstr ""
+
+#: 
+msgid "Shipping address"
+msgstr ""
+
+#: 
+msgid "From:"
+msgstr ""
+
+#: 
+msgid "Are you sure?"
+msgstr ""
+
+#: 
+msgid "Do you really want to reset the earnings of this dropshipper?"
+msgstr ""
+
+#: 
+msgid "PayPal email"
+msgstr ""
+
+#: 
+msgid "Currency"
+msgstr ""
+
+#: 
+msgid "Dropshipper Price"
+msgstr ""
+
+#: 
+msgid "Actions"
+msgstr ""
+
+#: 
+msgid "User"
+msgstr ""
+
+#: 
+msgid "Dropshippers List"
+msgstr ""
+
+#: 
+msgid "Upload"
+msgstr ""
+
+#: 
+msgid "WooCommerce Dropshipper Settings"
+msgstr ""
+
+#: 
+msgid "Print packing slip"
+msgstr ""
+
+#: 
+msgid "Customer details"
+msgstr ""
+
+#: 
+msgid "Order list"
+msgstr ""
+
+#: 
+msgid "Dropshipper Settings"
+msgstr ""
+
+#: 
+msgid "Options"
+msgstr ""
+
+#: 
+msgid "Shop Owner Billing Info"
+msgstr ""
+
+#: 
+msgid "Date"
+msgstr ""
+
+#: 
+msgid "Tracking Number(s)"
+msgstr ""
+
+#: 
+msgid "Shipping Company"
+msgstr ""
+
+#: 
+msgid "Notes"
+msgstr ""
+
+#: 
+msgid "Client Info"
+msgstr ""
+
+#: 
+msgid "Edit Shipping Info"
+msgstr ""
+
+#: 
+msgid "The dropshippers' notifications will be sent to this email address. If left empty, the default Wordpress admin email will be used instead."
+msgstr ""
+
+#: 
+msgid "Put the order state to \"Completed\" when all the dropshippers have shipped their products"
+msgstr ""
+
+#: 
+msgid "Allow dropshipper shipping fee"
+msgstr ""
+
+#: 
+msgid "Check your fields."
+msgstr ""
+
+#: 
+msgid "National shipping price (in shop currency: %SYMBOL%)"
+msgstr ""
+
+#: 
+msgid "International shipping price (in shop currency: %SYMBOL%)"
+msgstr ""
+
+#: 
+msgid "Show prices in dropshipper email"
+msgstr ""
+
+#: 
+msgid "Dropshipper updated"
+msgstr ""
+
+#: 
+msgid "An error as occurred"
+msgstr ""
+
+#: 
+msgid "By choosing <strong>+</strong>, the Dropshipper Price will be calculated subtracting the Value field from the Product regular price."
+msgstr ""
+
+#: 
+msgid "By choosing <strong>%</strong>, the Dropshipper Price will be the percentage of the Product regular price set into the Value field."
+msgstr ""
+
+#: 
+msgid "Select month"
+msgstr ""
+
+#: 
+msgid "Filter orders"
+msgstr ""
+
+#: 
+msgid "Save"
+msgstr ""
+
+#: 
+msgid "In addition to the Administrator, the notifications from dropshippers will also be sent in CC to this email address. If empty, no additional email will be sent."
+msgstr ""
+
+#: 
+msgid "Send a BCC mail copy to this mail address for all the mails sent to the dropshippers"
+msgstr ""
+
+#: 
+#, fuzzy
+msgid "To mark this order as shipped please login to your dashboard."
+msgstr ""
+
+#: 
+msgid "Order ##NUM# Shipping Notification"
+msgstr ""
+
+#: 
+msgid "Order Shipping Notification Error"
+msgstr ""
+
+#: 
+msgid "The order <strong>##NUM#</strong> has been notified as shipped to the store owner.<br>Thanks!"
+msgstr ""
+
+#: 
+msgid "There was a problem in marking the order you requested as shipped.<br>This is likely due to an error, or the order has already been marked as shipped.<br>Please login to your dropshipper dashboard to check the status.<br>Thanks!"
+msgstr ""
+
+#: 
+msgid "To mark this order as shipped please login to your dashboard or click the following link: #URL#"
+msgstr ""
+
+#: 
+msgid "Allow Dropshippers to mark their orders as shipped by clicking a link on the email, without logging in"
+msgstr ""
+
+#: 
+msgid "Hide Shipped"
+msgstr ""
+
+#: 
+msgid "General"
+msgstr ""
+
+#: 
+msgid "Show/Hide Fields"
+msgstr ""
+
+#: 
+msgid "Packing Slip"
+msgstr ""
+
+#: 
+msgid "Dropshippers Bulk Assign"
+msgstr ""
+
+#: 
+msgid "Product Category"
+msgstr ""
+
+#: 
+msgid "Assign"
+msgstr ""
+
+#: 
+msgid "Dropshippers Bulk Price"
+msgstr ""
+
+#: 
+msgid "Dropshipper Price Operation"
+msgstr ""
+
+#: 
+msgid "Invalid file format."
+msgstr ""
+
+#: 
+msgid "No file sent."
+msgstr ""
+
+#: 
+msgid "Exceeded filesize limit."
+msgstr ""
+
+#: 
+msgid "Unknown errors."
+msgstr ""
+
+#: 
+msgid "CSV is empty."
+msgstr ""
+
+#: 
+msgid "Products successfully updated: %NUMBER%"
+msgstr ""
+
+#: 
+msgid "WooCommerce Dropshipper Stock Update"
+msgstr ""
+
+#: 
+msgid "Stock Update"
+msgstr ""
+
+#: 
+msgid "Dropshippers Stock Update"
+msgstr ""
+
+#: 
+msgid "General CSV Options"
+msgstr ""
+
+#: 
+msgid "Delimiter"
+msgstr ""
+
+#: 
+msgid "Enclosure"
+msgstr ""
+
+#: 
+msgid "Save settings"
+msgstr ""
+
+#: 
+msgid "Import"
+msgstr ""
+
+#: 
+msgid "Select File"
+msgstr ""
+
+#: 
+msgid "Import Stock CSV"
+msgstr ""
+
+#: 
+msgid "Export"
+msgstr ""
+
+#: 
+msgid "Export Current Stock Status CSV"
+msgstr ""
+
+#: 
+msgid "Logo image should not be interlaced"
+msgstr ""
+
+#: 
+msgid "Settings updated"
+msgstr ""
+
+#: 
+msgid "Order Update"
+msgstr ""
+
+#: 
+msgid "The following products were shipped"
+msgstr ""
+
+#: 
+msgid "Emails to dropshippers will be sent FROM this email address. If left empty, the default WooCommerce header will be used instead. ATTENTION: if you enable this, we cannot guarantee the delivery of your emails on some hosting providers"
+msgstr ""
+
+#: 
+msgid "Automatically send tracking information to customers when Dropshippers mark their orders as shipped"
+msgstr ""
+
+#: 
+msgid "Regular Price from Dropshipper Price"
+msgstr ""
+
+#: 
+msgid "Dropshipper Price from Regular Price"
+msgstr ""
+
+#: 
+msgid "By choosing <strong>+</strong>, the Regular Price will be calculated adding the Value field to the Product Dropshipper Price."
+msgstr ""
+
+#: 
+msgid "By choosing <strong>%</strong>, the Regular Price will be the percentage of the Product Dropshipper Price set into the Value field."
+msgstr ""
+
+#: 
+msgid "Calculate"
+msgstr ""
+

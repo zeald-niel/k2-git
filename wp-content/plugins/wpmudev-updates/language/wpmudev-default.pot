@@ -1,0 +1,1167 @@
+# Copyright (C) 2017 WPMU DEV Dashboard
+# This file is distributed under the same license as the WPMU DEV Dashboard package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPMU DEV Dashboard 4.4\n"
+"Report-Msgid-Bugs-To: https://premium.wpmudev.org/\n"
+"POT-Creation-Date: 2017-09-21 22:50:54+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-wpmudev-dashboard-notice.php:452
+msgid "A WPMU DEV plugin was automatically updated."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-remote.php:692
+msgid "You cannot delete a plugin while it is active on the main site."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-remote.php:706
+#: includes/class-wpmudev-dashboard-remote.php:781
+#: includes/class-wpmudev-dashboard-upgrader.php:566
+#: includes/class-wpmudev-dashboard-upgrader.php:719
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-remote.php:739
+msgid "Plugin could not be deleted."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-remote.php:810
+msgid "Theme could not be deleted."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-site.php:601
+#: includes/class-wpmudev-dashboard-site.php:645
+msgid "Required field missing"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-site.php:611
+msgid "Something went wrong, please refresh the page and try again."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-site.php:618
+msgid "Sorry, you are not allowed to do this."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-site.php:626
+msgid "Unexpected action, we could not handle it."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-site.php:901
+#: includes/class-wpmudev-dashboard-site.php:926
+msgid "Unknown action: %s"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-site.php:956 template/login.php:110
+msgid "Your API Key was invalid. Please try again."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-site.php:1472
+msgid "Requires Multisite"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-site.php:1476
+msgid "Requires BuddyPress"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-site.php:1480
+msgid "Incompatible"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-site.php:2056
+msgid "<b>The Upfront parent theme is missing!</b><br>Please install it to use your Upfront child themes"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-site.php:2083
+msgid "Awesome news for Upfront"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-site.php:2084
+msgid "We have a new version of Upfront for you! Install it right now to get all the latest improvements and features."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:253
+msgid "1 Plugin update"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:255
+msgid "%s Plugin updates"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:258
+msgid "1 Theme update"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:260
+msgid "%s Theme updates"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:276
+msgid "Log in to your WPMU DEV account to use all features!"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:288
+#: includes/class-wpmudev-dashboard-ui.php:300
+msgid "WPMU DEV Dashboard"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:301 template/dashboard.php:107
+#: template/popup-project-info.php:143
+msgid "Overview"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:329
+msgid "WPMU DEV Plugins"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:330 template/dashboard.php:256
+#: template/plugins.php:18
+msgid "Plugins"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:344
+msgid "WPMU DEV Themes"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:345 template/dashboard.php:179
+#: template/themes.php:17
+msgid "Themes"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:357
+msgid "Support Access enabled"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:362
+msgid "WPMU DEV Support"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:363 template/dashboard.php:141
+#: template/support.php:21
+msgid "Support"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:373
+msgid "WPMU DEV Settings"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:374 template/settings.php:30
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:697
+#: includes/class-wpmudev-dashboard-ui.php:698
+#: includes/class-wpmudev-dashboard-ui.php:728
+#: includes/class-wpmudev-dashboard-ui.php:729
+msgid "Return to WPMU DEV Plugins"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:768
+msgid "You must install the Upfront parent theme for this theme to work."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:769
+msgid "Install Upfront (Required)"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:793
+#: includes/class-wpmudev-dashboard-ui.php:794
+#: includes/class-wpmudev-dashboard-ui.php:834
+#: includes/class-wpmudev-dashboard-ui.php:835
+msgid "Return to WPMU DEV Themes"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:936
+msgid "Login to WPMU DEV Dashboard"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:936
+msgid "to update."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:941
+msgid "Auto-update not possible."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:943
+msgid "More info &raquo;"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1111
+msgid "There is a new version of %1$s available on WPMU DEV. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\" class=\"update-link\">update now</a>."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1115
+msgid "There is a new version of %1$s available on WPMU DEV. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\" target=\"_blank\" title=\"Download update from WPMU DEV\">download update</a>."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1122
+msgid "There is a new version of %1$s available on WPMU DEV. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\" target=\"_blank\" title=\"Setup your WPMU DEV account to update\">login to update</a>."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1130
+msgid "There is a new version of %1$s available on WPMU DEV. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\" target=\"_blank\" title=\"Upgrade your WPMU DEV membership\">upgrade to update</a>."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1134
+msgid "There is a new version of %1$s available on WPMU DEV. <a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a>."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1420 template/settings.php:65
+msgid "Free"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1476
+msgid "Need help?"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1477 template/dashboard.php:146
+msgid "Get Support"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1489
+msgid "Logout"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1496
+msgid "Almost there!"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1499
+msgid "Hold on a moment while we finish that action and refresh the page..."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1782
+msgid "Business"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1786
+msgid "SEO"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1790
+msgid "Marketing"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1794
+msgid "Publishing"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1798 template/dashboard.php:153
+msgid "Community"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1802
+msgid "BuddyPress"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1806
+msgid "Multisite"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-ui.php:1912
+msgid "Error: The template %s does not exist. Please re-install the plugin."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-upgrader.php:430
+msgid "Project not installed"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-upgrader.php:491
+#: includes/class-wpmudev-dashboard-upgrader.php:551
+#: includes/class-wpmudev-dashboard-upgrader.php:636
+#: includes/class-wpmudev-dashboard-upgrader.php:701
+msgid "Invalid upgrade call"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-upgrader.php:590
+#: includes/class-wpmudev-dashboard-upgrader.php:884
+msgid "Update failed for an unknown reason."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-upgrader.php:614
+msgid "Already installed"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-upgrader.php:620
+msgid "Invalid project"
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-upgrader.php:772
+#: includes/class-wpmudev-dashboard-upgrader.php:844
+msgid "Automatic core updates are disabled via define or filter."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-upgrader.php:779
+msgid "Could not access filesystem."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-upgrader.php:784
+msgid "Automatic core updates are disabled when WordPress is checked out from version control."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-upgrader.php:803
+msgid "No WordPress core updates appear available."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-upgrader.php:816
+msgid "The new version of WordPress is incompatible with your PHP or MySQL version."
+msgstr ""
+
+#: includes/class-wpmudev-dashboard-upgrader.php:837
+msgid "There was a previous failure with this update. Please update manually instead."
+msgstr ""
+
+#: shared-ui/plugin-ui.php:49
+msgid "Nothing found"
+msgstr ""
+
+#: shared-ui/plugin-ui.php:50
+msgid "Okay, we saved your changes!"
+msgstr ""
+
+#: shared-ui/plugin-ui.php:51
+msgid "Oops, we could not do this..."
+msgstr ""
+
+#: shared-ui/plugin-ui.php:272
+msgid "Saving"
+msgstr ""
+
+#: shared-ui/plugin-ui.php:301
+msgid "Dismiss"
+msgstr ""
+
+#: template/dashboard.php:115
+msgid "Tools"
+msgstr ""
+
+#: template/dashboard.php:117
+msgid "Go to my Hub"
+msgstr ""
+
+#: template/dashboard.php:122
+msgid "We don’t just build plugins &amp; themes… take advantage of our great services included with your membership."
+msgstr ""
+
+#: template/dashboard.php:129
+msgid "The Hub"
+msgstr ""
+
+#: template/dashboard.php:130
+msgid "Manage all your websites updates &amp; more in one place."
+msgstr ""
+
+#: template/dashboard.php:134
+msgid "Go to The Hub"
+msgstr ""
+
+#: template/dashboard.php:142
+msgid "Get 24/7 expert WordPress support for any issue."
+msgstr ""
+
+#: template/dashboard.php:154
+msgid "Discuss your favorite topics with other developers."
+msgstr ""
+
+#: template/dashboard.php:158
+msgid "View Forums"
+msgstr ""
+
+#: template/dashboard.php:165
+msgid "Learn"
+msgstr ""
+
+#: template/dashboard.php:166
+msgid "Become an expert by taking an Academy course."
+msgstr ""
+
+#: template/dashboard.php:170
+msgid "Go to The Academy"
+msgstr ""
+
+#: template/dashboard.php:186
+msgid "Our themes are built with our drag and drop theme framework Upfront. Here’s a selection of our most popular themes!"
+msgstr ""
+
+#: template/dashboard.php:206
+msgid "View theme info"
+msgstr ""
+
+#: template/dashboard.php:214
+msgid "Did you know you can build your own theme from scratch using the <a href=\"%s\">%s</a> plugin? Just install it and away you go!"
+msgstr ""
+
+#: template/dashboard.php:225
+msgid "Purchased"
+msgstr ""
+
+#: template/dashboard.php:227 template/login.php:52 template/login.php:61
+msgid "Upgrade membership"
+msgstr ""
+
+#: template/dashboard.php:246 template/dashboard.php:281
+msgid "View plugin info"
+msgstr ""
+
+#: template/dashboard.php:260
+msgid "Your WPMU DEV membership gives you access to 100+ premium plugins. Here’s our most popular!"
+msgstr ""
+
+#: template/dashboard.php:300
+msgid "Great, your website is now synced to the WPMU DEV Hub!"
+msgstr ""
+
+#: template/dashboard.php:302
+msgid "Keep this plugin installed to access Pro-only features, 24/7 support and <a href=\"%s\" target=_blank\">use the Hub</a> to manage all your websites in one handy place."
+msgstr ""
+
+#: template/dashboard.php:304
+msgid "Get Started"
+msgstr ""
+
+#: template/element-last-refresh.php:23
+msgctxt "Placeholders: time-ago, link-open, link-close"
+msgid "We last checked for updates %1$s ago %2$sCheck again%3$s"
+msgstr ""
+
+#: template/element-last-refresh.php:36
+msgctxt "Placeholders: link-open, link-close"
+msgid "We did not check for updates yet... %1$sCheck now%2$s"
+msgstr ""
+
+#: template/element-project-info.php:43 template/popup-project-changelog.php:35
+#: template/popup-project-info.php:108 template/popup-update-info.php:93
+msgid "Upgrade"
+msgstr ""
+
+#: template/element-project-info.php:48
+msgid "Install"
+msgstr ""
+
+#: template/element-project-info.php:51
+msgid "Hang on while we install %s..."
+msgstr ""
+
+#: template/element-project-info.php:57
+msgid "Download"
+msgstr ""
+
+#: template/element-project-info.php:73 template/popup-project-info.php:72
+msgid "Update"
+msgstr ""
+
+#: template/element-project-info.php:79
+msgid "Not available"
+msgstr ""
+
+#: template/element-project-info.php:83
+msgid "This is a Dropin"
+msgstr ""
+
+#: template/element-project-info.php:86
+msgid "This is a mu-plugin"
+msgstr ""
+
+#: template/element-project-info.php:93
+msgid "Network Deactivate"
+msgstr ""
+
+#: template/element-project-info.php:95
+msgid "Deactivate"
+msgstr ""
+
+#: template/element-project-info.php:106
+msgid "Network Disable"
+msgstr ""
+
+#: template/element-project-info.php:123
+msgid "Network Activate"
+msgstr ""
+
+#: template/element-project-info.php:125 template/element-project-info.php:139
+#: template/popup-after-install.php:56 template/popup-project-info.php:80
+msgid "Activate"
+msgstr ""
+
+#: template/element-project-info.php:136
+msgid "Network Enable"
+msgstr ""
+
+#: template/element-project-info.php:161
+msgid "Install Upfront Parent"
+msgstr ""
+
+#: template/element-project-info.php:171
+msgid "Theme details"
+msgstr ""
+
+#: template/element-project-info.php:173
+msgid "Plugin details"
+msgstr ""
+
+#: template/element-project-info.php:184
+msgid "Customize"
+msgstr ""
+
+#: template/element-project-info.php:184 template/popup-project-info.php:76
+msgid "Configure"
+msgstr ""
+
+#: template/login-system.php:18 template/login.php:117
+#: template/support-system.php:18 template/support.php:25
+msgid "System Info"
+msgstr ""
+
+#: template/login-system.php:22
+msgid "Back to login"
+msgstr ""
+
+#: template/login.php:40
+msgid "Invalid Username or Password. Please try again."
+msgstr ""
+
+#: template/login.php:42
+msgid "Forgot your password?"
+msgstr ""
+
+#: template/login.php:50
+msgid "This local development site url has previously been registered with WPMU DEV by the user %s. To use this site url, connect with the original user or upgrade your trial to a full membership. Alternatively, try a more uniquely named development site url. Contact support if you need further assistance."
+msgstr ""
+
+#: template/login.php:54 template/login.php:63 template/login.php:76
+#: template/login.php:85
+msgid "More information &raquo;"
+msgstr ""
+
+#: template/login.php:59
+msgid "This domain has previously been registered with WPMU DEV by the user %s. To use the dashboard plugin on this domain, you can either connect with the original account (and upgrade it if necessary), or upgrade your trial to a full WPMU DEV membership."
+msgstr ""
+
+#: template/login.php:72
+msgid "This local development site url is currently registered to %s. For security reasons they will need to go to the WPMU DEV Hub and remove this domain before you can connect. If that account is not yours, then make your local development site url more unique. Contact support if you need further assistance."
+msgstr ""
+
+#: template/login.php:74 template/login.php:83
+msgid "Remove site"
+msgstr ""
+
+#: template/login.php:81
+msgid "This site is currently registered to %s. For security reasons they will need to go to the WPMU DEV Hub and remove this domain before you can connect. If you do not have access to that account, and have no way of contacting that user, please contact support for assistance."
+msgstr ""
+
+#: template/login.php:91
+msgid "Unknown error. Please update the WPMU DEV Dashboard plugin and try again."
+msgstr ""
+
+#: template/login.php:99
+msgid "Your server had a problem connecting to WPMU DEV: \"%s\". Please try again."
+msgstr ""
+
+#: template/login.php:102
+msgid "If this problem continues, please contact your host with this error message and ask:"
+msgstr ""
+
+#: template/login.php:104
+msgid "\"Is php on my server properly configured to be able to contact %s with a POST HTTP request via fsockopen or CURL?\""
+msgstr ""
+
+#: template/login.php:121
+msgid "Connect with WPMU DEV"
+msgstr ""
+
+#: template/login.php:122
+msgid "Log in using your WPMU DEV account email and password."
+msgstr ""
+
+#: template/login.php:126
+msgid "Account email"
+msgstr ""
+
+#: template/login.php:127
+msgid "Your email address"
+msgstr ""
+
+#: template/login.php:131
+msgid "Account password"
+msgstr ""
+
+#: template/login.php:132
+msgid "Your password"
+msgstr ""
+
+#: template/login.php:159
+msgid "Don’t have an account? %sSign up%s today!"
+msgstr ""
+
+#: template/login.php:168
+msgid "Connect"
+msgstr ""
+
+#: template/no_access.php:18
+msgid "Error"
+msgstr ""
+
+#: template/no_access.php:19
+msgid "You do not have the permission to view this page"
+msgstr ""
+
+#: template/part-system-info.php:87 template/part-system-info.php:96
+msgid "Unknown"
+msgstr ""
+
+#: template/part-system-info.php:289
+msgid "Dashboard version %s"
+msgstr ""
+
+#: template/plugins.php:24 template/plugins.php:25
+msgid "Search plugins"
+msgstr ""
+
+#: template/plugins.php:30 template/themes.php:29
+msgid "Sort"
+msgstr ""
+
+#: template/plugins.php:33 template/themes.php:32
+msgid "Default"
+msgstr ""
+
+#: template/plugins.php:34 template/themes.php:33
+msgid "Popularity"
+msgstr ""
+
+#: template/plugins.php:35 template/popup-update-info.php:101
+#: template/themes.php:34
+msgid "Release Date"
+msgstr ""
+
+#: template/plugins.php:36 template/themes.php:35
+msgid "Recently Updated"
+msgstr ""
+
+#: template/plugins.php:37 template/themes.php:36
+msgid "Downloads"
+msgstr ""
+
+#: template/plugins.php:38 template/themes.php:37
+msgid "Alphabetically"
+msgstr ""
+
+#: template/plugins.php:44
+msgid "Category"
+msgstr ""
+
+#: template/plugins.php:47
+msgid "All"
+msgstr ""
+
+#: template/plugins.php:60 template/themes.php:46
+msgid "Available updates"
+msgstr ""
+
+#: template/plugins.php:72
+msgid "Installed %s Plugins"
+msgstr ""
+
+#: template/plugins.php:79 template/plugins.php:93
+msgid "No Plugins found"
+msgstr ""
+
+#: template/plugins.php:86
+msgid "Available %s Plugins"
+msgstr ""
+
+#: template/popup-after-install-upfront.php:22
+msgid "Upfront installed!"
+msgstr ""
+
+#: template/popup-after-install-upfront.php:26
+msgid "Successfully installed Upfront!"
+msgstr ""
+
+#: template/popup-after-install-upfront.php:29
+msgid "Hang on while we reload the page for you"
+msgstr ""
+
+#: template/popup-after-install.php:28
+msgid "Plugin installed!"
+msgstr ""
+
+#: template/popup-after-install.php:30
+msgid "Theme installed!"
+msgstr ""
+
+#: template/popup-after-install.php:40
+msgid "Successfully installed %s!"
+msgstr ""
+
+#: template/popup-after-install.php:49
+msgid "Do you want to activate the plugin now?"
+msgstr ""
+
+#: template/popup-after-install.php:57
+msgid "Continue installing plugins"
+msgstr ""
+
+#: template/popup-after-install.php:59
+msgid "Okay"
+msgstr ""
+
+#: template/popup-after-install.php:72
+msgid "We're activating the plugin..."
+msgstr ""
+
+#: template/popup-ftp-details.php:27
+msgid "We need your help, boss!"
+msgstr ""
+
+#: template/popup-ftp-details.php:30
+msgid "Hang on a minute... It looks like your WordPress site isn't configured to allow one-click installations of plugins and themes. But don't worry! You can still install this plugin by entering your server's FTP credentials here:"
+msgstr ""
+
+#: template/popup-ftp-details.php:34
+msgid "FTP Username"
+msgstr ""
+
+#: template/popup-ftp-details.php:48
+msgid "FTP Password"
+msgstr ""
+
+#: template/popup-ftp-details.php:62
+msgid "FTP Host"
+msgstr ""
+
+#: template/popup-ftp-details.php:76
+msgid "Cancel"
+msgstr ""
+
+#: template/popup-ftp-details.php:77
+msgid "Okay, continue!"
+msgstr ""
+
+#: template/popup-ftp-details.php:78
+msgid "We will remember these details for 15 minutes in case you want to install or, update something else."
+msgstr ""
+
+#: template/popup-ftp-details.php:84
+msgid "Or you can %senable one-click installations%s on this site by adding the following details to <code>wp-config.php</code>:"
+msgstr ""
+
+#: template/popup-ftp-details.php:168
+msgid "Unexpected response from WordPress."
+msgstr ""
+
+#: template/popup-ftp-details.php:174
+msgid "Unknown server error."
+msgstr ""
+
+#: template/popup-no-access.php:29
+msgid "%s, to get access to all of our premium plugins and themes, as well as 24/7 support you'll need an <strong>active membership</strong>. It's easy to do and only takes a few minutes!"
+msgstr ""
+
+#: template/popup-no-access.php:33
+msgid "%s, to get access to all of our premium plugins and themes, as well as 24/7 support you'll need to upgrade your membership from <strong>single</strong> to <strong>full</strong>. It's easy to do and only takes a few minutes!"
+msgstr ""
+
+#: template/popup-no-access.php:37
+msgid "%s, to get access to all of our premium plugins and themes, as well as 24/7 support you'll need to upgrade your membership. It's easy to do and only takes a few minutes!"
+msgstr ""
+
+#: template/popup-no-access.php:50 template/popup-no-access.php:66
+msgid "Upgrade Membership"
+msgstr ""
+
+#: template/popup-no-access.php:60
+msgid "Access to 140+ Plugins & Upfront Themes"
+msgstr ""
+
+#: template/popup-no-access.php:61
+msgid "Access to Security, Backups, SEO and Performance Services"
+msgstr ""
+
+#: template/popup-no-access.php:62
+msgid "24/7 Expert WordPress Support"
+msgstr ""
+
+#: template/popup-no-access.php:77
+msgid "You can also %srefresh%s your membership status or %slogin%s to a different account."
+msgstr ""
+
+#: template/popup-no-data-found.php:14
+msgid "Wait a moment..."
+msgstr ""
+
+#: template/popup-no-data-found.php:26
+msgid "We did not find any data for this plugin or theme..."
+msgstr ""
+
+#: template/popup-no-data-found.php:28
+msgid "You can %sload project details from WPMU DEV%s to fix this issue."
+msgstr ""
+
+#: template/popup-no-data-found.php:39
+msgid "We noticed that you are not correctly logged into the WPMUDEV Dashboard..."
+msgstr ""
+
+#: template/popup-no-data-found.php:41
+msgid "Please %slog in again%s to fix this issue."
+msgstr ""
+
+#: template/popup-no-data-found.php:53
+msgid "If the above step does not solve this issue then <br>please %sget in touch with our support heroes%s to find a solution for this."
+msgstr ""
+
+#: template/popup-project-changelog.php:23
+#: template/popup-wordpress-changelog.php:170
+msgid "%s changelog"
+msgstr ""
+
+#: template/popup-project-changelog.php:30
+msgid "Update available"
+msgstr ""
+
+#: template/popup-project-changelog.php:61
+#: template/popup-wordpress-changelog.php:197
+msgid "Current"
+msgstr ""
+
+#: template/popup-project-changelog.php:67
+#: template/popup-wordpress-changelog.php:203
+msgid "New"
+msgstr ""
+
+#: template/popup-project-changelog.php:85
+#: template/popup-wordpress-changelog.php:221
+msgid "Version %s"
+msgstr ""
+
+#: template/popup-project-changelog.php:103 template/popup-update-info.php:170
+#: template/popup-wordpress-changelog.php:239
+msgid "Show all changes"
+msgstr ""
+
+#: template/popup-project-changelog.php:104 template/popup-update-info.php:171
+#: template/popup-wordpress-changelog.php:240
+msgid "Hide details"
+msgstr ""
+
+#: template/popup-project-info.php:88
+msgid "Install Plugin"
+msgstr ""
+
+#: template/popup-project-info.php:90
+msgid "Install Theme"
+msgstr ""
+
+#: template/popup-project-info.php:98
+msgid "Download Plugin"
+msgstr ""
+
+#: template/popup-project-info.php:100
+msgid "Download Theme"
+msgstr ""
+
+#: template/popup-project-info.php:146
+msgid "More information on WPMU DEV"
+msgstr ""
+
+#: template/popup-project-info.php:153
+msgid "Features"
+msgstr ""
+
+#: template/popup-project-info.php:172 template/popup-update-info.php:112
+#: template/popup-update-info.php:114
+msgid "Show changelog"
+msgstr ""
+
+#: template/popup-update-info.php:59
+msgid "Plugin not installed"
+msgstr ""
+
+#: template/popup-update-info.php:60
+msgid "Update Plugin"
+msgstr ""
+
+#: template/popup-update-info.php:62
+msgid "Theme not installed"
+msgstr ""
+
+#: template/popup-update-info.php:63
+msgid "Update Theme"
+msgstr ""
+
+#: template/popup-update-info.php:69
+msgid "Something unexpected happened."
+msgstr ""
+
+#: template/popup-update-info.php:70
+msgid "Please wait one moment while we refresh the page..."
+msgstr ""
+
+#: template/popup-update-info.php:84
+msgid "Update Now"
+msgstr ""
+
+#: template/popup-update-info.php:88
+msgid "Download Now"
+msgstr ""
+
+#: template/popup-update-info.php:100
+msgid "Name"
+msgstr ""
+
+#: template/popup-update-info.php:102
+msgid "Version"
+msgstr ""
+
+#: template/popup-update-info.php:121
+msgid "Update complete!"
+msgstr ""
+
+#: template/popup-update-info.php:126
+msgid "Notes"
+msgstr ""
+
+#: template/popup-update-info.php:136
+msgid "You've got the latest version of %s!"
+msgstr ""
+
+#: template/popup-update-info.php:145
+msgid "This is a Dropin, automatic updates are not possible for this. Please download and install the update manually."
+msgstr ""
+
+#: template/popup-update-info.php:152
+msgid "This is a must-use plugin, automatic updates are not possible for this. Please download and install the update manually."
+msgstr ""
+
+#: template/popup-update-info.php:241
+msgid "Hang on while we're installing the update..."
+msgstr ""
+
+#: template/settings.php:45
+msgid "Membership"
+msgstr ""
+
+#: template/settings.php:48
+msgid "Current subscription"
+msgstr ""
+
+#: template/settings.php:50
+msgid "Type:"
+msgstr ""
+
+#: template/settings.php:55
+msgid "Full"
+msgstr ""
+
+#: template/settings.php:60
+msgid "Single"
+msgstr ""
+
+#: template/settings.php:73
+msgid "Active Subscription:"
+msgstr ""
+
+#: template/settings.php:84
+msgid "Status:"
+msgstr ""
+
+#: template/settings.php:94
+msgid "Member since:"
+msgstr ""
+
+#: template/settings.php:106
+msgid "Manage global API settings"
+msgstr ""
+
+#: template/settings.php:109
+msgid "API KEY"
+msgstr ""
+
+#: template/settings.php:113
+msgid "This is your WPMU DEV API Key."
+msgstr ""
+
+#: template/settings.php:127
+msgid "General settings"
+msgstr ""
+
+#: template/settings.php:136
+msgid "Enable automatic updates of the WPMU DEV Dashboard plugin"
+msgstr ""
+
+#: template/settings.php:144
+msgid "Permissions"
+msgstr ""
+
+#: template/settings.php:153
+msgid "Control which administrators (manage_options enabled) can access/see the WPMU DEV Dashboard plugin and announcements. Note: ONLY these users will see announcements."
+msgstr ""
+
+#: template/settings.php:155
+msgid "The following admin users can access/see the WPMU DEV Dashboard plugin and announcements. Note: ONLY these users will see announcements."
+msgstr ""
+
+#: template/settings.php:183
+msgid "You cannot remove yourself"
+msgstr ""
+
+#: template/settings.php:184
+msgid "You"
+msgstr ""
+
+#: template/settings.php:204
+msgid "To manage user permissions here you need to remove the constant <code>WPMUDEV_LIMIT_TO_USER</code> from your wp-config file."
+msgstr ""
+
+#: template/settings.php:219 template/settings.php:223
+msgid "Type an admin user's name"
+msgstr ""
+
+#: template/settings.php:227
+msgid "We did not find an admin user with this name..."
+msgstr ""
+
+#: template/settings.php:231
+msgid "Add"
+msgstr ""
+
+#: template/support-demo.php:10
+msgid "UI Demo"
+msgstr ""
+
+#: template/support-system.php:22
+msgid "Back to support"
+msgstr ""
+
+#: template/support.php:58 template/support.php:64
+msgid "Search WPMU DEV support resources"
+msgstr ""
+
+#: template/support.php:75
+msgid "View all"
+msgstr ""
+
+#: template/support.php:79
+msgid "My Tickets"
+msgstr ""
+
+#: template/support.php:86
+msgid "You have no support tickets, woop!"
+msgstr ""
+
+#: template/support.php:89
+msgid "When you ask a support question, it will appear here. You can also access this in the WPMU DEV Hub."
+msgstr ""
+
+#: template/support.php:93
+msgid "Open new ticket"
+msgstr ""
+
+#: template/support.php:102
+msgid "Topic"
+msgstr ""
+
+#: template/support.php:105
+msgid "Replies"
+msgstr ""
+
+#: template/support.php:136
+msgid "Add another 3 days of support access"
+msgstr ""
+
+#: template/support.php:137
+msgid "Extend"
+msgstr ""
+
+#: template/support.php:140
+msgid "Revoke"
+msgstr ""
+
+#: template/support.php:143
+msgid "Security details"
+msgstr ""
+
+#: template/support.php:147
+msgid "Support Access"
+msgstr ""
+
+#: template/support.php:152
+msgid "Enabling support access will let our support heroes access your website admin area for 5 days to help you with an issue."
+msgstr ""
+
+#: template/support.php:155
+msgid "Grant Support Access"
+msgstr ""
+
+#: template/support.php:158
+msgid "Expires:"
+msgstr ""
+
+#: template/support.php:162
+msgid "Access active for %1$s"
+msgstr ""
+
+#: template/support.php:171
+msgid "If you think it would help, leave our support heroes a quick message to let them know the details of your issue."
+msgstr ""
+
+#: template/support.php:175
+msgid "Save"
+msgstr ""
+
+#: template/support.php:181
+msgid "Support logins"
+msgstr ""
+
+#: template/support.php:188
+msgid "No one from Support has logged in yet. Sit tight!"
+msgstr ""
+
+#: template/support.php:217
+msgid "Support Access is secure"
+msgstr ""
+
+#: template/support.php:220
+msgid "When you click the \"Grant Access\" button a random 64 character access token is generated that is only good for 96 hours (5 days) and saved in your Database. This token is sent to the WPMU DEV API over an SSL encrypted connection to prevent eavesdropping, and stored on our secure servers. This access token is in no way related to your password, and can only be used from our closed WPMU DEV API system for temporary access to this site."
+msgstr ""
+
+#: template/support.php:225
+msgid "<b>Only current WPMU DEV support staff can use this token</b> to login as your user account by submitting a special form that only they have access to. This will give them 1 hour of admin access to this site before their login cookie expires. Every support staff login during the 5 day period is logged locally and you can view the details on this page."
+msgstr ""
+
+#: template/support.php:230
+msgid "<b>You may at any time revoke this access</b> which invalidates the token and it will no longer be usable. If you have special security concerns and you would like to disable the support access tab and functionality completely and permanently for whatever reason, you may do so by adding this line to your wp-config.php file:"
+msgstr ""
+
+#: template/themes.php:23 template/themes.php:24
+msgid "Search themes"
+msgstr ""
+
+#: template/themes.php:61
+msgid "No Themes found"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "WPMU DEV Dashboard"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://premium.wpmudev.org/project/wpmu-dev-dashboard/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Brings the powers of WPMU DEV directly to you. It will revolutionize how you use WordPress. Activate now!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPMU DEV"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://premium.wpmudev.org/"
+msgstr ""

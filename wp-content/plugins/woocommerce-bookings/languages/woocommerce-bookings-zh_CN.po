@@ -1,0 +1,2550 @@
+# Copyright (C) 2016 WooThemes
+# This file is distributed under the GNU General Public License v3.0.
+# Translators:
+# Jack Lee <suifengtec@qq.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Bookings\n"
+"Report-Msgid-Bugs-To: https://support.woothemes.com/hc/\n"
+"POT-Creation-Date: 2016-02-04 15:58:09+00:00\n"
+"PO-Revision-Date: 2016-02-04 16:00+0000\n"
+"Last-Translator: Akeda Bagus <admin@gedex.web.id>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/woothemes/woocommerce-bookings/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+
+#: includes/addons/accommodation-booking.php:17
+msgid "Accommodation booking"
+msgstr ""
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:40
+msgid "Bookable resource name"
+msgstr "可预订资源的名称"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:56
+#: includes/admin/views/html-booking-person.php:22
+msgid "Name"
+msgstr "名称"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:57
+msgid "Parent products"
+msgstr "父级产品"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:58
+#: includes/admin/class-wc-bookings-cpt.php:209
+msgid "Actions"
+msgstr "动作"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:96
+#: includes/admin/class-wc-bookings-cpt.php:256
+#: includes/admin/class-wc-bookings-customer-meta-box.php:90
+#: includes/admin/class-wc-bookings-details-meta-box.php:96
+#: includes/admin/class-wc-bookings-details-meta-box.php:104
+#: includes/admin/class-wc-bookings-details-meta-box.php:160
+#: includes/emails/class-wc-email-booking-cancelled.php:80
+#: includes/emails/class-wc-email-booking-confirmed.php:70
+#: includes/emails/class-wc-email-booking-notification.php:71
+#: includes/emails/class-wc-email-booking-notification.php:74
+#: includes/emails/class-wc-email-booking-notification.php:77
+#: includes/emails/class-wc-email-booking-notification.php:80
+#: includes/emails/class-wc-email-booking-reminder.php:65
+#: includes/emails/class-wc-email-new-booking.php:95
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/admin/class-wc-bookable-resource-cpt.php:103
+#: woocommmerce-bookings.php:268 woocommmerce-bookings.php:308
+msgid "Edit"
+msgstr "编辑"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:18
+msgid "Resource details"
+msgstr "资源详情"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:40
+msgid "Available Quantity"
+msgstr "可用数量"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:40
+msgid "The quantity of this resource available at any given time."
+msgstr "该资源在任何给定时间可用的额数量。"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:51
+#: includes/admin/views/html-booking-availability.php:90
+#: includes/admin/views/html-booking-pricing.php:32
+#: includes/admin/views/html-global-availability-settings.php:65
+msgid "Range type"
+msgstr "范围类型"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:52
+#: includes/admin/views/html-booking-availability.php:91
+#: includes/admin/views/html-booking-pricing.php:33
+#: includes/admin/views/html-global-availability-settings.php:66
+msgid "Range"
+msgstr ""
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:55
+#: includes/admin/views/html-booking-availability.php:94
+#: includes/admin/views/html-global-availability-settings.php:69
+msgid "Bookable"
+msgstr "可预订的"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:55
+#: includes/admin/views/html-booking-availability.php:94
+#: includes/admin/views/html-global-availability-settings.php:69
+msgid ""
+"If not bookable, users won't be able to choose this block for their booking."
+msgstr "如果没有可预订的，用户将不能选择此块儿预订。"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:56
+#: includes/admin/views/html-booking-availability.php:95
+#: includes/admin/views/html-global-availability-settings.php:70
+msgid "Priority"
+msgstr "优先级"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:56
+#: includes/admin/views/html-booking-availability.php:95
+#: includes/admin/views/html-global-availability-settings.php:70
+msgid ""
+"The lower the priority number, the earlier this rule gets applied. By "
+"default, global rules take priority over product rules which take priority "
+"over resource rules. By using priority numbers you can execute rules in "
+"different orders."
+msgstr ""
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:68
+#: includes/admin/views/html-booking-availability.php:107
+#: includes/admin/views/html-booking-pricing.php:49
+#: includes/admin/views/html-global-availability-settings.php:82
+msgid "Add Range"
+msgstr "添加范围"
+
+#: includes/admin/class-wc-bookable-resource-details-meta-box.php:69
+#: includes/admin/views/html-booking-availability.php:108
+#: includes/admin/views/html-global-availability-settings.php:83
+msgid ""
+"Rules with lower numbers will execute first. Rules further down this table "
+"with the same priority will also execute first."
+msgstr ""
+
+#: includes/admin/class-wc-bookings-addons.php:23
+#: woocommmerce-bookings.php:304
+msgid "Bookings"
+msgstr "预订"
+
+#: includes/admin/class-wc-bookings-admin.php:89
+#: includes/admin/class-wc-bookings-admin.php:92
+#: includes/admin/class-wc-bookings-admin.php:94
+msgid "Booking updated."
+msgstr "预订已更新。"
+
+#: includes/admin/class-wc-bookings-admin.php:90
+msgid "Custom field updated."
+msgstr "自定义栏已更新。"
+
+#: includes/admin/class-wc-bookings-admin.php:91
+msgid "Custom field deleted."
+msgstr "自定义栏已删除。"
+
+#: includes/admin/class-wc-bookings-admin.php:95
+msgid "Booking saved."
+msgstr "预订已保存。"
+
+#: includes/admin/class-wc-bookings-admin.php:96
+msgid "Booking submitted."
+msgstr "预订已提交。"
+
+#: includes/admin/class-wc-bookings-admin.php:122
+msgid "View booking &rarr;"
+msgstr "查看预订&rarr;"
+
+#: includes/admin/class-wc-bookings-admin.php:210
+msgid "The resource has already been linked to this product"
+msgstr "此资源已连接至此产品"
+
+#: includes/admin/class-wc-bookings-admin.php:246
+msgid "Unable to add resource"
+msgstr "未能添加资源"
+
+#: includes/admin/class-wc-bookings-admin.php:330
+msgid "Bookable product"
+msgstr "可预订的产品"
+
+#: includes/admin/class-wc-bookings-admin.php:388
+msgid "Are you sure you want to remove this person type?"
+msgstr "确定要移除此人员类型？"
+
+#: includes/admin/class-wc-bookings-admin.php:392
+msgid "Are you sure you want to remove this resource?"
+msgstr "确定要移除此资源？"
+
+#: includes/admin/class-wc-bookings-admin.php:396
+msgid "minutes"
+msgstr "分钟"
+
+#: includes/admin/class-wc-bookings-admin.php:397
+msgid "days"
+msgstr "天"
+
+#: includes/admin/class-wc-bookings-admin.php:399
+msgid "Enter a name for the new resource"
+msgstr "为新资源输入一个名词"
+
+#: includes/admin/class-wc-bookings-admin.php:656
+msgid "Person Type #%d"
+msgstr "人员类型 #%d"
+
+#: includes/admin/class-wc-bookings-admin.php:707
+msgid "Has persons"
+msgstr "有人员"
+
+#: includes/admin/class-wc-bookings-admin.php:708
+msgid ""
+"Enable this if this bookable product can be booked by a customer defined "
+"number of persons."
+msgstr "如果此可预订产品允许预订用户定义一个人员数量的话。"
+
+#: includes/admin/class-wc-bookings-admin.php:714
+msgid "Has resources"
+msgstr "有资源"
+
+#: includes/admin/class-wc-bookings-admin.php:715
+msgid ""
+"Enable this if this bookable product has multiple bookable resources, for "
+"example room types or instructors."
+msgstr "启用此项如果可预订产品有多个预订资源，例如房间类型或者导师。"
+
+#: includes/admin/class-wc-bookings-ajax.php:28
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有访问此页的权限。"
+
+#: includes/admin/class-wc-bookings-ajax.php:31
+msgid "You have taken too long. Please go back and retry."
+msgstr "您已经花费了太长时间了，请返回重试。"
+
+#: includes/admin/class-wc-bookings-ajax.php:64
+msgid "This booking is unavailable."
+msgstr "此预订不可用。"
+
+#: includes/admin/class-wc-bookings-ajax.php:89
+msgid "Booking cost"
+msgstr "预订价格"
+
+#: includes/admin/class-wc-bookings-ajax.php:121
+msgid "Please enter a valid date."
+msgstr ""
+
+#: includes/admin/class-wc-bookings-ajax.php:155
+msgid "No blocks available."
+msgstr "暂无可用块。"
+
+#: includes/admin/class-wc-bookings-calendar.php:103
+#: includes/admin/class-wc-bookings-calendar.php:210
+msgid "Booked by"
+msgstr "预订者"
+
+#: includes/admin/class-wc-bookings-calendar.php:107
+#: includes/admin/class-wc-bookings-details-meta-box.php:215
+msgid "All Day"
+msgstr "全天"
+
+#: includes/admin/class-wc-bookings-calendar.php:112
+#: includes/admin/class-wc-bookings-calendar.php:213
+#: includes/class-wc-bookings-ics-exporter.php:160
+msgid "Resource #"
+msgstr "资源 #"
+
+#: includes/admin/class-wc-bookings-cpt.php:88
+msgid "Confirm bookings"
+msgstr "确定预订"
+
+#: includes/admin/class-wc-bookings-cpt.php:90
+msgid "Unconfirm bookings"
+msgstr "不确定预订"
+
+#: includes/admin/class-wc-bookings-cpt.php:92
+msgid "Cancel bookings"
+msgstr "取消预订"
+
+#: includes/admin/class-wc-bookings-cpt.php:94
+msgid "Mark bookings as paid"
+msgstr "标记预订为已支付"
+
+#: includes/admin/class-wc-bookings-cpt.php:96
+msgid "Mark bookings as unpaid"
+msgstr "标记预订为未支付"
+
+#: includes/admin/class-wc-bookings-cpt.php:170
+msgid "Booking status changed."
+msgid_plural "%s booking statuses changed."
+msgstr[0] "%s 预订状态已更改。"
+
+#: includes/admin/class-wc-bookings-cpt.php:184
+msgid "Booking Title"
+msgstr "预订标题"
+
+#: includes/admin/class-wc-bookings-cpt.php:201
+#: templates/myaccount/my-bookings.php:20
+msgid "Status"
+msgstr "状态"
+
+#: includes/admin/class-wc-bookings-cpt.php:202
+#: templates/myaccount/my-bookings.php:15
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/class-wc-bookings-cpt.php:203
+#: includes/admin/class-wc-bookings-details-meta-box.php:177
+#: templates/emails/admin-booking-cancelled.php:18
+#: templates/emails/admin-new-booking.php:25
+#: templates/emails/customer-booking-cancelled.php:21
+#: templates/emails/customer-booking-confirmed.php:21
+#: templates/emails/customer-booking-notification.php:14
+#: templates/emails/customer-booking-reminder.php:18
+msgid "Booked Product"
+msgstr "已预订的产品"
+
+#: includes/admin/class-wc-bookings-cpt.php:204
+msgid "# of Persons"
+msgstr ""
+
+#: includes/admin/class-wc-bookings-cpt.php:205
+msgid "Booked By"
+msgstr "预订者"
+
+#: includes/admin/class-wc-bookings-cpt.php:206
+#: templates/emails/customer-booking-confirmed.php:68
+#: templates/myaccount/my-bookings.php:17
+msgid "Order"
+msgstr "订单"
+
+#: includes/admin/class-wc-bookings-cpt.php:207
+#: includes/admin/class-wc-bookings-details-meta-box.php:211
+#: templates/myaccount/my-bookings.php:18
+msgid "Start Date"
+msgstr "开始日期"
+
+#: includes/admin/class-wc-bookings-cpt.php:208
+#: includes/admin/class-wc-bookings-details-meta-box.php:213
+#: templates/myaccount/my-bookings.php:19
+msgid "End Date"
+msgstr "结束日期"
+
+#: includes/admin/class-wc-bookings-cpt.php:252
+msgid "Booking #%d"
+msgstr "预订 #%d"
+
+#: includes/admin/class-wc-bookings-cpt.php:312
+msgid "View"
+msgstr "查看"
+
+#: includes/admin/class-wc-bookings-cpt.php:319
+msgid "Confirm"
+msgstr "确定"
+
+#: includes/admin/class-wc-bookings-cpt.php:410
+msgid "All Bookable Products"
+msgstr "全部可预订产品"
+
+#: includes/admin/class-wc-bookings-create.php:19
+msgid "Error - please try again"
+msgstr "错误 - 请重试"
+
+#: includes/admin/class-wc-bookings-create.php:29
+msgid "Please choose a bookable product"
+msgstr "请选择一个可预订产品"
+
+#: includes/admin/class-wc-bookings-create.php:37
+#: includes/admin/class-wc-bookings-create.php:90
+msgid "Invalid order ID provided"
+msgstr "提供的订单ID无效"
+
+#: includes/admin/class-wc-bookings-create.php:84
+msgid "Error: Could not create order"
+msgstr "错误 : 未能创建订单"
+
+#: includes/admin/class-wc-bookings-create.php:110
+msgid "Error: Could not create item"
+msgstr "错误 : 未能创建项目"
+
+#: includes/admin/class-wc-bookings-create.php:175
+msgid "Order &ndash; %s"
+msgstr "订单&ndash; %s"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:15
+msgid "Customer details"
+msgstr "客户详情"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:30
+msgid "Name:"
+msgstr "名称:"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:40
+msgid "User Email:"
+msgstr "用户电邮:"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:48
+msgid "View User"
+msgstr "查看用户"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:57
+msgid "Address:"
+msgstr "地址:"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:62
+msgid "No billing address set."
+msgstr "还没设置账单地址。"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:67
+msgid "Email:"
+msgstr "Email:"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:73
+msgid "Phone:"
+msgstr "电话"
+
+#: includes/admin/class-wc-bookings-customer-meta-box.php:81
+msgid "View Order"
+msgstr "查看订单"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:15
+#: includes/admin/class-wc-bookings-details-meta-box.php:67
+msgid "Booking Details"
+msgstr "预订详情"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:44
+msgid ""
+"This booking is scheduled over 2 years into the future. Please ensure this "
+"is correct."
+msgstr "该预订超过2年，请确保这是对的。"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:49
+msgid ""
+"This booking is scheduled over the products allowed max booking date (%s). "
+"Please ensure this is correct."
+msgstr "该预订超过了产品允许的最大周期 (%s),请确保这是对的。"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:53
+msgid "This booking has an end date set before the start date."
+msgstr "此预订的结束日期早于开始日期。"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:58
+msgid ""
+"This booking is missing a required add-on (product type: %s). Some "
+"information is shown below but might be incomplete. Please install the "
+"missing add-on through the plugins screen."
+msgstr ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:70
+msgid "Booking number: #%s."
+msgstr "预订编号:  #%s."
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:74
+msgid "Order number: %s."
+msgstr "订单编号: %s."
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:78
+msgid "Booking type: %s"
+msgstr ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:85
+msgid "General Details"
+msgstr "一般详情"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:88
+msgid "Order ID:"
+msgstr "订单ID："
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:95
+msgid "Select an order&hellip;"
+msgstr "选择一个订单&hellip;"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:108
+msgid "Date created:"
+msgstr "创建日期:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:109
+msgid "h"
+msgstr "小时"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:109
+msgid "m"
+msgstr "分钟"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:118
+msgid "Booking Status:"
+msgstr "预订状态:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:129
+msgid "Customer:"
+msgstr "顾客:"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:138
+#: includes/admin/class-wc-bookings-details-meta-box.php:147
+#: includes/admin/views/html-create-booking-page.php:20
+#: includes/admin/views/html-create-booking-page.php:23
+msgid "Guest"
+msgstr "访客"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:156
+msgid "Booking Specification"
+msgstr "预订指定"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:179
+msgid "Parent Booking ID"
+msgstr "父级预订ID"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:188
+#: includes/admin/class-wc-bookings-details-meta-box.php:196
+#: includes/class-wc-bookings-ics-exporter.php:169
+#: includes/wc-bookings-functions.php:50
+#: templates/emails/admin-booking-cancelled.php:47
+#: templates/emails/admin-new-booking.php:53
+#: templates/emails/customer-booking-cancelled.php:49
+#: templates/emails/customer-booking-confirmed.php:49
+#: templates/emails/customer-booking-notification.php:42
+#: templates/emails/customer-booking-reminder.php:46
+#: templates/emails/plain/admin-booking-cancelled.php:29
+#: templates/emails/plain/admin-new-booking.php:39
+#: templates/emails/plain/customer-booking-cancelled.php:33
+#: templates/emails/plain/customer-booking-confirmed.php:33
+#: templates/emails/plain/customer-booking-notification.php:31
+#: templates/emails/plain/customer-booking-reminder.php:33
+msgid "Person(s)"
+msgstr "人员(数量)"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:207
+msgid "Booking Date/Time"
+msgstr "预订的日期/时间"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:215
+msgid "Check this box if the booking is for all day."
+msgstr "如果该预订是全天的请选中此栏。"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:217
+msgid "Start Time"
+msgstr ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:219
+msgid "End Time"
+msgstr ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:382
+msgid "Booking #%d status changed manually from \"%s\" to \"%s"
+msgstr ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:456
+#: includes/admin/class-wc-bookings-details-meta-box.php:457
+#: includes/class-wc-booking-cart-manager.php:294
+#: includes/class-wc-booking-order-manager.php:358
+#: templates/emails/admin-booking-cancelled.php:23
+#: templates/emails/admin-new-booking.php:29
+#: templates/emails/customer-booking-cancelled.php:25
+#: templates/emails/customer-booking-confirmed.php:25
+#: templates/emails/customer-booking-notification.php:18
+#: templates/emails/customer-booking-reminder.php:22
+msgid "Booking ID"
+msgstr "预订ID"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:462
+#: includes/admin/class-wc-bookings-details-meta-box.php:463
+#: includes/admin/class-wc-bookings-details-meta-box.php:465
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:473
+#: includes/wc-bookings-functions.php:47
+msgid "Booking Date"
+msgstr "预订日期"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:471
+#: includes/admin/class-wc-bookings-details-meta-box.php:472
+#: includes/admin/class-wc-bookings-details-meta-box.php:474
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:473
+#: includes/wc-bookings-functions.php:48
+msgid "Booking Time"
+msgstr "预订时间"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:480
+#: includes/admin/class-wc-bookings-details-meta-box.php:481
+#: includes/admin/class-wc-bookings-details-meta-box.php:484
+#: includes/wc-bookings-functions.php:46
+#: templates/emails/admin-booking-cancelled.php:28
+#: templates/emails/admin-new-booking.php:34
+#: templates/emails/customer-booking-cancelled.php:30
+#: templates/emails/customer-booking-confirmed.php:30
+#: templates/emails/customer-booking-notification.php:23
+#: templates/emails/customer-booking-reminder.php:27
+msgid "Booking Type"
+msgstr "预订类型"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:502
+#: includes/admin/views/html-booking-tab.php:4
+#: includes/booking-form/class-wc-booking-form.php:214
+#: includes/booking-form/class-wc-booking-form.php:407
+msgid "Persons"
+msgstr "人"
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:529
+msgid "%y year"
+msgid_plural "%y years"
+msgstr[0] ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:530
+msgid "%m month"
+msgid_plural "%m months"
+msgstr[0] ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:531
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:532
+msgid "%h hour"
+msgid_plural "%h hours"
+msgstr[0] ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:533
+msgid "%i minute"
+msgid_plural "%i minutes"
+msgstr[0] ""
+
+#: includes/admin/class-wc-bookings-details-meta-box.php:541
+#: includes/admin/class-wc-bookings-details-meta-box.php:542
+#: includes/admin/class-wc-bookings-details-meta-box.php:545
+#: includes/booking-form/class-wc-booking-form.php:175
+#: includes/wc-bookings-functions.php:49
+msgid "Duration"
+msgstr "持续周期"
+
+#: includes/admin/class-wc-bookings-menus.php:70
+#: includes/admin/views/html-create-booking-page-2.php:4
+#: includes/admin/views/html-create-booking-page-2.php:25
+#: includes/admin/views/html-create-booking-page.php:4
+msgid "Create Booking"
+msgstr "创建预订"
+
+#: includes/admin/class-wc-bookings-menus.php:71
+msgid "Calendar"
+msgstr "日历"
+
+#: includes/admin/class-wc-bookings-menus.php:72
+#: includes/admin/views/html-notifications-page.php:3
+#: includes/admin/views/html-notifications-page.php:51
+msgid "Send Notification"
+msgstr "发送通知"
+
+#: includes/admin/class-wc-bookings-menus.php:73
+msgid "Global Availability"
+msgstr ""
+
+#: includes/admin/class-wc-bookings-menus.php:125
+msgid "Please choose a product"
+msgstr "请选择一个产品"
+
+#: includes/admin/class-wc-bookings-menus.php:128
+msgid "Please enter a message"
+msgstr "请输入一条信息"
+
+#: includes/admin/class-wc-bookings-menus.php:131
+msgid "Please enter a subject"
+msgstr "请输入一个标题"
+
+#: includes/admin/class-wc-bookings-menus.php:148
+msgid "Notification sent successfully"
+msgstr "通知发送成功"
+
+#: includes/admin/class-wc-bookings-save-meta-box.php:15
+#: includes/admin/class-wc-bookings-save-meta-box.php:27
+msgid "Save Booking"
+msgstr "保存预订"
+
+#: includes/admin/class-wc-bookings-save-meta-box.php:27
+msgid "Save/update the booking"
+msgstr "保存/更新此预订"
+
+#: includes/admin/views/html-booking-availability-fields.php:5
+#: includes/admin/views/html-booking-pricing-fields.php:5
+msgid "January"
+msgstr "一月"
+
+#: includes/admin/views/html-booking-availability-fields.php:6
+#: includes/admin/views/html-booking-pricing-fields.php:6
+msgid "February"
+msgstr ""
+
+#: includes/admin/views/html-booking-availability-fields.php:7
+#: includes/admin/views/html-booking-pricing-fields.php:7
+msgid "March"
+msgstr "三月"
+
+#: includes/admin/views/html-booking-availability-fields.php:8
+#: includes/admin/views/html-booking-pricing-fields.php:8
+msgid "April"
+msgstr "四月"
+
+#: includes/admin/views/html-booking-availability-fields.php:9
+#: includes/admin/views/html-booking-pricing-fields.php:9
+msgid "May"
+msgstr "五月"
+
+#: includes/admin/views/html-booking-availability-fields.php:10
+#: includes/admin/views/html-booking-pricing-fields.php:10
+msgid "June"
+msgstr "六月"
+
+#: includes/admin/views/html-booking-availability-fields.php:11
+#: includes/admin/views/html-booking-pricing-fields.php:11
+msgid "July"
+msgstr "七月"
+
+#: includes/admin/views/html-booking-availability-fields.php:12
+#: includes/admin/views/html-booking-pricing-fields.php:12
+msgid "August"
+msgstr "八月"
+
+#: includes/admin/views/html-booking-availability-fields.php:13
+#: includes/admin/views/html-booking-pricing-fields.php:13
+msgid "September"
+msgstr "九月"
+
+#: includes/admin/views/html-booking-availability-fields.php:14
+#: includes/admin/views/html-booking-pricing-fields.php:14
+msgid "October"
+msgstr "十月"
+
+#: includes/admin/views/html-booking-availability-fields.php:15
+#: includes/admin/views/html-booking-pricing-fields.php:15
+msgid "November"
+msgstr "十一月"
+
+#: includes/admin/views/html-booking-availability-fields.php:16
+#: includes/admin/views/html-booking-pricing-fields.php:16
+msgid "December"
+msgstr "十二月"
+
+#: includes/admin/views/html-booking-availability-fields.php:20
+#: includes/admin/views/html-booking-pricing-fields.php:20
+msgid "Monday"
+msgstr "周一"
+
+#: includes/admin/views/html-booking-availability-fields.php:21
+#: includes/admin/views/html-booking-pricing-fields.php:21
+msgid "Tuesday"
+msgstr "周二"
+
+#: includes/admin/views/html-booking-availability-fields.php:22
+#: includes/admin/views/html-booking-pricing-fields.php:22
+msgid "Wednesday"
+msgstr "周三"
+
+#: includes/admin/views/html-booking-availability-fields.php:23
+#: includes/admin/views/html-booking-pricing-fields.php:23
+msgid "Thursday"
+msgstr "周四"
+
+#: includes/admin/views/html-booking-availability-fields.php:24
+#: includes/admin/views/html-booking-pricing-fields.php:24
+msgid "Friday"
+msgstr "周五"
+
+#: includes/admin/views/html-booking-availability-fields.php:25
+#: includes/admin/views/html-booking-pricing-fields.php:25
+msgid "Saturday"
+msgstr "周六"
+
+#: includes/admin/views/html-booking-availability-fields.php:26
+#: includes/admin/views/html-booking-pricing-fields.php:26
+msgid "Sunday"
+msgstr "周日"
+
+#: includes/admin/views/html-booking-availability-fields.php:30
+#: includes/admin/views/html-booking-pricing-fields.php:30
+msgid "Week %s"
+msgstr "第 %s 周"
+
+#: includes/admin/views/html-booking-availability-fields.php:46
+#: includes/admin/views/html-booking-pricing-fields.php:51
+msgid "Date range"
+msgstr ""
+
+#: includes/admin/views/html-booking-availability-fields.php:47
+#: includes/admin/views/html-booking-pricing-fields.php:52
+msgid "Range of months"
+msgstr "月份范围"
+
+#: includes/admin/views/html-booking-availability-fields.php:48
+#: includes/admin/views/html-booking-pricing-fields.php:53
+msgid "Range of weeks"
+msgstr "周的范围"
+
+#: includes/admin/views/html-booking-availability-fields.php:49
+#: includes/admin/views/html-booking-pricing-fields.php:54
+msgid "Range of days"
+msgstr "天的范围"
+
+#: includes/admin/views/html-booking-availability-fields.php:50
+#: includes/admin/views/html-booking-pricing-fields.php:58
+msgid "Time Ranges"
+msgstr "时间范围"
+
+#: includes/admin/views/html-booking-availability-fields.php:51
+#: includes/admin/views/html-booking-pricing-fields.php:59
+msgid "Time Range (all week)"
+msgstr "时间范围(全部周)"
+
+#: includes/admin/views/html-booking-availability-fields.php:52
+#: includes/admin/views/html-booking-pricing-fields.php:60
+msgid "Date Range with time"
+msgstr ""
+
+#: includes/admin/views/html-booking-availability-fields.php:100
+#: includes/admin/views/html-booking-availability-fields.php:101
+#: includes/admin/views/html-booking-pricing-fields.php:113
+#: includes/admin/views/html-booking-pricing-fields.php:114
+msgid "to"
+msgstr "to"
+
+#: includes/admin/views/html-booking-availability-fields.php:146
+msgid "No"
+msgstr "不"
+
+#: includes/admin/views/html-booking-availability-fields.php:147
+msgid "Yes"
+msgstr "是"
+
+#: includes/admin/views/html-booking-availability.php:3
+msgid "Max bookings per block"
+msgstr "每块的最大预订数"
+
+#: includes/admin/views/html-booking-availability.php:3
+msgid ""
+"The maximum bookings allowed for each block. Can be overridden at resource "
+"level."
+msgstr "每块的最大预订数。可被资源级别覆盖。"
+
+#: includes/admin/views/html-booking-availability.php:12
+msgid "Minimum block bookable"
+msgstr "最小的块预订数"
+
+#: includes/admin/views/html-booking-availability.php:15
+#: includes/admin/views/html-booking-availability.php:32
+#: includes/admin/views/html-booking-data.php:16
+#: includes/admin/views/html-booking-data.php:97
+#: includes/booking-form/class-wc-booking-form.php:124
+msgid "Month(s)"
+msgstr "月(数量)"
+
+#: includes/admin/views/html-booking-availability.php:16
+#: includes/admin/views/html-booking-availability.php:33
+#: includes/booking-form/class-wc-booking-form.php:131
+#: includes/booking-form/class-wc-booking-form.php:143
+msgid "Week(s)"
+msgstr "周(数量)"
+
+#: includes/admin/views/html-booking-availability.php:17
+#: includes/admin/views/html-booking-availability.php:34
+#: includes/admin/views/html-booking-data.php:17
+#: includes/admin/views/html-booking-data.php:98
+#: includes/booking-form/class-wc-booking-form.php:139
+msgid "Day(s)"
+msgstr "天(数量)"
+
+#: includes/admin/views/html-booking-availability.php:18
+#: includes/admin/views/html-booking-availability.php:35
+#: includes/admin/views/html-booking-data.php:18
+#: includes/admin/views/html-booking-data.php:99
+#: includes/booking-form/class-wc-booking-form.php:160
+msgid "Hour(s)"
+msgstr "小时(数量)"
+
+#: includes/admin/views/html-booking-availability.php:19
+#: includes/admin/views/html-booking-availability.php:36
+msgid "into the future"
+msgstr "在未来"
+
+#: includes/admin/views/html-booking-availability.php:29
+msgid "Maximum block bookable"
+msgstr "最大的块预订数"
+
+#: includes/admin/views/html-booking-availability.php:44
+msgid "Require a buffer period of"
+msgstr ""
+
+#: includes/admin/views/html-booking-availability.php:47
+msgid "between bookings"
+msgstr ""
+
+#: includes/admin/views/html-booking-availability.php:54
+msgid "All dates are..."
+msgstr "全部日期是..."
+
+#: includes/admin/views/html-booking-availability.php:58
+msgid "available by default"
+msgstr "默认是可用的"
+
+#: includes/admin/views/html-booking-availability.php:59
+msgid "not-available by default"
+msgstr "默认是不可用的"
+
+#: includes/admin/views/html-booking-availability.php:61
+msgid "This option affects how you use the rules below."
+msgstr "此选项影响如何使用下面的规则。"
+
+#: includes/admin/views/html-booking-availability.php:68
+msgid "Check rules against..."
+msgstr "核对规则..."
+
+#: includes/admin/views/html-booking-availability.php:72
+msgid "All blocks being booked"
+msgstr "全部块都可被预订"
+
+#: includes/admin/views/html-booking-availability.php:73
+msgid "The starting block only"
+msgstr "仅起始块"
+
+#: includes/admin/views/html-booking-availability.php:75
+msgid "This option affects how bookings are checked for availability."
+msgstr "此选项影响预订如何检查可用性。"
+
+#: includes/admin/views/html-booking-availability.php:80
+msgid "First block starts at..."
+msgstr "第一个块开始于.."
+
+#: includes/admin/views/html-booking-data.php:9
+msgid "Booking duration"
+msgstr "预订周期"
+
+#: includes/admin/views/html-booking-data.php:11
+msgid "Fixed blocks of"
+msgstr "固定的块数"
+
+#: includes/admin/views/html-booking-data.php:12
+msgid "Customer defined blocks of"
+msgstr "顾客可自定义块数"
+
+#: includes/admin/views/html-booking-data.php:19
+msgid "Minutes(s)"
+msgstr "分钟(数量)"
+
+#: includes/admin/views/html-booking-data.php:28
+msgid "Minimum duration"
+msgstr "最小周期"
+
+#: includes/admin/views/html-booking-data.php:29
+msgid "The minimum allowed duration the user can input."
+msgstr "用户可以输入的最小周期值。"
+
+#: includes/admin/views/html-booking-data.php:41
+msgid "Maximum duration"
+msgstr "最大周期"
+
+#: includes/admin/views/html-booking-data.php:42
+msgid "The maximum allowed duration the user can input."
+msgstr "用户可以输入的最大周期值。"
+
+#: includes/admin/views/html-booking-data.php:57
+msgid "Enable Calendar Range Picker?"
+msgstr "启用日历范围选择器?"
+
+#: includes/admin/views/html-booking-data.php:58
+msgid ""
+"Lets the user select a start and end date on the calendar - duration will be"
+" calculated automatically."
+msgstr "让用户在日历上选择一个开始和一个结束日期 - 持续周期将会被自动计算。"
+
+#: includes/admin/views/html-booking-data.php:68
+msgid "Calendar display mode"
+msgstr "日历显示模式"
+
+#: includes/admin/views/html-booking-data.php:69
+msgid "Choose how the calendar is displayed on the booking form."
+msgstr "请选择在预订表单日历如何显示。"
+
+#: includes/admin/views/html-booking-data.php:71
+msgid "Display calendar on click"
+msgstr "在点击时显示日历"
+
+#: includes/admin/views/html-booking-data.php:72
+msgid "Calendar always visible"
+msgstr "一直显示日历"
+
+#: includes/admin/views/html-booking-data.php:80
+msgid "Requires confirmation?"
+msgstr "必须确认?"
+
+#: includes/admin/views/html-booking-data.php:81
+msgid ""
+"Check this box if the booking requires admin approval/confirmation. Payment "
+"will not be taken during checkout."
+msgstr "如果此预订需要管理员审核/确认请选择此项，在结算时将不会发生支付。"
+
+#: includes/admin/views/html-booking-data.php:86
+msgid "Can be cancelled?"
+msgstr "可被取消?"
+
+#: includes/admin/views/html-booking-data.php:87
+msgid ""
+"Check this box if the booking can be cancelled by the customer after it has "
+"been purchased. A refund will not be sent automatically."
+msgstr "如果预订可以在顾客购买后备顾客取消请选中此项。将不会自动退款。"
+
+#: includes/admin/views/html-booking-data.php:94
+msgid "Booking can be cancelled until"
+msgstr "预订可被取消直到"
+
+#: includes/admin/views/html-booking-data.php:100
+#: includes/booking-form/class-wc-booking-form.php:167
+msgid "Minute(s)"
+msgstr "分钟(数量)"
+
+#: includes/admin/views/html-booking-data.php:102
+msgid "before the start date."
+msgstr "早于开始日期."
+
+#: includes/admin/views/html-booking-person.php:9
+#: includes/admin/views/html-booking-resource.php:8
+msgid "Remove"
+msgstr "移除"
+
+#: includes/admin/views/html-booking-person.php:10
+#: includes/admin/views/html-booking-resource.php:12
+msgid "Click to toggle"
+msgstr "点击切换"
+
+#: includes/admin/views/html-booking-person.php:21
+msgid "Person Type Name"
+msgstr "人员类型名称"
+
+#: includes/admin/views/html-booking-person.php:25
+#: includes/admin/views/html-booking-resource.php:23
+msgid "Base Cost"
+msgstr "基本价格"
+
+#: includes/admin/views/html-booking-person.php:30
+#: includes/admin/views/html-booking-resource.php:28
+msgid "Block Cost"
+msgstr "块的价格"
+
+#: includes/admin/views/html-booking-person.php:37
+msgid "Description"
+msgstr "描述"
+
+#: includes/admin/views/html-booking-person.php:41
+msgid "Min"
+msgstr "最小"
+
+#: includes/admin/views/html-booking-person.php:45
+msgid "Max"
+msgstr "最大"
+
+#: includes/admin/views/html-booking-persons.php:5
+msgid "Min persons"
+msgstr "最少的人数"
+
+#: includes/admin/views/html-booking-persons.php:5
+msgid "The minimum number of persons per booking."
+msgstr "每个预订至少多少人。"
+
+#: includes/admin/views/html-booking-persons.php:10
+msgid "Max persons"
+msgstr "最大的人数"
+
+#: includes/admin/views/html-booking-persons.php:10
+msgid "The maximum number of persons per booking."
+msgstr "每个预订最多多少人。"
+
+#: includes/admin/views/html-booking-persons.php:15
+msgid "Multiply all costs by person count"
+msgstr "人数乘以全部价格"
+
+#: includes/admin/views/html-booking-persons.php:15
+msgid ""
+"Enable this to multiply the entire cost of the booking (block and base "
+"costs) by the person count."
+msgstr "启用这个由以让人数乘以预订(块基本费用)的全部费用。"
+
+#: includes/admin/views/html-booking-persons.php:17
+msgid "Count persons as bookings"
+msgstr "按人数计算预订"
+
+#: includes/admin/views/html-booking-persons.php:17
+msgid ""
+"Enable this to count each person as a booking until the max bookings per "
+"block (above) is reached."
+msgstr "启用此项以按人数计算预订直到达到(以上)每块最大预订"
+
+#: includes/admin/views/html-booking-persons.php:19
+msgid "Enable person types"
+msgstr "启用人员类型"
+
+#: includes/admin/views/html-booking-persons.php:19
+#: includes/admin/views/html-booking-persons.php:47
+msgid ""
+"Person types allow you to offer different booking costs for different types "
+"of individuals, for example, adults and children."
+msgstr "人类型允许提供对不同类型的个人的不同的预订费用，例如，成年人和儿童。"
+
+#: includes/admin/views/html-booking-persons.php:26
+msgid "Person types"
+msgstr "人员类型"
+
+#: includes/admin/views/html-booking-persons.php:27
+#: includes/admin/views/html-booking-resources.php:18
+msgid "Close all"
+msgstr "关闭全部"
+
+#: includes/admin/views/html-booking-persons.php:27
+#: includes/admin/views/html-booking-resources.php:18
+msgid "Expand all"
+msgstr "展开全部"
+
+#: includes/admin/views/html-booking-persons.php:65
+msgid "Add Person Type"
+msgstr "添加人员类型"
+
+#: includes/admin/views/html-booking-pricing-fields.php:55
+msgid "Time Range"
+msgstr "时间范围"
+
+#: includes/admin/views/html-booking-pricing-fields.php:56
+msgid "Person count"
+msgstr "人员数量"
+
+#: includes/admin/views/html-booking-pricing-fields.php:57
+msgid "Block count"
+msgstr "块的数量"
+
+#: includes/admin/views/html-booking-pricing.php:4
+#: includes/admin/views/html-booking-pricing.php:36
+msgid "Base cost"
+msgstr "基本价格"
+
+#: includes/admin/views/html-booking-pricing.php:4
+msgid "One-off cost for the booking as a whole."
+msgstr "对此预订收取一次性费用。"
+
+#: includes/admin/views/html-booking-pricing.php:11
+#: includes/admin/views/html-booking-pricing.php:37
+msgid "Block cost"
+msgstr "块价格"
+
+#: includes/admin/views/html-booking-pricing.php:11
+msgid ""
+"This is the cost per block booked. All other costs (for resources and "
+"persons) are added to this."
+msgstr "这是每块预订的费用。所有其他(资源和人)费用被加入到它上面。"
+
+#: includes/admin/views/html-booking-pricing.php:18
+msgid "Display cost"
+msgstr "显示价格"
+
+#: includes/admin/views/html-booking-pricing.php:18
+msgid ""
+"The cost is displayed to the user on the frontend. Leave blank to have it "
+"calculated for you. If a booking has varying costs, this will be prefixed "
+"with the word \"from:\"."
+msgstr "此价格将会在前台显示给用户。留空将会自动计算。如果一个预订有多个价格，它将会加上前缀\"起价:\"。"
+
+#: includes/admin/views/html-booking-pricing.php:36
+msgid "Enter a cost for this rule. Applied to the booking as a whole."
+msgstr "为此规则输入价格。一次性应用于一个预订。"
+
+#: includes/admin/views/html-booking-pricing.php:37
+msgid "Enter a cost for this rule. Applied to each booking block."
+msgstr "为此规则输入价格。应用于每个可预订块。"
+
+#: includes/admin/views/html-booking-pricing.php:50
+msgid "All matching rules will be applied to the booking."
+msgstr "全部匹配的规则将会被应用于预订"
+
+#: includes/admin/views/html-booking-resource.php:10
+msgid "Edit resource"
+msgstr "编辑资源"
+
+#: includes/admin/views/html-booking-resources.php:5
+#: includes/booking-form/class-wc-booking-form.php:269
+msgid "Type"
+msgstr "类型"
+
+#: includes/admin/views/html-booking-resources.php:5
+msgid "Label"
+msgstr "标签"
+
+#: includes/admin/views/html-booking-resources.php:5
+msgid "The label shown on the frontend if the resource is customer defined."
+msgstr "这个标签将会显示在前台如果此资源是顾客可定义的。"
+
+#: includes/admin/views/html-booking-resources.php:7
+msgid "Resources are..."
+msgstr "资源是..."
+
+#: includes/admin/views/html-booking-resources.php:8
+msgid "Customer selected"
+msgstr "选定的顾客"
+
+#: includes/admin/views/html-booking-resources.php:9
+msgid "Automatically assigned"
+msgstr "自动指定"
+
+#: includes/admin/views/html-booking-resources.php:10
+msgid ""
+"Customer selected resources allow customers to choose one from the booking "
+"form."
+msgstr "顾客选择资源允许顾客从预订表单中选择一个。"
+
+#: includes/admin/views/html-booking-resources.php:17
+#: includes/admin/views/html-booking-tab.php:1 woocommmerce-bookings.php:262
+#: woocommmerce-bookings.php:278
+msgid "Resources"
+msgstr "资源"
+
+#: includes/admin/views/html-booking-resources.php:24
+msgid ""
+"Resources are used if you have multiple bookable items, e.g. room types, "
+"instructors or ticket types. Availability for resources is global across all"
+" bookable products."
+msgstr "资源是可以被使用的如果您有多个可预订项目，例如。房间类型，倒是或者票务类型。资源的可用性是全局的。"
+
+#: includes/admin/views/html-booking-resources.php:59
+msgid "Add/link Resource"
+msgstr "添加/连接资源"
+
+#: includes/admin/views/html-booking-resources.php:61
+msgid "New resource"
+msgstr "新资源"
+
+#: includes/admin/views/html-booking-resources.php:70
+msgid "Manage Resources"
+msgstr "管理资源"
+
+#: includes/admin/views/html-booking-tab.php:2
+#: includes/admin/views/html-settings-page.php:3
+msgid "Availability"
+msgstr "可用性"
+
+#: includes/admin/views/html-booking-tab.php:3
+msgid "Costs"
+msgstr "价格"
+
+#: includes/admin/views/html-calendar-day.php:3
+msgid "Bookings by day"
+msgstr "按天的预订"
+
+#: includes/admin/views/html-calendar-day.php:13
+#: includes/admin/views/html-calendar-month.php:14
+msgid "Filter Bookings"
+msgstr "过滤预订"
+
+#: includes/admin/views/html-calendar-day.php:15
+#: includes/admin/views/html-calendar-month.php:16
+msgid "By bookable product"
+msgstr "按可预订产品"
+
+#: includes/admin/views/html-calendar-day.php:22
+#: includes/admin/views/html-calendar-month.php:23
+msgid "By resource"
+msgstr "按资源"
+
+#: includes/admin/views/html-calendar-day.php:38
+msgid "Month View"
+msgstr "月份视图"
+
+#: includes/admin/views/html-calendar-month.php:3
+msgid "Bookings by month"
+msgstr "按月份的预订"
+
+#: includes/admin/views/html-calendar-month.php:50
+msgid "Day View"
+msgstr "每日视图"
+
+#: includes/admin/views/html-create-booking-page-2.php:13
+msgid "Booking Data"
+msgstr "预订"
+
+#: includes/admin/views/html-create-booking-page.php:6
+msgid ""
+"You can create a new booking for a customer here. This form will create a "
+"booking for the user, and optionally an associated order. Created orders "
+"will be marked as pending payment."
+msgstr "您可在此为顾客创建一个新预定。此表单将会为指定用户才创建一个预订，并且可选的会指定一个订单。被创建的订单将会被标记为待支付。"
+
+#: includes/admin/views/html-create-booking-page.php:15
+msgid "Customer"
+msgstr "顾客"
+
+#: includes/admin/views/html-create-booking-page.php:29
+msgid "Bookable Product"
+msgstr "可预订产品"
+
+#: includes/admin/views/html-create-booking-page.php:33
+msgid "Select a bookable product..."
+msgstr "选择一个可预订产品.."
+
+#: includes/admin/views/html-create-booking-page.php:42
+msgid "Create Order"
+msgstr "创建订单"
+
+#: includes/admin/views/html-create-booking-page.php:48
+msgid ""
+"Create a new corresponding order for this new booking. Please note - the "
+"booking will not be active until the order is processed/completed."
+msgstr "为此预订创建一个相应的订单。请注意 - 此预订将不会被激活知道该订单状态是已处理/已完成。"
+
+#: includes/admin/views/html-create-booking-page.php:54
+msgid "Assign this booking to an existing order with this ID:"
+msgstr "为该预订指定一个已存在的订单ID:"
+
+#: includes/admin/views/html-create-booking-page.php:61
+msgid "Don't create an order for this booking."
+msgstr "不要为此预订创建订单。"
+
+#: includes/admin/views/html-create-booking-page.php:70
+#: includes/booking-form/class-wc-booking-form.php:39
+msgid "Next"
+msgstr "下一个"
+
+#: includes/admin/views/html-global-availability-settings.php:49
+msgid "Settings saved"
+msgstr "设置已保存"
+
+#: includes/admin/views/html-global-availability-settings.php:57
+msgid "Global availability"
+msgstr "全局可用性"
+
+#: includes/admin/views/html-global-availability-settings.php:59
+msgid ""
+"The availability rules you define here will affect all bookable products in "
+"your store."
+msgstr "您在此定义的可用性规则将会影响到您店铺中的全部商品。"
+
+#: includes/admin/views/html-global-availability-settings.php:103
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: includes/admin/views/html-notifications-page.php:5
+msgid ""
+"You may send an email notification to all customers who have a "
+"<strong>future</strong> booking for a particular product. This will use the "
+"default template specified under <code>WooCommerce > Settings > "
+"Emails</code>."
+msgstr "您可为预订特定<strong>未来</strong>实现产品的顾客发送一封电邮。这将会使用您在<code>WooCommerce >设置 > 电子邮件</code>设置的相应的邮件模板."
+
+#: includes/admin/views/html-notifications-page.php:12
+msgid "Booking Product"
+msgstr "预订产品"
+
+#: includes/admin/views/html-notifications-page.php:16
+msgid "Select a booking product..."
+msgstr "选择一个可预订产品..."
+
+#: includes/admin/views/html-notifications-page.php:25
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:139
+#: includes/emails/class-wc-email-booking-cancelled.php:143
+#: includes/emails/class-wc-email-booking-confirmed.php:153
+#: includes/emails/class-wc-email-booking-reminder.php:124
+#: includes/emails/class-wc-email-new-booking.php:185
+msgid "Subject"
+msgstr "主题"
+
+#: includes/admin/views/html-notifications-page.php:28
+msgid "Email subject"
+msgstr "邮件标题"
+
+#: includes/admin/views/html-notifications-page.php:33
+msgid "Message"
+msgstr "信息内容"
+
+#: includes/admin/views/html-notifications-page.php:36
+msgid "The message you wish to send"
+msgstr "您想发送的信息的内容"
+
+#: includes/admin/views/html-notifications-page.php:37
+msgid ""
+"The following tags can be inserted in your message/subject and will be "
+"replaced dynamically"
+msgstr "下列标签可用在邮件标题/信息内容中"
+
+#: includes/admin/views/html-notifications-page.php:42
+msgid "Attachment"
+msgstr "附件"
+
+#: includes/admin/views/html-notifications-page.php:45
+msgid "Attach <code>.ics</code> file"
+msgstr "添加<code>.ics</code> 格式的文件"
+
+#: includes/booking-form/class-wc-booking-form-date-picker.php:37
+#: includes/booking-form/class-wc-booking-form-datetime-picker.php:30
+msgid "Date"
+msgstr "日期"
+
+#: includes/booking-form/class-wc-booking-form-month-picker.php:29
+#: templates/booking-form/date-picker.php:22
+#: templates/booking-form/date-picker.php:33
+#: templates/booking-form/date-picker.php:47
+#: templates/booking-form/date-picker.php:58
+#: templates/booking-form/datetime-picker.php:17
+#: templates/booking-form/datetime-picker.php:28
+msgid "Month"
+msgstr "月份"
+
+#: includes/booking-form/class-wc-booking-form-picker.php:18
+msgid "Start %s"
+msgstr "开始 %s"
+
+#: includes/booking-form/class-wc-booking-form.php:36
+msgid "Close"
+msgstr "关闭"
+
+#: includes/booking-form/class-wc-booking-form.php:37
+msgid "Today"
+msgstr "今天"
+
+#: includes/booking-form/class-wc-booking-form.php:38
+msgid "Previous"
+msgstr "前一个"
+
+#: includes/booking-form/class-wc-booking-form.php:75
+msgid "This date is unavailable"
+msgstr "此日期不可用"
+
+#: includes/booking-form/class-wc-booking-form.php:76
+msgid "This date is fully booked and unavailable"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:77
+msgid "This date is partially booked - but bookings still remain"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:78
+msgid "This date is available"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:79
+msgid "Choose a Start Date"
+msgstr "选择一个开始日期"
+
+#: includes/booking-form/class-wc-booking-form.php:80
+msgid "Choose an End Date"
+msgstr "选择一个结束日期"
+
+#: includes/booking-form/class-wc-booking-form.php:81
+msgid "Dates"
+msgstr "日期"
+
+#: includes/booking-form/class-wc-booking-form.php:82
+msgid "Please select the options for your booking above first"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:122
+msgid "&times; %s Months"
+msgstr "&times; %s 个月"
+
+#: includes/booking-form/class-wc-booking-form.php:129
+#: includes/booking-form/class-wc-booking-form.php:145
+msgid "&times; %s weeks"
+msgstr "&times; %s 周"
+
+#: includes/booking-form/class-wc-booking-form.php:137
+msgid "&times; %s days"
+msgstr "&times; %s 天"
+
+#: includes/booking-form/class-wc-booking-form.php:151
+msgid "&times; %s nights"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:153
+msgid "Nights(s)"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:158
+msgid "&times; %s hours"
+msgstr "&times; %s 小时"
+
+#: includes/booking-form/class-wc-booking-form.php:165
+msgid "&times; %s minutes"
+msgstr "&times; %s "
+
+#: includes/booking-form/class-wc-booking-form.php:243
+msgid "+%s per month"
+msgstr "+%s 每月"
+
+#: includes/booking-form/class-wc-booking-form.php:246
+msgid "+%s per day"
+msgstr "+%s 每天"
+
+#: includes/booking-form/class-wc-booking-form.php:249
+msgid "+%s per night"
+msgstr ""
+
+#: includes/booking-form/class-wc-booking-form.php:252
+msgid "+%s per block"
+msgstr "+%s 每块"
+
+#: includes/booking-form/class-wc-booking-form.php:430
+msgid "month"
+msgid_plural "months"
+msgstr[0] "个月"
+
+#: includes/booking-form/class-wc-booking-form.php:434
+msgid "day"
+msgid_plural "days"
+msgstr[0] "天"
+
+#: includes/booking-form/class-wc-booking-form.php:436
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "周"
+
+#: includes/booking-form/class-wc-booking-form.php:440
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "小时"
+
+#: includes/booking-form/class-wc-booking-form.php:443
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "分钟"
+
+#: includes/booking-form/class-wc-booking-form.php:446
+msgid "night"
+msgid_plural "nights"
+msgstr[0] ""
+
+#: includes/booking-form/class-wc-booking-form.php:507
+msgid "Please choose a resource type"
+msgstr "请选择一种资源类型"
+
+#: includes/booking-form/class-wc-booking-form.php:518
+msgid "Duration is required - please enter a duration greater than zero above"
+msgstr "周期是必填的 - 请输入一个大于0的数字"
+
+#: includes/booking-form/class-wc-booking-form.php:521
+msgid "The maximum duration is %d"
+msgstr "最大周期为 %d"
+
+#: includes/booking-form/class-wc-booking-form.php:524
+msgid "The minimum duration is %d"
+msgstr "最小周期为  %d"
+
+#: includes/booking-form/class-wc-booking-form.php:530
+msgid "Date is required - please choose one above"
+msgstr "日期是必填的 - 请在上面选择一个"
+
+#: includes/booking-form/class-wc-booking-form.php:533
+msgid "Time is required - please choose one above"
+msgstr "时间是必须的 - 请在上面选择一个"
+
+#: includes/booking-form/class-wc-booking-form.php:536
+#: includes/booking-form/class-wc-booking-form.php:539
+msgid "You must choose a future date and time."
+msgstr "您应该选择一个将来的日期和时间。"
+
+#: includes/booking-form/class-wc-booking-form.php:554
+msgid "The earliest booking possible is currently %s."
+msgstr "当前最早的可用预订是 %s."
+
+#: includes/booking-form/class-wc-booking-form.php:560
+msgid "The latest booking possible is currently %s."
+msgstr "当前最新的可用预订是 %s."
+
+#: includes/booking-form/class-wc-booking-form.php:569
+msgid "Persons are required - please enter the number of persons above"
+msgstr "人数是必填的 - 请输入一个大于0的人数"
+
+#: includes/booking-form/class-wc-booking-form.php:572
+msgid "The maximum persons per group is %d"
+msgstr "每组的最大人数是 %d"
+
+#: includes/booking-form/class-wc-booking-form.php:575
+msgid "The minimum persons per group is %d"
+msgstr "每组的最小人数是 %d"
+
+#: includes/booking-form/class-wc-booking-form.php:583
+msgid "The maximum %s per group is %d"
+msgstr "每组最大的 %s 是 %d"
+
+#: includes/booking-form/class-wc-booking-form.php:588
+msgid "The minimum %s per group is %d"
+msgstr "每组最小的 %s 是 %d"
+
+#: includes/booking-form/class-wc-booking-form.php:604
+msgid "Sorry, the selected block is not available"
+msgstr "抱歉，您选定的块不可用。"
+
+#: includes/booking-form/class-wc-booking-form.php:722
+msgid "The duration of this booking must be at least %s days."
+msgstr ""
+
+#: includes/class-wc-booking-cart-manager.php:175
+msgid "A booking for %s has been removed from your cart due to inactivity."
+msgstr "一个闲置的 %s 预订已经从您的购物车移除。"
+
+#: includes/class-wc-booking-cart-manager.php:354
+msgid ""
+"A booking that requires confirmation has been removed from your cart. It is "
+"not possible to complete the purchased along with a booking that doesn't "
+"require confirmation."
+msgstr "一个需要确认的预订已经被从您的购物车移除。因为它不需要确认。"
+
+#: includes/class-wc-booking-coupon.php:43
+msgid "Booking Person Discount (Amount Off Per Person)"
+msgstr ""
+
+#: includes/class-wc-booking-form-handler.php:38
+msgid "Your booking was cancelled."
+msgstr "您的预订已取消"
+
+#: includes/class-wc-booking-form-handler.php:42
+msgid ""
+"Your booking can no longer be cancelled. Please contact us if you need "
+"assistance."
+msgstr "您的预订已不能被取消。如果您觉得有必要请联系我们"
+
+#: includes/class-wc-booking-form-handler.php:44
+msgid "Invalid booking."
+msgstr "无效的预订。"
+
+#: includes/class-wc-booking-order-manager.php:361
+msgid ""
+"The product %s has been removed from the order because the booking #%d "
+"cannot be confirmed."
+msgstr ""
+
+#: includes/class-wc-booking.php:150
+msgid "Booking &ndash; %s"
+msgstr "预订 &ndash; %s"
+
+#: includes/class-wc-booking.php:312
+msgid "Booking #%d status changed from \"%s\" to \"%s"
+msgstr ""
+
+#: includes/class-wc-bookings-ics-exporter.php:149
+msgid "Bookings from %s"
+msgstr "预订自 %s"
+
+#: includes/class-wc-bookings-ics-exporter.php:170
+#: templates/emails/plain/admin-booking-cancelled.php:30
+#: templates/emails/plain/admin-new-booking.php:40
+#: templates/emails/plain/customer-booking-cancelled.php:34
+#: templates/emails/plain/customer-booking-confirmed.php:34
+#: templates/emails/plain/customer-booking-notification.php:32
+#: templates/emails/plain/customer-booking-reminder.php:34
+msgid "%s: %d"
+msgstr "%s: %d"
+
+#: includes/class-wc-bookings-ics-exporter.php:177
+msgid "Booking description:"
+msgstr "预订描述："
+
+#: includes/class-wc-product-booking.php:265
+msgid "From: %s"
+msgstr "自: %s"
+
+#: includes/class-wc-product-booking.php:270
+msgid "Free"
+msgstr "免费"
+
+#: includes/class-wc-product-booking.php:445
+msgid "Check Availability"
+msgstr "检查"
+
+#: includes/class-wc-product-booking.php:445
+msgid "Book now"
+msgstr "现在"
+
+#: includes/class-wc-product-booking.php:530
+msgid "This block cannot be booked."
+msgstr "此块不可被预订"
+
+#: includes/class-wc-product-booking.php:586
+msgid "There is %d place remaining"
+msgid_plural "There are %d places remaining"
+msgstr[0] "还剩 %d 个空闲"
+
+#: includes/class-wc-product-booking.php:591
+#: includes/class-wc-product-booking.php:597
+msgid "There is %d place remaining on %s"
+msgid_plural "There are %d places remaining on %s"
+msgstr[0] "%s上还有 %d 个空闲"
+
+#: includes/class-wc-product-booking.php:1276
+msgid "%d left"
+msgid_plural "%d left"
+msgstr[0] ""
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:20
+msgid "Admin Booking Cancelled"
+msgstr ""
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:21
+#: includes/emails/class-wc-email-booking-cancelled.php:21
+msgid ""
+"Booking cancelled emails are sent when the status of a booking goes to "
+"cancelled."
+msgstr "预订与取消邮件将会在预订是已取消状态时被发送。"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:23
+#: includes/emails/class-wc-email-booking-cancelled.php:20
+#: includes/emails/class-wc-email-booking-cancelled.php:23
+msgid "Booking Cancelled"
+msgstr "预订已取消"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:24
+msgid "[{blogname}] A booking of \"{product_title}\" has been cancelled"
+msgstr ""
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:126
+#: includes/emails/class-wc-email-booking-cancelled.php:137
+#: includes/emails/class-wc-email-booking-confirmed.php:147
+#: includes/emails/class-wc-email-booking-notification.php:140
+#: includes/emails/class-wc-email-booking-reminder.php:118
+#: includes/emails/class-wc-email-new-booking.php:172
+msgid "Enable/Disable"
+msgstr "启用/禁用"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:128
+#: includes/emails/class-wc-email-booking-cancelled.php:139
+#: includes/emails/class-wc-email-booking-confirmed.php:149
+#: includes/emails/class-wc-email-booking-notification.php:142
+#: includes/emails/class-wc-email-booking-reminder.php:120
+#: includes/emails/class-wc-email-new-booking.php:174
+msgid "Enable this email notification"
+msgstr "启用此邮件通知"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:132
+#: includes/emails/class-wc-email-new-booking.php:178
+msgid "Recipient(s)"
+msgstr "收件人(可有多个)"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:134
+#: includes/emails/class-wc-email-new-booking.php:180
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to "
+"<code>%s</code>."
+msgstr "请输入收件人电邮(多个的话用英文逗号隔开)。默认为<code>%s</code>."
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:141
+#: includes/emails/class-wc-email-booking-cancelled.php:145
+#: includes/emails/class-wc-email-booking-confirmed.php:155
+#: includes/emails/class-wc-email-booking-reminder.php:126
+#: includes/emails/class-wc-email-new-booking.php:187
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr "这将控制邮件的标题行，留空则使用默认标题: <code>%s</code>."
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:146
+#: includes/emails/class-wc-email-booking-cancelled.php:150
+#: includes/emails/class-wc-email-booking-confirmed.php:160
+#: includes/emails/class-wc-email-booking-reminder.php:131
+#: includes/emails/class-wc-email-new-booking.php:199
+msgid "Email Heading"
+msgstr "电邮标题"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:148
+#: includes/emails/class-wc-email-booking-cancelled.php:152
+#: includes/emails/class-wc-email-booking-confirmed.php:162
+#: includes/emails/class-wc-email-booking-reminder.php:133
+#: includes/emails/class-wc-email-new-booking.php:201
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr "这将控制决定通知电邮的标题。留空则使用默认标题:<code>%s</code>."
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:153
+#: includes/emails/class-wc-email-booking-cancelled.php:157
+#: includes/emails/class-wc-email-booking-confirmed.php:167
+#: includes/emails/class-wc-email-booking-notification.php:146
+#: includes/emails/class-wc-email-booking-reminder.php:138
+#: includes/emails/class-wc-email-new-booking.php:213
+msgid "Email type"
+msgstr "电邮类型"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:155
+#: includes/emails/class-wc-email-booking-cancelled.php:159
+#: includes/emails/class-wc-email-booking-confirmed.php:169
+#: includes/emails/class-wc-email-booking-notification.php:148
+#: includes/emails/class-wc-email-booking-reminder.php:140
+#: includes/emails/class-wc-email-new-booking.php:215
+msgid "Choose which format of email to send."
+msgstr "请为要发送的电邮选择一个格式。"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:159
+#: includes/emails/class-wc-email-booking-cancelled.php:163
+#: includes/emails/class-wc-email-booking-confirmed.php:173
+#: includes/emails/class-wc-email-booking-notification.php:152
+#: includes/emails/class-wc-email-booking-reminder.php:144
+#: includes/emails/class-wc-email-new-booking.php:219
+msgid "Plain text"
+msgstr "纯文本"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:160
+#: includes/emails/class-wc-email-booking-cancelled.php:164
+#: includes/emails/class-wc-email-booking-confirmed.php:174
+#: includes/emails/class-wc-email-booking-notification.php:153
+#: includes/emails/class-wc-email-booking-reminder.php:145
+#: includes/emails/class-wc-email-new-booking.php:220
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/emails/class-wc-email-admin-booking-cancelled.php:161
+#: includes/emails/class-wc-email-booking-cancelled.php:165
+#: includes/emails/class-wc-email-booking-confirmed.php:175
+#: includes/emails/class-wc-email-booking-notification.php:154
+#: includes/emails/class-wc-email-booking-reminder.php:146
+#: includes/emails/class-wc-email-new-booking.php:221
+msgid "Multipart"
+msgstr "多部分"
+
+#: includes/emails/class-wc-email-booking-cancelled.php:24
+msgid "[{blogname}] Your booking of \"{product_title}\" has been cancelled"
+msgstr "[{blogname}] 您预订的\"{product_title}\"已被取消"
+
+#: includes/emails/class-wc-email-booking-confirmed.php:21
+#: includes/emails/class-wc-email-booking-confirmed.php:24
+msgid "Booking Confirmed"
+msgstr "预订已确认"
+
+#: includes/emails/class-wc-email-booking-confirmed.php:22
+msgid ""
+"Booking confirmed emails are sent when the status of a booking goes to "
+"confirmed."
+msgstr "预订已确认邮件将会在预订的状态是已确认时被发送。"
+
+#: includes/emails/class-wc-email-booking-confirmed.php:25
+msgid ""
+"[{blogname}] Your booking of \"{product_title}\" has been confirmed (Order "
+"{order_number}) - {order_date}"
+msgstr "[{blogname}] 您的预订 \"{product_title}\" 已被确认 (订单 {order_number}) - {order_date}"
+
+#: includes/emails/class-wc-email-booking-notification.php:21
+msgid "Booking Notification"
+msgstr "预订通知"
+
+#: includes/emails/class-wc-email-booking-notification.php:22
+msgid ""
+"Booking notification emails are sent manually from WooCommerce > Bookings > "
+"Send Notification."
+msgstr "预订通知邮件将会在 网站后台左侧菜单 预订 >发送通知 被人工发送。"
+
+#: includes/emails/class-wc-email-booking-reminder.php:20
+#: includes/emails/class-wc-email-booking-reminder.php:23
+msgid "Booking Reminder"
+msgstr "预订提示"
+
+#: includes/emails/class-wc-email-booking-reminder.php:21
+msgid ""
+"Booking reminders are sent to the customer to remind them of an upcoming "
+"booking."
+msgstr "预订提醒将会给发送给顾客以提醒他们即将到来的预订事件。"
+
+#: includes/emails/class-wc-email-booking-reminder.php:24
+msgid "[{blogname}] A reminder about your booking of \"{product_title}\""
+msgstr "[{blogname}] 关于您的预订 \"{product_title}\"的提醒"
+
+#: includes/emails/class-wc-email-new-booking.php:27
+#: woocommmerce-bookings.php:310
+msgid "New Booking"
+msgstr "新预订"
+
+#: includes/emails/class-wc-email-new-booking.php:28
+msgid ""
+"New booking emails are sent to the admin when a new booking is created and "
+"paid. This email is also received when a Pending confirmation booking is "
+"created."
+msgstr "当一个预订生成并被支付后发送给管理员的电邮。管理员也会收到邮件当一个需要确认的预订生成时。"
+
+#: includes/emails/class-wc-email-new-booking.php:30
+msgid "New booking"
+msgstr "新预订"
+
+#: includes/emails/class-wc-email-new-booking.php:31
+msgid "Confirm booking"
+msgstr "确认预订"
+
+#: includes/emails/class-wc-email-new-booking.php:32
+msgid ""
+"[{blogname}] New booking for {product_title} (Order {order_number}) - "
+"{order_date}"
+msgstr "[{blogname}] 新预订 {product_title} (订单 {order_number}) - {order_date}"
+
+#: includes/emails/class-wc-email-new-booking.php:33
+msgid ""
+"[{blogname}] A new booking for {product_title} (Order {order_number}) is "
+"awaiting your approval - {order_date}"
+msgstr ""
+
+#: includes/emails/class-wc-email-new-booking.php:192
+msgid "Subject (Pending confirmation)"
+msgstr "标题 (待审信息)"
+
+#: includes/emails/class-wc-email-new-booking.php:194
+msgid ""
+"This controls the email subject line for Pending confirmation bookings. "
+"Leave blank to use the default subject: <code>%s</code>."
+msgstr "这决定了待审通知邮件的标题，留空将会使用默认的标题：<code>%s</code>。"
+
+#: includes/emails/class-wc-email-new-booking.php:206
+msgid "Email Heading (Pending confirmation)"
+msgstr "电邮标题 (待审信息)"
+
+#: includes/emails/class-wc-email-new-booking.php:208
+msgid ""
+"This controls the main heading contained within the email notification for "
+"Pending confirmation bookings. Leave blank to use the default heading: "
+"<code>%s</code>."
+msgstr "这决定了待审通知邮件的内容顶标题，留空将会使用默认的标题：<code>%s</code>。"
+
+#: includes/gateways/class-wc-bookings-gateway.php:18
+msgid "Check booking availability"
+msgstr "检查预订"
+
+#: includes/gateways/class-wc-bookings-gateway.php:20
+msgid "Request Confirmation"
+msgstr "申请确认"
+
+#: includes/gateways/class-wc-bookings-gateway.php:29
+msgid "Settings"
+msgstr "设置"
+
+#: includes/gateways/class-wc-bookings-gateway.php:33
+msgid ""
+"This is fictitious payment method used for bookings that requires "
+"confirmation."
+msgstr "这是一个用于需要确认的预订的虚拟的支付方式。"
+
+#: includes/gateways/class-wc-bookings-gateway.php:34
+msgid "This gateway requires no configuration."
+msgstr "此网关没有配置项"
+
+#: includes/gateways/class-wc-bookings-gateway.php:54
+msgid "This order is awaiting confirmation from the shop manager"
+msgstr "此订单需要店铺管理人员确认"
+
+#: includes/gateways/class-wc-bookings-gateway.php:73
+msgid "Your booking has been confirmed. Thank you."
+msgstr "您的预订已确认。谢谢。"
+
+#: includes/gateways/class-wc-bookings-gateway.php:75
+msgid ""
+"Your booking is awaiting confirmation. You will be notified by email as soon"
+" as we've confirmed availability."
+msgstr "您的预订等待确认，您会在我们确认预订可用性后收到电子邮件的。"
+
+#: includes/integrations/class-wc-bookings-addons.php:47
+msgid "Bookings: Multiply cost by person count"
+msgstr "预订:人数乘以价格"
+
+#: includes/integrations/class-wc-bookings-addons.php:51
+msgid "Bookings: Multiply cost by block count"
+msgstr "预订:块数乘以价格"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:17
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:411
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:413
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:419
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:421
+msgid "Google Calendar"
+msgstr "Google日历"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:18
+msgid "WooCommerce Bookings - Google Calendar integration."
+msgstr "WooCommerce Bookings - 谷歌日历集成."
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:69
+msgid "Client ID"
+msgstr "用户ID"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:71
+msgid "Enter with your Google Client ID."
+msgstr "请输入您的Google用户ID"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:76
+msgid "Client Secret"
+msgstr "用户密钥"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:78
+msgid "Enter with your Google Client Secret."
+msgstr "请输入您的Google用户密钥。"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:83
+msgid "Calendar ID"
+msgstr "日历ID"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:85
+msgid "Enter with your Calendar ID."
+msgstr "请输入您的日历ID"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:90
+msgid "Authorization"
+msgstr "授权"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:94
+msgid "Testing"
+msgstr "测试"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:99
+msgid "Debug Log"
+msgstr "调试日志"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:101
+msgid "Enable logging"
+msgstr "启用日志"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:103
+msgid "Log Google Calendar events, such as API requests, inside %s"
+msgstr "记录Google日历事件，例如API申请，包括 %s"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:156
+msgid "Connect with Google"
+msgstr "连接到Google"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:158
+msgid "Successfully authenticated."
+msgstr "授权成功。"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:159
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:161
+msgid ""
+"Unable to authenticate, you must enter with your <strong>Client ID</strong>,"
+" <strong>Client Secret</strong> and <strong>Calendar ID</strong>."
+msgstr "授权失败，您应输入您的<strong>用户 ID</strong>, <strong>用户密钥</strong> 和 <strong>Calendar 日历ID</strong>."
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:178
+msgid ""
+"To use this integration you need create a project in %s. Once your project "
+"has been created, you must enable the <strong>Google Calendar API</strong> "
+"in <strong>APIs & auth > APIs</strong>, finally in <strong>APIs & auth > "
+"Credentials</strong> you must create an OAuth client for a <strong>Web "
+"application</strong> and set the <strong>Authorized redirect URI</strong> as"
+" <code>%s</code>."
+msgstr "为使用此功能您需要在%s中创建一个项目。一旦您的项目被创建，您需要在<strong>APIs & auth > APIs</strong>中启用<strong>Google 日历 API</strong>，最后在<strong>APIs & auth > Credentials</strong>您需要伪<strong>Web application</strong>创建一个OAuth并将<strong>Authorized redirect URI</strong>设置为<code>%s</code>."
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:178
+msgid "Google Developers Console"
+msgstr "Google开发者控制台"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:360
+msgid "Permission denied!"
+msgstr "没有权限！"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:398
+msgid "Invalid request!"
+msgstr "无效的请求！"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:411
+msgid "Account connected successfully!"
+msgstr "账户连接成功！"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:413
+msgid ""
+"Failed to connect to your account, please try again, if the problem "
+"persists, turn on Debug Log option and see what is happening."
+msgstr "连接账户失败，请重试，如果问题依然存在，请开启调试日志以查看问题在哪儿。"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:419
+msgid "Account disconnected successfully!"
+msgstr "账户连接断开成功！"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:421
+msgid ""
+"Failed to disconnect to your account, please try again, if the problem "
+"persists, turn on Debug Log option and see what is happening."
+msgstr "断开账户连接失败，请重试，如果问题依然存在，请开启调试日志以查看问题在哪儿。"
+
+#: includes/integrations/class-wc-bookings-google-calendar-integration.php:502
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: templates/booking-form/date-picker.php:5
+#: templates/booking-form/datetime-picker.php:6
+msgid "F j, Y"
+msgstr ""
+
+#: templates/booking-form/date-picker.php:9
+#: templates/booking-form/datetime-picker.php:10
+msgid "Choose..."
+msgstr "选择..."
+
+#: templates/booking-form/date-picker.php:16
+msgid "Start"
+msgstr "开始"
+
+#: templates/booking-form/date-picker.php:21
+#: templates/booking-form/date-picker.php:32
+#: templates/booking-form/date-picker.php:46
+#: templates/booking-form/date-picker.php:57
+#: templates/booking-form/datetime-picker.php:16
+#: templates/booking-form/datetime-picker.php:27
+msgid "mm"
+msgstr "mm"
+
+#: templates/booking-form/date-picker.php:24
+#: templates/booking-form/date-picker.php:29
+#: templates/booking-form/date-picker.php:49
+#: templates/booking-form/date-picker.php:54
+#: templates/booking-form/datetime-picker.php:19
+#: templates/booking-form/datetime-picker.php:24
+msgid "dd"
+msgstr "dd"
+
+#: templates/booking-form/date-picker.php:25
+#: templates/booking-form/date-picker.php:30
+#: templates/booking-form/date-picker.php:50
+#: templates/booking-form/date-picker.php:55
+#: templates/booking-form/datetime-picker.php:20
+#: templates/booking-form/datetime-picker.php:25
+msgid "Day"
+msgstr "天"
+
+#: templates/booking-form/date-picker.php:36
+#: templates/booking-form/date-picker.php:61
+#: templates/booking-form/datetime-picker.php:32
+msgid "YYYY"
+msgstr "YYYY"
+
+#: templates/booking-form/date-picker.php:37
+#: templates/booking-form/date-picker.php:62
+#: templates/booking-form/datetime-picker.php:33
+msgid "Year"
+msgstr "年"
+
+#: templates/booking-form/date-picker.php:43
+msgid "End"
+msgstr "结束"
+
+#: templates/booking-form/datetime-picker.php:38
+msgid "Time"
+msgstr "时间"
+
+#: templates/booking-form/datetime-picker.php:40
+msgid "Choose a date above to see available times."
+msgstr "请在上面选择一个日期以查看可用时间"
+
+#: templates/emails/admin-booking-cancelled.php:12
+#: templates/emails/plain/admin-booking-cancelled.php:9
+msgid ""
+"The following booking has been cancelled by the customer. The details of the"
+" cancelled booking can be found below."
+msgstr ""
+
+#: templates/emails/admin-booking-cancelled.php:33
+#: templates/emails/admin-new-booking.php:39
+#: templates/emails/customer-booking-cancelled.php:35
+#: templates/emails/customer-booking-confirmed.php:35
+#: templates/emails/customer-booking-notification.php:28
+#: templates/emails/customer-booking-reminder.php:32
+msgid "Booking Start Date"
+msgstr "预订开始日期"
+
+#: templates/emails/admin-booking-cancelled.php:37
+#: templates/emails/admin-new-booking.php:43
+#: templates/emails/customer-booking-cancelled.php:39
+#: templates/emails/customer-booking-confirmed.php:39
+#: templates/emails/customer-booking-notification.php:32
+#: templates/emails/customer-booking-reminder.php:36
+msgid "Booking End Date"
+msgstr "预订结束日期"
+
+#: templates/emails/admin-booking-cancelled.php:58
+#: templates/emails/admin-new-booking.php:68
+#: templates/emails/plain/admin-booking-cancelled.php:36
+msgid "You can view and edit this booking in the dashboard here: %s"
+msgstr "您可在仪表盘查看和编辑此预订：%s"
+
+#: templates/emails/admin-new-booking.php:10
+#: templates/emails/plain/admin-new-booking.php:12
+msgid ""
+"A booking has been made by %s and is awaiting your approval. The details of "
+"this booking are as follows:"
+msgstr "%s 有一个预订等待您的审核，详情如下:"
+
+#: templates/emails/admin-new-booking.php:12
+#: templates/emails/plain/admin-new-booking.php:14
+msgid ""
+"A new booking has been made by %s. The details of this booking are as "
+"follows:"
+msgstr " %s 创建了一个新预订。详情如下:"
+
+#: templates/emails/admin-new-booking.php:65
+#: templates/emails/plain/admin-new-booking.php:47
+msgid ""
+"This booking is awaiting your approval. Please check it and inform the "
+"customer if the date is available or not."
+msgstr "此预订正在等待您的批准。请检查并告知客户，如果日期是可用。"
+
+#: templates/emails/customer-booking-cancelled.php:13
+#: templates/emails/customer-booking-confirmed.php:13
+#: templates/emails/customer-booking-reminder.php:10
+#: templates/emails/plain/customer-booking-cancelled.php:10
+#: templates/emails/plain/customer-booking-confirmed.php:10
+#: templates/emails/plain/customer-booking-reminder.php:10
+msgid "Hello %s"
+msgstr "您好 %s"
+
+#: templates/emails/customer-booking-cancelled.php:16
+#: templates/emails/plain/customer-booking-cancelled.php:13
+msgid ""
+"We are sorry to say that your booking could not be confirmed and has been "
+"cancelled. The details of the cancelled booking can be found below."
+msgstr "很抱歉您的预订未被确认并已被取消。被取消的预订详情如下。"
+
+#: templates/emails/customer-booking-cancelled.php:60
+#: templates/emails/plain/customer-booking-cancelled.php:40
+msgid "Please contact us if you have any questions or concerns."
+msgstr "如您有任何问题或疑虑请联系我们。"
+
+#: templates/emails/customer-booking-confirmed.php:16
+msgid ""
+"Your booking has been confirmed. The details of your booking are shown "
+"below."
+msgstr "您的预订已被确认。该预订详情如下"
+
+#: templates/emails/customer-booking-confirmed.php:63
+#: templates/emails/plain/customer-booking-confirmed.php:42
+msgid "To pay for this booking please use the following link: %s"
+msgstr "请使用后面的链接支付此预订的费用: %s"
+
+#: templates/emails/customer-booking-confirmed.php:63
+msgid "Pay for booking"
+msgstr "支付预订费用"
+
+#: templates/emails/customer-booking-confirmed.php:73
+msgid "Product"
+msgstr "产品"
+
+#: templates/emails/customer-booking-confirmed.php:74
+msgid "Quantity"
+msgstr "数量"
+
+#: templates/emails/customer-booking-confirmed.php:75
+msgid "Price"
+msgstr "价格"
+
+#: templates/emails/customer-booking-reminder.php:13
+msgid "This is a reminder that your booking will take place tomorrow."
+msgstr "您的预订将会在明天生效。"
+
+#: templates/emails/plain/admin-booking-cancelled.php:13
+#: templates/emails/plain/admin-new-booking.php:23
+#: templates/emails/plain/customer-booking-cancelled.php:17
+#: templates/emails/plain/customer-booking-confirmed.php:17
+#: templates/emails/plain/customer-booking-notification.php:15
+#: templates/emails/plain/customer-booking-reminder.php:17
+msgid "Booked: %s"
+msgstr "已预订: %"
+
+#: templates/emails/plain/admin-booking-cancelled.php:14
+#: templates/emails/plain/admin-new-booking.php:24
+#: templates/emails/plain/customer-booking-cancelled.php:18
+#: templates/emails/plain/customer-booking-confirmed.php:18
+#: templates/emails/plain/customer-booking-notification.php:16
+#: templates/emails/plain/customer-booking-reminder.php:18
+msgid "Booking ID: %s"
+msgstr "预订 ID： %s"
+
+#: templates/emails/plain/admin-booking-cancelled.php:17
+#: templates/emails/plain/admin-new-booking.php:27
+#: templates/emails/plain/customer-booking-cancelled.php:21
+#: templates/emails/plain/customer-booking-confirmed.php:21
+#: templates/emails/plain/customer-booking-notification.php:19
+#: templates/emails/plain/customer-booking-reminder.php:21
+msgid "Booking Type: %s"
+msgstr "预订类型：%s"
+
+#: templates/emails/plain/admin-booking-cancelled.php:20
+#: templates/emails/plain/admin-new-booking.php:30
+#: templates/emails/plain/customer-booking-cancelled.php:24
+#: templates/emails/plain/customer-booking-confirmed.php:24
+#: templates/emails/plain/customer-booking-notification.php:22
+#: templates/emails/plain/customer-booking-reminder.php:24
+msgid "Booking Start Date: %s"
+msgstr "预订开始日期: %s"
+
+#: templates/emails/plain/admin-booking-cancelled.php:21
+#: templates/emails/plain/admin-new-booking.php:31
+#: templates/emails/plain/customer-booking-cancelled.php:25
+#: templates/emails/plain/customer-booking-confirmed.php:25
+#: templates/emails/plain/customer-booking-notification.php:23
+#: templates/emails/plain/customer-booking-reminder.php:25
+msgid "Booking End Date: %s"
+msgstr "预订结束日期： %s"
+
+#: templates/emails/plain/customer-booking-confirmed.php:13
+msgid ""
+"Your booking for has been confirmed. The details of your booking are shown "
+"below."
+msgstr "您的预订已被确认，详情如下。"
+
+#: templates/emails/plain/customer-booking-confirmed.php:47
+msgid "Order number: %s"
+msgstr "订单编号：%s"
+
+#: templates/emails/plain/customer-booking-confirmed.php:48
+msgid "Order date: %s"
+msgstr "订单日期：%s"
+
+#: templates/emails/plain/customer-booking-notification.php:11
+msgid "The details of your booking are shown below."
+msgstr "您的预订详情如下."
+
+#: templates/emails/plain/customer-booking-reminder.php:13
+msgid ""
+"This is a reminder that your booking will take place tomorrow. The details "
+"of your booking are shown below."
+msgstr "您的预订将于明天发生。详情如下。"
+
+#: templates/myaccount/my-bookings.php:10
+msgid "My bookings"
+msgstr "我的预订"
+
+#: templates/myaccount/my-bookings.php:16
+msgid "Booked"
+msgstr "已预订"
+
+#: templates/myaccount/my-bookings.php:47
+msgid "Cancel"
+msgstr "取消"
+
+#: templates/single-product/add-to-cart/booking.php:17
+msgid "Your browser must support JavaScript in order to make a booking."
+msgstr "看起来您的浏览器不支持Javascript."
+
+#: woocommmerce-bookings.php:251
+msgid "Person Type"
+msgstr "人员类型"
+
+#: woocommmerce-bookings.php:264
+msgid "Bookable resources"
+msgstr "可预订资源"
+
+#: woocommmerce-bookings.php:265
+msgid "Bookable resource"
+msgstr "可预订资源"
+
+#: woocommmerce-bookings.php:266
+msgid "Add Resource"
+msgstr "添加资源"
+
+#: woocommmerce-bookings.php:267
+msgid "Add New Resource"
+msgstr "添加新资源"
+
+#: woocommmerce-bookings.php:269
+msgid "Edit Resource"
+msgstr "编辑资源"
+
+#: woocommmerce-bookings.php:270
+msgid "New Resource"
+msgstr "新资源"
+
+#: woocommmerce-bookings.php:271 woocommmerce-bookings.php:272
+msgid "View Resource"
+msgstr "查看资源"
+
+#: woocommmerce-bookings.php:273
+msgid "Search Resource"
+msgstr "搜索资源"
+
+#: woocommmerce-bookings.php:274
+msgid "No Resource found"
+msgstr "未找到资源"
+
+#: woocommmerce-bookings.php:275
+msgid "No Resource found in trash"
+msgstr "回收站中没有资源"
+
+#: woocommmerce-bookings.php:276
+msgid "Parent Resources"
+msgstr "父级资源"
+
+#: woocommmerce-bookings.php:280
+msgid "Bookable resources are bookable within a bookings product."
+msgstr "预订资源是一个可预订的产品。"
+
+#: woocommmerce-bookings.php:302 woocommmerce-bookings.php:305
+msgid "Booking"
+msgstr "预订"
+
+#: woocommmerce-bookings.php:306
+msgid "Add Booking"
+msgstr "添加预订"
+
+#: woocommmerce-bookings.php:307
+msgid "Add New Booking"
+msgstr "添加新预订"
+
+#: woocommmerce-bookings.php:309
+msgid "Edit Booking"
+msgstr "编辑预订"
+
+#: woocommmerce-bookings.php:311 woocommmerce-bookings.php:312
+msgid "View Booking"
+msgstr "查看预订"
+
+#: woocommmerce-bookings.php:313
+msgid "Search Bookings"
+msgstr "搜索预订"
+
+#: woocommmerce-bookings.php:314
+msgid "No Bookings found"
+msgstr "暂无预订"
+
+#: woocommmerce-bookings.php:315
+msgid "No Bookings found in trash"
+msgstr "回收站中没有预订"
+
+#: woocommmerce-bookings.php:316
+msgid "Parent Bookings"
+msgstr "父级预订"
+
+#: woocommmerce-bookings.php:318
+msgid "All Bookings"
+msgstr "全部预订"
+
+#: woocommmerce-bookings.php:320
+msgid "This is where bookings are stored."
+msgstr "此处存储这预订。"
+
+#: woocommmerce-bookings.php:347
+msgid "Complete <span class=\"count\">(%s)</span>"
+msgid_plural "Complete <span class=\"count\">(%s)</span>"
+msgstr[0] "已完成 <span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:355
+msgid "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "已支付 &amp; 已确认 <span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:363
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "已确认<span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:371
+msgid "Un-paid <span class=\"count\">(%s)</span>"
+msgid_plural "Un-paid <span class=\"count\">(%s)</span>"
+msgstr[0] "未支付 <span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:379
+msgid "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Confirmation <span class=\"count\">(%s)</span>"
+msgstr[0] "待确认 <span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:387
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "已取消<span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:395
+msgid "In Cart <span class=\"count\">(%s)</span>"
+msgid_plural "In Cart <span class=\"count\">(%s)</span>"
+msgstr[0] "在购物车中<span class=\"count\">(%s)</span>"
+
+#: woocommmerce-bookings.php:450
+msgid "View Documentation"
+msgstr "查看文档"
+
+#: woocommmerce-bookings.php:450
+msgid "Docs"
+msgstr "文档"
+
+#: woocommmerce-bookings.php:451
+msgid "Visit Premium Customer Support Forum"
+msgstr "访问付费客户支持论坛"
+
+#: woocommmerce-bookings.php:451
+msgid "Premium Support"
+msgstr "付费支持"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Bookings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woothemes.com/products/woocommerce-bookings/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Setup bookable products such as for reservations, services and hires."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr "WooThemes"
+
+#. Author URI of the plugin/theme
+msgid "http://woothemes.com"
+msgstr "http://woothemes.com"
+
+#: includes/admin/class-wc-bookings-ajax.php:189
+#: includes/admin/class-wc-bookings-details-meta-box.php:36
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: includes/admin/class-wc-bookings-create.php:175
+msgctxt "Order date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#: includes/admin/views/html-calendar-month.php:63
+msgctxt "date format"
+msgid "l"
+msgstr "l"
+
+#: includes/class-wc-booking.php:150
+msgctxt "Booking date parsed by strftime"
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#: woocommmerce-bookings.php:277
+msgctxt "Admin menu name"
+msgid "Resources"
+msgstr "资源"
+
+#: woocommmerce-bookings.php:317
+msgctxt "Admin menu name"
+msgid "Bookings"
+msgstr "预订"
+
+#: woocommmerce-bookings.php:342
+msgctxt "woocommerce-bookings"
+msgid "Complete"
+msgstr "已完成"
+
+#: woocommmerce-bookings.php:350
+msgctxt "woocommerce-bookings"
+msgid "Paid &amp; Confirmed"
+msgstr "已支付 &amp; 已确认"
+
+#: woocommmerce-bookings.php:358
+msgctxt "woocommerce-bookings"
+msgid "Confirmed"
+msgstr "已确认"
+
+#: woocommmerce-bookings.php:366
+msgctxt "woocommerce-bookings"
+msgid "Un-paid"
+msgstr "未支付"
+
+#: woocommmerce-bookings.php:374
+msgctxt "woocommerce-bookings"
+msgid "Pending Confirmation"
+msgstr "待确认"
+
+#: woocommmerce-bookings.php:382
+msgctxt "woocommerce-bookings"
+msgid "Cancelled"
+msgstr "已取消"
+
+#: woocommmerce-bookings.php:390
+msgctxt "woocommerce-bookings"
+msgid "In Cart"
+msgstr "在购物车中"

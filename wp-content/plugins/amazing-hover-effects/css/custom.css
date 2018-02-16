@@ -1,0 +1,49 @@
+.hover-cols .hover_effects_li {
+  float: left;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.hover-cols {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.ih-item.circle .info h3 {
+  text-shadow: none !important;
+}
+.ih-item.square .info h3 {
+  text-shadow: none !important;
+}
+.ih-item.circle .info h3 {
+  line-height: 17px;
+}
+.ih-item.circle.effect4 .info p {
+  line-height: 15px;
+  font-style: normal;
+}
+.ih-item.square .info h3 {
+  background: none !important;
+}
+.ih-item.square {
+  border: medium none !important;
+}
+
+.ih-item.square .info p {
+  font-style: normal !important;
+  line-height: 18px;
+}
+.ih-item.square.effect4 .info {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+
+
+.square2style {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
